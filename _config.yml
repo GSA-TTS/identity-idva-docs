@@ -79,13 +79,13 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Document1
+  - name: "Terms and Conditions"
     url: /document1.html
-  - name: Document2
+  - name: "Privacy Policy Statement"
     url: /document2.html
-  - name: Document3
+  - name: "FAQ"
     url: /document3.html
-  - name: Document4
+  - name: "Contact Us"
     url: /document4.html
   - name: Blog
     url: /blog/
