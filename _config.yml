@@ -79,6 +79,14 @@ ga:
 primary_navigation:
   - name: Home
     url: /
+  - name: Document1
+    url: /document1.html
+  - name: Document2
+    url: /document2.html
+  - name: Document3
+    url: /document3.html
+  - name: Document4
+    url: /document4.html
   - name: Blog
     url: /blog/
   - name: Document
