@@ -87,20 +87,20 @@ primary_navigation:
     url: /document3.html
   - name: "Contact Us"
     url: /document4.html
-  - name: Blog
-    url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+  # - name: Blog
+  #   url: /blog/
+  # - name: Document
+  #   url: /document/
+  # - name: Document with sidenav
+  #   url: /document-with-sidenav/
+  # - name: Document submenu
+  #   children:
+  #     - name: Navigation link
+  #       url: "#main-content"
+  #     - name: Navigation link
+  #       url: "#main-content"
+  #     - name: Navigation link
+  #       url: "#main-content"
 
 secondary_navigation:
   - name: Secondary link
@@ -203,5 +203,6 @@ assets:
       - "not dead"
   compression: true
   sources:
+    - assets
     - node_modules/uswds/dist
     - node_modules/netlify-cms/dist
