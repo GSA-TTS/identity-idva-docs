@@ -81,3 +81,9 @@ i.e.
   color: #fffdfd;
   background-color: #112e51;
 }
+
+@media all and (min-width: 40em){
+  .usa-hero__callout{
+    max-width:50rem;
+  }
+}
