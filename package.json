@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "netlify-cms": "^2.10.179",
+    "puppeteer": "^19.4.1",
     "uswds": "^2.13.1"
   },
   "devDependencies": {
