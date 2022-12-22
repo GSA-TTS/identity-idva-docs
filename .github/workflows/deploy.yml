@@ -1,0 +1,35 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+    paths-ignore:
+      - '**.md'  # All markdown files in the repository
+  release:
+    types: [released]
+  
+jobs:
+
+  build-and-test:
+    uses: GSA-TTS/identity-idva-docs/.github/workflows/build-and-test.yml
+
+  deploy:
+    if: github.repository_owner == 'GSA-TTS'
+    needs: build-and-test
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: 18F/identity-idva-cf-setup@v2
+        id: cf-setup
+        with:
+          cf-username: ${{ secrets.CF_USERNAME }}
+          cf-password: ${{ secrets.CF_PASSWORD }}
+          cf-org: ${{ secrets.CF_ORG }}
+          space-suffix: "-closed"
+
+      - name: Deploy application
+        run: cf push --var ENVIRONMENT_NAME=${{ steps.cf-setup.outputs.target-environment }}

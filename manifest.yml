@@ -1,0 +1,7 @@
+---
+applications:
+  - name: eq-pages
+    memory: 64MB
+    instances: 1
+    routes:
+      - route: identity-idva-eq-pages-((ENVIRONMENT_NAME)).app.cloud.gov
