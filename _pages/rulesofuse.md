@@ -4,7 +4,7 @@ layout: page_gsa_header
 ---
 # Rules of Use
 The Equity Study on Remote Identity Proofing is administered by the U.S. General Services Administration (GSA) and the participating identity-proofing vendors. The study will test how one-to-one (1:1) remote identity-proofing methods like facial-verification technology perform across various demographics to determine if vendor identity verification capabilities meet equity standards across various demographics. This study will enable GSA to make a data-driven decision on whether to pursue facial verification capabilities, to determine baseline performance metrics, and to provide real-world identity verification pass rate data to the broader Federal community. 
-GSA will collect [Personally Identifying Information (PII)](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act) during this study to verify your identity. This will include comparing a photo of your government-issued ID with a live photograph of your face (a “selfie”). GSA will also collect demographic information from you.
+GSA will collect <a href="https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act" target="_blank">Personally Identifying Information (PII)</a> during this study to verify your identity. This will include comparing a photo of your government-issued ID with a live photograph of your face (a “selfie”). GSA will also collect demographic information from you.
 
 These Rules of Use provide:
 - Information on the Equity Study process and what you can expect from it,

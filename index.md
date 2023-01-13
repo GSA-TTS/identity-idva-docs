@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Overview
 layout: page_gsa_header
 ---
 # Overview
@@ -9,4 +9,4 @@ identity-proofing methods like facial-verification technology perform across var
 if vendor identity verification capabilities meet equity standards across various demographics. This study will
 enable GSA to make a data-driven decision on whether to pursue facial verification capabilities, to determine
 baseline performance metrics, and to provide real-world identity verification pass rate data to the broader
-Federal community. To register to participate in this study, click [here](https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG).
+Federal community. To register to participate in this study, click <a href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank">here</a>.
