@@ -80,33 +80,13 @@ primary_navigation:
   - name: Home
     url: /
   - name: "Rules of Use"
-    url: /document1.html
-  - name: "Privacy Statement"
-    url: /document2.html
+    url: /rulesofuse/
+  - name: "Privacy Act Statement"
+    url: /privacyactstatement/
   - name: "FAQs"
-    url: /document3.html
+    url: /faqs/
   - name: "Contact Us"
-    url: /document4.html
-  # - name: Blog
-  #   url: /blog/
-  # - name: Document
-  #   url: /document/
-  # - name: Document with sidenav
-  #   url: /document-with-sidenav/
-  # - name: Document submenu
-  #   children:
-  #     - name: Navigation link
-  #       url: "#main-content"
-  #     - name: Navigation link
-  #       url: "#main-content"
-  #     - name: Navigation link
-  #       url: "#main-content"
-
-# secondary_navigation:
-#   - name: Secondary link
-#     url: "#main-content"
-#   - name: Another secondary link
-#     url: "#main-content"
+    url: /contactus/
 
 # Search.gov configuration
 #
