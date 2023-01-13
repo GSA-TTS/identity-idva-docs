@@ -116,7 +116,24 @@ ga:
 ## How to edit
 - Non-developers should focus on editing markdown content in the `_posts` and `_pages` folder
 
+- If a new page is to be added, add a `.md` file to `_pages` with the following header:
+```
+---
+title: {page title}
+layout: page_gsa_header
+---
+```
+
 - We try to keep configuration options to a minimum so you can easily change functionality. You should review `_config.yml` to see the options that are available to you. There are a few values on top that you **need** to change. They refer to the agency name and contact information. The rest of `_config.yml` has a range of more advanced options.
+
+- If a new page was added, please reflect the changes in `_config.yml` under `primary_navigation` matching the format:
+```
+  - name: "Page Title"
+    url: /pathtofile/
+```
+Remove file extension from `/pathtofile/`.
+
+- If changes are to be made to the Overview/Home page, please make those edits in `index.md`.
 
 - The contents inside `assets/` folder store your Javascript, SCSS/CSS, images, and other media assets are managed by  [jekyll-assets](https://github.com/envygeeks/jekyll-assets).  Assets are combined, compressed, and automatically available in your theme
 
