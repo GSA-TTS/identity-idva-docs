@@ -87,7 +87,8 @@ primary_navigation:
     url: /faqs/
   - name: "Contact Us"
     url: /contactus/
-
+  - name: "How to Participate"
+    url: /howtoparticipate/
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
