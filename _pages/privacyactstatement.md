@@ -77,6 +77,7 @@ Please see the GSA System of Records Notice, <a href="https://www.federalregiste
 Other data, like the pages you visit and the length of your session, are aggregated into reports to help us better understand how the site is being used and how we can make it more helpful. The data is anonymized. No personally identifying user information is tied to this data and it is only shared anonymously with the GSA team.
 ## Privacy Impact Assessment
 View all GSA privacy impact assessments at <a href="https://www.gsa.gov/reference/gsa-privacy-program" target="_blank">www.gsa.gov/PIA</a>.
+
 ## Contact Information
 If you have any questions regarding our Privacy Act Statement or the use of your information, please contact the GSA Privacy Office.
 
