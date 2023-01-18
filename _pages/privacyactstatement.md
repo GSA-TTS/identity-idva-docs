@@ -64,17 +64,20 @@ Recruitment Partner/Participant Outreach Service Vendors will retain the data fo
 
 The Study Evaluator will not collect or store PII for the Final Report.
 ## Additional Information Sharing
-There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the system of record notice number GSA/TTS-1 that GSA’s Technology Transformation Service (TTS) published on November 21, 2022. Even when we share the information with law enforcement, GSA cannot access PII because the information is not stored by GSA.
+There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the system of record notice number <a href="https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records" target="_blank">GSA/TTS-1</a> that GSA’s Technology Transformation Service (TTS) published on November 21, 2022. Even when we share the information with law enforcement, GSA cannot access PII because the information is not stored by GSA.
 ## The Authority - Who authorizes the collection of this data?
-The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), and 40 USC § 501.
+The information you provide is collected pursuant to <a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim" target="_blank">6 USC § 1523 (b)(1)(A)-(E)</a>, the <a href="https://www.govinfo.gov/content/pkg/PLAW-107publ347/pdf/PLAW-107publ347.pdf" target="_blank">E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note)</a>, and <a href="https://www.govregs.com/uscode/title40_subtitleI_chapter5_subchapterI_section501" target="_blank">40 USC § 501</a>.
+## Routine Uses - With whom will the information be shared?
+To third-party identity proofing services and fraud prevention services when participating in studies commissioned by the GSA to evaluate the equitable performance of new technologies and guide service improvements. Please refer to the System of Records Notice, <a href="https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records" target="_blank">GSA/TTS-1</a>, for the full list of routine uses, which represent the authorized entities GSA may disclose the information to, as determined relevant and necessary.
 ## Consent - How can you control what information is shared?
 Participants in this study have consented to the collection and use of the information as described in the Rules of Use, Privacy Act Statement, Consent Forms, Privacy Impact Assessment, and SORN. If at any time prior to the completion of the study should you no longer agree to these conditions, contact  identityequitystudy@gsa.gov or (202) 969-0772.
 ## Records - Where can you find more information?
-Please see the GSA System of Records Notice, GSA/TTS-1.
+Please see the GSA System of Records Notice, <a href="https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records" target="_blank">GSA/TTS-1</a>.
 ## Website Analytics – Other data we collect
 Other data, like the pages you visit and the length of your session, are aggregated into reports to help us better understand how the site is being used and how we can make it more helpful. The data is anonymized. No personally identifying user information is tied to this data and it is only shared anonymously with the GSA team.
 ## Privacy Impact Assessment
-View all GSA privacy impact assessments at www.gsa.gov/PIA.
+View all GSA privacy impact assessments at <a href="https://www.gsa.gov/reference/gsa-privacy-program" target="_blank">www.gsa.gov/PIA</a>.
+
 ## Contact Information
 If you have any questions regarding our Privacy Act Statement or the use of your information, please contact the GSA Privacy Office.
 
