@@ -79,6 +79,8 @@ ga:
 primary_navigation:
   - name: Home
     url: /
+  - name: "How to Participate"
+    url: /howtoparticipate/
   - name: "Rules of Use"
     url: /rulesofuse/
   - name: "Privacy Act Statement"
@@ -87,8 +89,7 @@ primary_navigation:
     url: /faqs/
   - name: "Contact Us"
     url: /contactus/
-  - name: "How to Participate"
-    url: /howtoparticipate/
+  
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
