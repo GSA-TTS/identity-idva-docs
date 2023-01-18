@@ -79,7 +79,7 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-- name: "How to Participate"
+  - name: "How to Participate"
     url: /howtoparticipate/
   - name: "Rules of Use"
     url: /rulesofuse/
