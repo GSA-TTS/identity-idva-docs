@@ -184,10 +184,13 @@ You hereby warrant that (1) your participation in the Equity Study will be in st
 ## General Provisions
 <b>Entire Agreement</b>
 These Rules of Use constitute the entire Agreement between GSA and you concerning the participation in the Equity Study, and may only be modified by the posting of a revised version on this page by GSA.
+
 <b>Disputes</b>
 Any disputes arising out of this Agreement and access to or use of the services shall be governed by federal law.
+
 <b>No Waiver of Rights</b>
 GSA’s failure to exercise or enforce any right or provision of this Agreement shall not constitute waiver of such right or provision.
+
 <b>Contacting GSA</b>
 If you have questions about these Rules of Use or any other aspect of the Equity Study, you can contact us at identityequitystudy@gsa.gov.  
 

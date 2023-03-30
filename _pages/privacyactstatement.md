@@ -12,7 +12,7 @@ The GSA “Equity Study on Remote Identity Proofing” will assess the impact of
 
 To conduct this study, GSA is partnering with identity-proofing vendors that are compatible with the study architecture and can meet GSA’s compliance requirements. The study will assess if and how demographic factors affect the vendors’ remote identity proofing software’s identity-proofing decisions. 
 ## What Information does GSA need?
-*General Information*
+*<b>General Information</b>*
 
 - For recruitment, GSA needs your name and email address.
 - For eligibility and to evaluate the equitable performance of technologies, GSA needs your demographic information, such as your race and ethnicity.
@@ -20,7 +20,7 @@ To conduct this study, GSA is partnering with identity-proofing vendors that are
 - To mitigate fraud, GSA will also analyze the device used to access the study, and collect different device identifiers as well as measures of behavior such as how you interact with forms on the page.
 
 
-*PII Validation*
+*<b>PII Validation</b>*
 
 Identity proofing helps establish a person is who they claim to be and thus requires more sensitive information. One step in identity proofing involves PII validation, which will require the collection of the following data elements by multiple vendors:
  
@@ -41,7 +41,7 @@ GSA will facilitate the collection and transfer of this personally identifiable 
 
 For a detailed description of the information collected, its uses and protection, review the Equity Study’s Privacy Impact Assessment [at hyperlink]. 
 
-*Biometric Information*
+*<b>Biometric Information</b>*
 
 In this study, GSA will also collect certain biometric information from you with the help of several vendors. This includes the following information used to identify you:
 - Biological characteristics derived from a picture of your face (a “selfie”); and
@@ -58,7 +58,7 @@ For more information on each provider’s privacy policies, see the vendor’s s
 
 <b>NOTE:</b> "The privacy policies above apply to the vendors' general commercial services, your data will be only retained and used in accordance with this GSA Privacy Act Statement.
 
-*Final Report*
+*<b>Final Report<b>*
 
 After the third party vendors determine whether you pass or fail their identity proofing, the vendors will share their results with GSA. GSA will group this data with your demographic information, remove any Personally Identifying Information (eg. name, Date of birth, SSN), and share this report with the Study Evaluator. The Study Evaluator will help GSA perform a statistical analysis of the data, analyze failure cases and reasons and develop reports based on the Study’s findings and data. All data will be securely stored in a GSA-licensed Google Drive. GSA will only transfer de-identified data to the Study evaluator through secure means like SFTP, file share, or read-only Google Drive file share.
 
