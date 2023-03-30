@@ -13,7 +13,8 @@ How GSA and its partners will use your information and your rights to that infor
 The conditions that you agree to when you participate in the Equity Study.
 
 Prior to participating in the Equity Study, you are required to agree to these Rules of Use.
-## Your Agreement
+
+<b>1.Your Agreement</b>
 By accepting these Rules of Use, you agree to participate in a study that will test the software of multiple Identity Proofing vendors. Specifically, this Equity Study will test the performance of document authentication, biometric comparison (comparing your selfie to the picture in your identity document), and liveness detection of the participating vendors. In addition, the study will assess vendor performance on the non-biometric aspects of the National Institute of Standards and Technology (NIST) SP 800-63-3 guidelines for remote identity proofing. This will allow for a more informed comparison of drop-off rates, i.e., to what extent a successful or unsuccessful identity verification is caused by either biometric or non-biometric aspects of the process.
 
 You agree that:
