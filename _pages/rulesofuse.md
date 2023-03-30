@@ -30,8 +30,8 @@ We will post any changes to these Rules of Use to URL. If the changes affect our
 *Table 1: Data collected by GSA and its uses*
 <table>
   <tr>
-    <th>Data Collected</th>
-    <th>Data Use</th>
+    <th><b>Data Collected</b></th>
+    <th><b>Data Use</b></th>
   </tr>
   <tr>
     <td>Demographic Information (self-reported race, ethnicity, gender,  age, income, education, and skin tone)</td>
