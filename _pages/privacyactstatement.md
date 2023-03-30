@@ -58,7 +58,7 @@ For more information on each provider’s privacy policies, see the vendor’s s
 
 <b>NOTE:</b> "The privacy policies above apply to the vendors' general commercial services, your data will be only retained and used in accordance with this GSA Privacy Act Statement.
 
-*<b>Final Report<b>*
+*<b>Final Report</b>*
 
 After the third party vendors determine whether you pass or fail their identity proofing, the vendors will share their results with GSA. GSA will group this data with your demographic information, remove any Personally Identifying Information (eg. name, Date of birth, SSN), and share this report with the Study Evaluator. The Study Evaluator will help GSA perform a statistical analysis of the data, analyze failure cases and reasons and develop reports based on the Study’s findings and data. All data will be securely stored in a GSA-licensed Google Drive. GSA will only transfer de-identified data to the Study evaluator through secure means like SFTP, file share, or read-only Google Drive file share.
 
