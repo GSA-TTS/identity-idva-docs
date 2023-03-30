@@ -3,7 +3,7 @@ title: Overview
 layout: page_gsa_header
 ---
 # Overview
-GSA recognizes that the “Equity Study on Remote Identity Proofing'' may not be accessible to all potential participants with disabilities because it requires volunteers to take photographs of their government-issued ID as well as a live “selfie” or headshot. GSA is also investigating other remote identity proofing solutions that are designed to be more accessible but still compliant with the requirements in <a href="https://pages.nist.gov/800-63-3/sp800-63-3.html" tareget="_blank">National Institutes of Standards and Technology (NIST) Special.</a>
+GSA recognizes that the “Equity Study on Remote Identity Proofing'' may not be accessible to all potential participants with disabilities because it requires volunteers to take photographs of their government-issued ID as well as a live “selfie” or headshot. GSA is also investigating other remote identity proofing solutions that are designed to be more accessible but still compliant with the requirements in <a href="https://pages.nist.gov/800-63-3/sp800-63-3.html" tareget="_blank">National Institutes of Standards and Technology (NIST) Special Publication (SP) 800-63</a>.
 
 The Equity Study on Remote Identity Proofing is administered by the U.S. General Services Administration (GSA)
 and the participating identity-proofing vendors. The study will test how one-to-one (1:1) remote
