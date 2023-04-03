@@ -81,10 +81,6 @@ primary_navigation:
     url: /
   - name: "How to Participate"
     url: /howtoparticipate/
-  - name: "Rules of Use"
-    url: /rulesofuse/
-  - name: "Privacy Act Statement"
-    url: /privacyactstatement/
   - name: "FAQs"
     url: /faqs/
   - name: "Contact Us"
