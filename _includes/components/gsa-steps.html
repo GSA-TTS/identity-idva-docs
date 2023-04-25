@@ -1,0 +1,21 @@
+{% assign steps = include.steps %}
+{% if steps %}
+<section class="gsa-steps padding-bottom-7 padding-top-7 mobile-lg:padding-bottom-8 mobile-lg:padding-top-8 tablet:padding-bottom-15 tablet:padding-top-15">
+  <div class="grid-container animation-chain">
+	  <h2 class="text-center font-sans-xl tablet:font-sans-2xl desktop:font-sans-3xl margin-bottom-6 margin-top-0">{{ page.steps-title }}</h2>
+	  <div class="grid-row grid-gap-6">
+		{% for step in steps %}
+			<div class="gsa-step mobile-lg:grid-col-6 tablet:grid-col-4 margin-bottom-5 fade-in">
+				{% asset '{{ step.image }}' !integrity loading="lazy" alt="{{ step.alt }}" width="{{ assets["step.image"].dimensions.width }}" height="{{ assets["step.image"].dimensions.height }}" class="img-fluid" %}
+				<p class="gsa-step__content font-sans-lg">{{ forloop.index }}. {{ step.content }}</p>		
+			</div>
+		{% endfor %}
+	  </div>
+	  
+	<a class="gsa-cta-btn usa-button usa-button--big btn-white-bg btn-blue-text btn-hover-dark-bg" href="{{ page.cta-link }}">
+		{{ page.cta-text }}
+	</a>
+	  
+  </div>
+</section>
+{% endif %}

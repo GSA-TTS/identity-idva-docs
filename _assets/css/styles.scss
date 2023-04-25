@@ -21,6 +21,16 @@
 $theme-font-path: "fonts";
 $theme-image-path: "img";
 
+$theme-show-notifications: false;
+$theme-font-type-sans: "public-sans";
+$theme-font-weight-heavy: 900;
+$theme-banner-background-color: "ink";
+$theme-banner-link-color: "red-10";
+$theme-banner-max-width: none;
+$theme-identifier-max-width: none;
+$theme-color-primary:"blue-60v";
+$theme-button-border-radius:0;
+
 // -------------------------------------
 // Import individual USWDS packages...
 @import "scss/packages/required";
@@ -45,9 +55,26 @@ i.e.
 ----------------------------------------
 */
 
+@import './gsa/base/var';
+@import './gsa/base/mixins';
+
+@import './gsa/layouts/body';
+@import './gsa/layouts/header';
+@import './gsa/layouts/footer';
+@import './gsa/layouts/content';
+
+@import './gsa/blocks/cta-btn';
+@import './gsa/blocks/hero';
+@import './gsa/blocks/faqs';
+@import './gsa/blocks/icon-photos';
+@import './gsa/blocks/steps';
+@import './gsa/blocks/cover';
+
+@import './gsa/base/animation';
+
 // default mode hide banner
-.usa-banner__content {
-  display: hidden;
+.usa-banner__content[hidden] {
+  display: none;
 }
 
 @media screen and (min-width: 640px) {
@@ -75,62 +102,4 @@ i.e.
   .paginate-button {
     display: block;
   }
-}
-
-.usa-banner__header {
-  color: #fffdfd;
-  background-color: #112e51;
-}
-
-@media all and (min-width: 40em){
-  .usa-hero__callout{
-    max-width:50rem;
-  }
-}
-
-@media all and (min-width: 40em){
-  .usa-banner__button{
-    color:currentColor;
-    position:static;
-    bottom:auto;
-    left:auto;
-    right:auto;
-    top:auto;
-    display:inline;
-    margin-left:0.5rem;
-    position:relative;
-  }
-  // .usa-banner__button::after{
-  //   background:url("../img/usa-icons/expand_more.svg") no-repeat center/contain;
-  //   display:inline-block;
-  //   height:1rem;
-  //   width:1rem;
-  //   content:"";
-  //   vertical-align:middle;
-  //   margin-left:2px;
-  // }
-  // @supports ((-webkit-mask: url("")) or (mask: url(""))){
-  //   .usa-banner__button::after{
-  //     background:none;
-  //     background-color:#005ea2;
-  //     -webkit-mask:url("../img/usa-icons/expand_more.svg") no-repeat center/contain;
-  //             mask:url("../img/usa-icons/expand_more.svg") no-repeat center/contain;
-  //   }
-  //   .usa-banner__button::after:hover{
-  //     background-color:#1a4480;
-  //   }
-  // }
-  // .usa-banner__button:hover::after{
-  //   content:"";
-  //   background-color:#1a4480;
-  // }
-  // .usa-banner__button:visited{
-  //   color:#54278f;
-  // }
-  .usa-banner__button:hover, .usa-banner__button:active{
-    color:currentColor;
-  }
-  // .usa-banner__button::after, .usa-banner__button:hover::after{
-  //   position:absolute;
-  // }
 }

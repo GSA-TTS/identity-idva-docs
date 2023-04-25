@@ -18,11 +18,10 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: GSA Equity Study
+title: GSA
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+  U.S. General Services Administration is currently conducting a research study to explore the issue the equitability of remote identity proofing.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. https://example.com.
   # Required to support the jekyll-sitemap plugin below.
@@ -79,35 +78,49 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: "How to Participate"
-    url: /howtoparticipate/
-  - name: "FAQs"
+  - name: How to Participate
+    url: /how-to-participate/
+  - name: FAQs
     url: /faqs/
-  - name: "Contact Us"
-    url: /contactus/
-  
+  - name: Contact Us
+    url: /contact-us/
+#  - name: Document submenu
+#    children:
+#      - name: Navigation link
+#        url: "#main-content"
+#      - name: Navigation link
+#        url: "#main-content"
+#      - name: Navigation link
+ #       url: "#main-content"
+
+#secondary_navigation:
+#  - name: Secondary link
+#    url: "#main-content"
+#  - name: Another secondary link
+#    url: "#main-content"
+
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
 # 2. Add a new site.
 # 3. Add your site/affiliate name here.
-searchgov:
+#searchgov:
 
   # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
-  endpoint: https://search.usa.gov
+#  endpoint: https://search.usa.gov
 
   # Replace this with your search.gov account.
-  affiliate: federalist-uswds-example
+ # affiliate: federalist-uswds-example
 
   # Replace this with your access key.
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+#  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
 
   # This renders the results within the page instead of sending to user to search.gov.
-  inline: true
+#  inline: true
 
   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   # If you do not want to present search suggestions, set this value to false.
-  suggestions: true
+#  suggestions: true
 
 ##########################################################################################
 # The values below here are more advanced and should only be
@@ -126,7 +139,7 @@ permalink: pretty
 # The values here represent the defaults if nothing is set
 pagination:
   # Site-wide kill switch, disabled here it doesn't run at all
-  enabled: true
+  enabled: false
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: false
   # The default document collection to paginate if nothing is specified ('posts' is default)
@@ -173,6 +186,7 @@ exclude:
   - Dockerfile
 
 assets:
+  source_maps: false
   autoprefixer:
     browsers:
       - "> 2%"
@@ -180,7 +194,13 @@ assets:
       - "IE 11"
       - "not dead"
   compression: true
+  defaults:
+    js: { integrity: false } # true on JEKYLL_ENV=production
+    css: { integrity: false } # true on JEKYLL_ENV=production
+    img: { integrity: false } # true on JEKYLL_ENV=production
   sources:
-    - assets
     - node_modules/uswds/dist
     - node_modules/netlify-cms/dist
+    - assets/css
+    - assets/js
+    - assets/img
