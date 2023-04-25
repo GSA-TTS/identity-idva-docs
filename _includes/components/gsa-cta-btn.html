@@ -1,7 +1,7 @@
 {% if gsa-cta-btn %}
 <section class="gsa-cta-btn-wrap margin-bottom-5 margin-top-5 tablet:margin-bottom-7 tablet:margin-top-7" >
   <div class="grid-container fade-in">
-	<a class="gsa-cta-btn usa-button usa-button--big {{ gsa-cta-btn.color }}" href="{{ gsa-cta-btn.href | default: page.cta-link }}">
+	<a class="gsa-cta-btn usa-button usa-button--big {{ gsa-cta-btn.color }}" href="{{ site.baseurl }}{{ gsa-cta-btn.href | default: page.cta-link }}">
 		{{ gsa-cta-btn.text | default: page.cta-text }}
 	</a>
   </div>
