@@ -1,0 +1,28 @@
+// steps.scss
+
+
+.gsa-steps {
+	background-color: color(blue-70v);
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	
+	
+	
+	p {
+		a {
+			color: #FFF;
+			text-decoration: underline;
+		}
+	}
+}
+.gsa-step__image {
+	display: block;
+	width: 100%;
+	height: auto;
+	/*padding-bottom: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;*/
+	margin-bottom: 20px;
+}

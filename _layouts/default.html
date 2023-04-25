@@ -7,6 +7,13 @@ This is used for just about every page. It provides the border around the conten
 The home page uses wide.html layout, since it extends full width of page
 {% endcomment %}
 
-<main id="main-content">
-  {{ content }}
+<main id="main-content" class="usa-layout-docs usa-section padding-top-3 fade-in page">
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="grid-col">
+				<h1>{{ page.title }}</h1>
+				{{ content }}
+			</div>
+		</div>
+	</div>
 </main>

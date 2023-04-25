@@ -1,103 +1,82 @@
 <footer class="usa-footer usa-footer--big">
-  <div class="grid-container usa-footer__return-to-top">
-    <a href="#">Return to top</a>
-  </div>
   <div class="usa-footer__primary-section">
     <div class="grid-container">
-      <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-8">
-          <nav class="usa-footer__nav" aria-label="Footer navigation,,">
-            <div class="grid-row grid-gap-4">
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="
-                    usa-footer__primary-content
-                    usa-footer__primary-content--collapsible
-                  "
-                >
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="rulesofuse/">Rules of Use</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="privacyactstatement/">Privacy Act Statement</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="https://www.gsa.gov/reference/gsa-plans-and-reports/"
-                        >Reports</a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="
-                    usa-footer__primary-content
-                    usa-footer__primary-content--collapsible
-                  "
-                >
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="https://www.gsa.gov/website-information/website-policies/">Website Policies</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="https://www.gsa.gov/website-information/accessibility-statement/"
-                        >Accessibility Statement</a>
-                    </li>  
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="
-                    usa-footer__primary-content
-                    usa-footer__primary-content--collapsible
-                  "
-                >
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">No FEAR Act</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="https://www.gsaig.gov/">Office of the Inspector General</a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="
-                    usa-footer__primary-content
-                    usa-footer__primary-content--collapsible
-                  "
-                >
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia">FOIA Requests</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="https://www.cbca.gov/">Board of Contract Appeals</a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-            </div>
-          </nav>
+      <nav class="usa-footer__nav grid-col-12 padding-top-4 padding-bottom-4" aria-label="Footer navigation">
+        <div class="grid-row grid-gap-4">
+          <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+            <section class="usa-footer__primary-content ">
+              <ul class="usa-list usa-list--unstyled">
+                <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/about-the-study/">About the Study</a></li>
+                <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/rules-of-use/">Rules of Use</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+            <section class="usa-footer__primary-content ">
+              <ul class="usa-list usa-list--unstyled">
+                <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/privacy-act-statement/">Privacy Act Statement</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank">Privacy Impact Assessment</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+            <section class="usa-footer__primary-content ">
+              <ul class="usa-list usa-list--unstyled">
+                <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/contact-us/">Contact Us</a></li>
+                <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/faqs/">Frequently Asked Questions (FAQ)</a></li>
+              </ul>
+            </section>
+          </div>
         </div>
-      </div>
+      </nav>
     </div>
   </div>
   <div class="usa-footer__secondary-section">
     <div class="grid-container">
       <div class="usa-footer__logo grid-row grid-gap-2">
-        <div class="grid-row padding-3">
-          <div class="tablet:grid-col">
-            <div class="logo-links">
-              <a class="footer-logo media_link" href="https://www.gsa.gov/">
-                {% asset img/nav-logo.png width="50" alt="Agency logo" %}
-              </a>
-          </div>
+        <div class="grid-col-auto margin-left-2 mobile-lg:margin-left-0"> 
+			<img class="usa-footer__logo-img" src="{% asset gsa.png @path %}" alt="U.S. General Services Administration | GSA" width="70" height="64" /> </div>
+        <div class="grid-col-auto">
+          <p class="usa-footer__logo-heading margin-bottom-0"><em class="usa-logo__text">U.S. General Services Administration</em></p>
         </div>
       </div>
     </div>
-  </div>      
+    <div class="grid-container">
+      <nav class="usa-footer__subnav grid-col-12 padding-top-1 padding-bottom-4" aria-label="Footer utility navigation">
+        <div class="grid-row grid-gap">
+          <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+            <section class="usa-footer__primary-content ">
+              <ul class="usa-list usa-list--unstyled">
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/website-policies" target="_blank">Website Policies | GSA</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/accessibility-statement/" target="_blank">Accessibility Statement </a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+            <section class="usa-footer__primary-content ">
+              <ul class="usa-list usa-list--unstyled">
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" target="_blank">No FEAR Act </a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsaig.gov/" target="_blank">Office of the Inspector General</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+            <section class="usa-footer__primary-content ">
+              <ul class="usa-list usa-list--unstyled">
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" target="_blank">FOIA Requests</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.cbca.gov/" target="_blank">Board of Contract Appeals</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+            <section class="usa-footer__primary-content ">
+              <ul class="usa-list usa-list--unstyled">
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/gsa-plans-and-reports/" target="_blank">Reports</a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</footer>

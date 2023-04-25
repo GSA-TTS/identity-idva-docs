@@ -5,18 +5,20 @@ layout: base
 {% comment %}
 This template is for a single page that does not have a date associated with it. For example, an about page.
 {% endcomment %}
-{% include hero.html %}
-<div id="main-content" class="usa-layout-docs usa-section">
+
+<div id="main-content" class="usa-layout-docs usa-section padding-top-3 fade-in page">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       {% if page.sidenav == true %}
       {% include sidenav.html %}
       {% endif %}
-      <main>
-        <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+      
+        <div class="usa-layout-docs__main {% if page.sidenav == true %}desktop:grid-col-9 with-sidebar{% else %}grid-col{% endif %}">
+			<main>
+			<h1>{{ page.title }}</h1>
             {{ content }}
+			</main>
         </div>
-      </main>
     </div>
   </div>
 </div>

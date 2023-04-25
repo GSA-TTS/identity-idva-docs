@@ -1,0 +1,13 @@
+{% if gsa-hero %}
+<section class="gsa-hero padding-bottom-7 padding-top-7 mobile-lg:padding-bottom-8 mobile-lg:padding-top-8 tablet:padding-bottom-15 ">
+  <div class="grid-container animation-chain">
+    <h1 class="gsa-hero__heading fade-in margin-top-0 tablet:margin-top-5">{{ gsa-hero.headline }}</h1>
+	<div class="fade-in">
+		{{ gsa-hero.content | markdownify }}
+	</div>
+	<div class="fade-in">
+		<a class="usa-button usa-button--big gsa-cta-btn btn-white-bg btn-blue-text btn-hover-dark-bg margin-top-5" href="{{ hero.button.href | default: page.cta-link }}">{{ gsa-hero.button.text | default: page.cta-text }}</a>
+	</div>
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,27 @@
+{% assign faqs = include.faqs %}
+{% if faqs %}
+<section class="gsa-faqs padding-bottom-5 padding-top-5 tablet:padding-bottom-10 tablet:padding-top-8">
+  <div class="grid-container">
+	  <h2 class="text-center  font-sans-xl tablet:font-sans-2xl desktop:font-sans-3xl margin-bottom-3 margin-top-0">{{ page.faqs-title }}</h2>
+	  <p class="text-center font-sans-md tablet:font-sans-lg  margin-bottom-5 tablet:margin-bottom-8">{{ page.faqs-content }}</p>
+	  
+	  <div class="usa-accordion usa-accordion--multiselectable " data-allow-multiple >
+		{% for faq in faqs %}
+		  <h3 class="usa-accordion__heading font-sans-md tablet:font-sans-lg fade-in">
+			<button type="button" class="usa-accordion__button text-center"  aria-expanded="false"  aria-controls="faq-{{ forloop.index }}">
+			  {{ faq.question }}
+			</button>
+		  </h3>
+		  <div id="faq-{{ forloop.index }}" class="usa-accordion__content usa-prose">
+			{{ faq.answer  | markdownify  }}
+		  </div>
+		{% endfor %}
+	  </div>
+	  
+	<a class="gsa-cta-btn usa-button usa-button--big margin-top-5 tablet:margin-top-8 btn-hover-dark-bg" href="{{ page.cta-link }}">
+		{{ page.cta-text }}
+	</a>
+	  
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,74 @@
+// faqs.scss
+
+
+.gsa-faqs {
+	h2 {
+		color: color($theme-color-primary-dark);
+	}
+	
+	.usa-accordion__button {
+		background-color: #FFF;
+		border: 1px solid  color(ink);
+		padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+		@include transition(all $medspeed $ease);
+
+		//background-image: url("/assets/img/icon-add.svg") !important;
+		
+		
+		background-repeat: no-repeat;
+
+
+		&:hover {
+			background-color:color(blue-warm-10);
+		}
+
+		&[aria-expanded="false"] {
+			background-image: asset_url("icon-add.svg");
+		}
+		
+		&[aria-expanded="true"] {
+			background-color:color($theme-color-primary-dark);
+			color: #FFF;
+			background-image: asset_url("icon-subtract-white.svg");
+			//background-image: url("/assets/img/icon-subtract-white.svg") !important;
+		}
+
+		h3 {
+			color: color(ink);
+		}
+	}
+
+	.usa-accordion__content {
+		padding: 1.5rem 1.5rem;
+		background-color: color(blue-warm-10);
+
+		p {
+			max-width: 52rem;
+			font-size: 1.1rem;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		ul {
+			
+			
+			li {
+				font-size: 1.1rem;
+				text-align: center;
+				max-width: none;
+			}
+		}
+		
+		ul {
+			max-width: 52rem;
+			margin-left: auto;
+			margin-right: auto;
+			
+			li {
+				text-align: left;
+			}
+		}
+	}
+}
+
