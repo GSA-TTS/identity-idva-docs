@@ -118,7 +118,7 @@ GSA has contracts with multiple vendors contracted to perform identity proofing 
 
 After transmission from the vendors, your data is stored using secure GSA systems. These systems also undergo strict internal data and privacy reviews. Only a restricted set of GSA personnel will be able to access your information should it be required. 
 
-Please read the study’s <a href="{{ site.baseurl }}/privacy-act-statement/">Privacy Act Statement</a> and <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank">Privacy Impact Assessment</a> for more details on how your data is collected, used, and secured.
+Please read the study’s [Privacy Act Statement](/privacy-act-statement/) and <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank">Privacy Impact Assessment</a> for more details on how your data is collected, used, and secured.
 
 ### What will you do with the information that I provided during the study?
 
@@ -136,7 +136,7 @@ You are not required to provide your redacted image for the publication. It is o
 
 See example: 
 
-<img src="{{ site.baseurl }}/assets/img/redacted-image-id.jpg" alt="Image of a driver's license with blacked out sections" loading="lazy" loading="lazy" width="500" height="317" class="max-400" />  
+{% asset redacted-image-id.jpg !integrity loading="lazy" alt="Image of a driver's license with blacked out sections" width="500" height="317" class="img-fluid max-400" %}
 
 ***
 
