@@ -118,7 +118,7 @@ GSA has contracts with multiple vendors contracted to perform identity proofing 
 
 After transmission from the vendors, your data is stored using secure GSA systems. These systems also undergo strict internal data and privacy reviews. Only a restricted set of GSA personnel will be able to access your information should it be required. 
 
-Please read the study’s [Privacy Act Statement](/privacy-act-statement/) and <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank">Privacy Impact Assessment</a> for more details on how your data is collected, used, and secured.
+Please read the study’s [Privacy Act Statement]({{site.baseurl}}/privacy-act-statement/) and <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank">Privacy Impact Assessment</a> for more details on how your data is collected, used, and secured.
 
 ### What will you do with the information that I provided during the study?
 
