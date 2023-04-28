@@ -54,6 +54,7 @@ GSA recognizes that the “Equity Study on Remote Identity Proofing'' may not be
 
 You may be ineligible to participate if:
 
+- you are under 18 years of age
 - you do not agree to the terms and conditions of the study.
 - you chose “prefer not to answer” in the required demographic questions
 - the study has already reached the necessary number of participants from specific demographics.
