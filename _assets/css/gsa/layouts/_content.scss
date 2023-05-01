@@ -50,13 +50,38 @@ ul.checklist {
 	height: auto;
 }
 
+
+ul.top-bullets {
+	list-style: none;
+	
+	li {
+		position: relative;
+		
+		&:before {
+			content: '';
+			width: 6px;
+			height: 6px;
+			position: absolute;
+			left: -13px;
+			top: 11px;
+			background-color: color(ink);
+			border-radius: 6px;
+		}
+	}
+}
+
 p, li {
-	a {
+	a, a.usa-link {
 		color: color($theme-color-primary-dark);
 		@include transition(color $medspeed $ease);
 		&:hover {
 			color: #000;
 		}
+		
+		&:visited {
+			color: color($theme-color-primary-dark);
+		}
+		
 	}
 }
 

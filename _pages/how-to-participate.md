@@ -48,7 +48,7 @@ U.S. residents 18 years and older with a valid government-issued identity docume
 
 ## Does this study meet accessibility requirements within 508 compliance? 
 
-GSA recognizes that the “Equity Study on Remote Identity Proofing'' may not be accessible to all potential participants with disabilities because it requires participants  to take photographs of their government-issued ID as well as a live “selfie” or headshot using functionality that may not be native to their device. GSA is investigating other remote identity proofing solutions that are designed to be more accessible and compliant with the requirements in <a href="https://pages.nist.gov/800-63-3/sp800-63-3.html" target="_blank" rel="noopener">National Institutes of Standards and Technology (NIST) Special Publication (SP) 800-63</a>. 
+GSA recognizes that the “Equity Study on Remote Identity Proofing'' may not be accessible to all potential participants with disabilities because it requires participants  to take photographs of their government-issued ID as well as a live “selfie” or headshot using functionality that may not be native to their device. GSA is investigating other remote identity proofing solutions that are designed to be more accessible and compliant with the requirements in <a href="https://pages.nist.gov/800-63-3/sp800-63-3.html" target="_blank" rel="noopener" class="usa-link usa-link--external">National Institutes of Standards and Technology (NIST) Special Publication (SP) 800-63</a>. 
 
 ## Why wasn’t I selected to participate?
 

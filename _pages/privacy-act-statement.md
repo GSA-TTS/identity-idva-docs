@@ -9,11 +9,11 @@ layout: default
 
 ## Introduction
 
-This Privacy Act Statement explains how GSA and identity proofing vendors handle the [Personally Identifiable Information (PII)](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act) that you provide during recruitment, eligibility screening, and participation in the Equity Study. PII includes information that is personal in nature and which may be used to identify you. The PII you provide in this Equity Study will only be used for the purpose of this study and future Equity Studies if applicable. We will protect your information consistent with the principles of the Privacy Act of 1974, the E-Government Act of 2002, and the Federal Records Act.
+This Privacy Act Statement explains how GSA and identity proofing vendors handle the <a href="https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act" target="_blank" rel="noopener" class="usa-link usa-link--external">Personally Identifiable Information (PII)</a> that you provide during recruitment, eligibility screening, and participation in the Equity Study. PII includes information that is personal in nature and which may be used to identify you. The PII you provide in this Equity Study will only be used for the purpose of this study and future Equity Studies if applicable. We will protect your information consistent with the principles of the Privacy Act of 1974, the E-Government Act of 2002, and the Federal Records Act.
 
 ## Authority
 
-GSA is conducting the Equity Study pursuant to [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=6+USC+1523:+Federal+cybersecurity+requirements) and [OMB Memo M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+GSA is conducting the Equity Study pursuant to  <a href="https://uscode.house.gov/view.xhtml?req=6+USC+1523:+Federal+cybersecurity+requirements" target="_blank" rel="noopener" class="usa-link usa-link--external">6 USC § 1523 (b)(1)(A)-(E)</a> and <a href="https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf" target="_blank" rel="noopener" class="usa-link usa-link--external">OMB Memo M-19-17 [PDF, 13 Pages]</a>.
 
 ## The Purpose
 
@@ -46,7 +46,7 @@ GSA will facilitate the collection and transfer of this personally identifiable 
 - Vendor 2 - Privacy Policy link
 - etc.
 
-For a detailed description of the information collected, its uses and protection, review the Equity Study’s Privacy Impact Assessment [at hyperlink].
+For a detailed description of the information collected, its uses and protection, review the Equity Study’s <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank" rel="noopener" class=" usa-link usa-link--external">Privacy Impact Assessment</a>.
 
 ### Biometric Information
 
@@ -73,26 +73,27 @@ Recruitment Partner/Participant Outreach Service Vendors will retain the data fo
 
 The Study Evaluator will not collect or store PII for the Final Report.
 
+
 ## Additional Information Sharing
-There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the system of record notice number [GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) that GSA’s Technology Transformation Service (TTS) published on November 21, 2022. Even when we share the information with law enforcement, GSA cannot access PII because the information is not stored by GSA.
+There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the system of record notice number <a href="https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records" target="_blank" rel="noopener" class="usa-link usa-link--external">GSA/TTS-1</a> that GSA’s Technology Transformation Service (TTS) published on November 21, 2022. Even when we share the information with law enforcement, GSA cannot access PII because the information is not stored by GSA.
 
 ## The Authority - Who authorizes the collection of this data?
-The information you provide is collected pursuant to [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), the [E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note)](https://www.govinfo.gov/content/pkg/PLAW-107publ347/pdf/PLAW-107publ347.pdf), and [40 USC § 501](https://www.govregs.com/uscode/title40_subtitleI_chapter5_subchapterI_section501).
+The information you provide is collected pursuant to <a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim" target="_blank" rel="noopener" class="usa-link usa-link--external">6 USC § 1523 (b)(1)(A)-(E)</a>, the <a href="https://www.govinfo.gov/content/pkg/PLAW-107publ347/pdf/PLAW-107publ347.pdf" target="_blank" rel="noopener" class="usa-link usa-link--external">E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note) [PDF, 72 Pages]</a>, and <a href="https://www.govregs.com/uscode/title40_subtitleI_chapter5_subchapterI_section501" target="_blank" rel="noopener" class="usa-link usa-link--external">40 USC § 501</a>.
 
 ## Routine Uses - With whom will the information be shared?
-To third-party identity proofing services and fraud prevention services when participating in studies commissioned by the GSA to evaluate the equitable performance of new technologies and guide service improvements. Please refer to the System of Records Notice, [GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records), for the full list of routine uses, which represent the authorized entities GSA may disclose the information to, as determined relevant and necessary.
+To third-party identity proofing services and fraud prevention services when participating in studies commissioned by the GSA to evaluate the equitable performance of new technologies and guide service improvements. Please refer to the System of Records Notice, <a href="https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records" target="_blank" rel="noopener" class="usa-link usa-link--external">GSA/TTS-1</a>, for the full list of routine uses, which represent the authorized entities GSA may disclose the information to, as determined relevant and necessary.
 
 ## Consent - How can you control what information is shared?
 Participants in this study have consented to the collection and use of the information as described in the Rules of Use, Privacy Act Statement, Consent Forms, Privacy Impact Assessment, and SORN. If at any time prior to the completion of the study should you no longer agree to these conditions, contact identityequitystudy@gsa.gov or (202) 969-0772.
 
 ## Records - Where can you find more information?
-Please see the GSA System of Records Notice, [GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
+Please see the GSA System of Records Notice, <a href="https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records" target="_blank" rel="noopener" class="usa-link usa-link--external">GSA/TTS-1</a>.
 
 ## Website Analytics – Other data we collect
 Other data, like the pages you visit and the length of your session, are aggregated into reports to help us better understand how the site is being used and how we can make it more helpful. The data is anonymized. No personally identifying user information is tied to this data and it is only shared anonymously with the GSA team.
 
 ## Privacy Impact Assessment
-View all GSA privacy impact assessments at [www.gsa.gov/PIA](https://www.gsa.gov/reference/gsa-privacy-program).
+View all GSA privacy impact assessments at <a href="https://www.gsa.gov/reference/gsa-privacy-program" target="_blank" rel="noopener" class="usa-link usa-link--external">www.gsa.gov/PIA</a>.
 
 ## Contact Information
 If you have any questions regarding our Privacy Act Statement or the use of your information, please contact the GSA Privacy Office.
