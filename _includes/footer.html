@@ -15,7 +15,7 @@
             <section class="usa-footer__primary-content ">
               <ul class="usa-list usa-list--unstyled">
                 <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/privacy-act-statement/">Privacy Act Statement</a></li>
-                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank">Privacy Impact Assessment</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank" rel="noopener" class="usa-link--external">Privacy Impact Assessment</a></li>
               </ul>
             </section>
           </div>
@@ -31,47 +31,54 @@
       </nav>
     </div>
   </div>
+	
+
+	
   <div class="usa-footer__secondary-section">
-    <div class="grid-container">
-      <div class="usa-footer__logo grid-row grid-gap-2">
-        <div class="grid-col-auto margin-left-2 mobile-lg:margin-left-0"> 
-			<img class="usa-footer__logo-img" src="{% asset gsa.png @path %}" alt="U.S. General Services Administration | GSA" width="70" height="64" /> </div>
-        <div class="grid-col-auto">
-          <p class="usa-footer__logo-heading margin-bottom-0"><em class="usa-logo__text">U.S. General Services Administration</em></p>
-        </div>
-      </div>
+	  
+	<section class="usa-identifier__section usa-identifier__section--masthead">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__logos"><a href="javascript:void(0);" class="usa-identifier__logo">
+          <img class="usa-identifier__logo-img" src="{% asset gsa.png @path %}" alt="GSA Logo" role="img" width="48" height="48">
+        </a></div>
+      <section class="usa-identifier__identity" aria-label="Agency description">
+        <p class="usa-identifier__identity-domain">identityequitystudy.gsa.gov</p>
+        <p class="usa-identifier__identity-disclaimer">An official website of the <a href="https://gsa.gov" target="blank" class="usa-link usa-link--external">General Services Administration</a></p>
+      </section>
     </div>
+  </section>
+	  
     <div class="grid-container">
       <nav class="usa-footer__subnav grid-col-12 padding-top-1 padding-bottom-4" aria-label="Footer utility navigation">
         <div class="grid-row grid-gap">
           <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
             <section class="usa-footer__primary-content ">
               <ul class="usa-list usa-list--unstyled">
-                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/website-policies" target="_blank">Website Policies | GSA</a></li>
-                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/accessibility-statement/" target="_blank">Accessibility Statement </a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/website-policies" target="_blank" rel="noopener" class="usa-link--external">Website Policies | GSA</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/accessibility-statement/" target="_blank" rel="noopener" class="usa-link--external">Accessibility Statement </a></li>
               </ul>
             </section>
           </div>
           <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
             <section class="usa-footer__primary-content ">
               <ul class="usa-list usa-list--unstyled">
-                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" target="_blank">No FEAR Act </a></li>
-                <li class="usa-footer__secondary-link"><a href="https://www.gsaig.gov/" target="_blank">Office of the Inspector General</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" target="_blank" rel="noopener" class="usa-link--external">No FEAR Act </a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsaig.gov/" target="_blank" rel="noopener" class="usa-link--external">Office of the Inspector General</a></li>
               </ul>
             </section>
           </div>
           <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
             <section class="usa-footer__primary-content ">
               <ul class="usa-list usa-list--unstyled">
-                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" target="_blank">FOIA Requests</a></li>
-                <li class="usa-footer__secondary-link"><a href="https://www.cbca.gov/" target="_blank">Board of Contract Appeals</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" target="_blank" rel="noopener" class="usa-link--external">FOIA Requests</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.cbca.gov/" target="_blank" rel="noopener" class="usa-link--external">Board of Contract Appeals</a></li>
               </ul>
             </section>
           </div>
           <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
             <section class="usa-footer__primary-content ">
               <ul class="usa-list usa-list--unstyled">
-                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/gsa-plans-and-reports/" target="_blank">Reports</a></li>
+                <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/reference/gsa-plans-and-reports/" target="_blank" rel="noopener" class="usa-link--external">Reports</a></li>
               </ul>
             </section>
           </div>

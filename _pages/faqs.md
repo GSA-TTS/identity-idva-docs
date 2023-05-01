@@ -81,10 +81,8 @@ Your phone number is used to look up your phone account information and verify t
 Research has shown that the performance of facial verification systems can vary based on the individual’s skin tone, so we’re trying to validate how well these features work in the identity-proofing tools. 
 
 See the following for more information:
-- Gender Shades: Intersectional Phenotypic and Demographic Evaluation of Face Datasets and Gender Classifiers (Buolamwini, 2017)
-- Face Recognition Vendor Test - Part 3: Demographic Effects (NIST, 2019)
-- Reliability and Validity of Image-Based and Self-Reported Skin Phenotype Metrics (Howard et al 2021)
-- A Comprehensive Study on Face Recognition Biases Beyond Demographics (Terhörst et al., 2022)
+
+<ul class="top-bullets"><li><a class="usa-link usa-link--external" href="https://dam-prod2.media.mit.edu/x/2018/02/05/buolamwini-ms-17_WtMjoGY.pdf" target="_blank" rel="noopener">Gender Shades&#58; Intersectional Phenotypic and Demographic Evaluation of Face Datasets and Gender Classifiers (Buolamwini, 2017) [PDF, 116 Pages]</a></li> <li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf" target="_blank" rel="noopener" class="usa-link usa-link--external">Face Recognition Vendor Test - Part 3&#58; Demographic Effects (NIST, 2019) [PDF, 82 Pages]</a></li> <li><a href="https://arxiv.org/abs/2106.11240" target="_blank" rel="noopener" class="usa-link usa-link--external">Reliability and Validity of Image-Based and Self-Reported Skin Phenotype Metrics (Howard et al 2021)</a></li> <li><a href="https://ieeexplore.ieee.org/abstract/document/9534882" target="_blank" rel="noopener" class="usa-link usa-link--external">A Comprehensive Study on Face Recognition Biases Beyond Demographics (Terhörst et al., 2022)</a></li></ul>
 
 
 ### Does this study meet accessibility requirements within 508 compliance? 
@@ -118,7 +116,7 @@ GSA has contracts with multiple vendors contracted to perform identity proofing 
 
 After transmission from the vendors, your data is stored using secure GSA systems. These systems also undergo strict internal data and privacy reviews. Only a restricted set of GSA personnel will be able to access your information should it be required. 
 
-Please read the study’s [Privacy Act Statement]({{site.baseurl}}/privacy-act-statement/) and <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank">Privacy Impact Assessment</a> for more details on how your data is collected, used, and secured.
+Please read the study’s <a href="{{site.baseurl}}/privacy-act-statement/" class="usa-link">Privacy Act Statement</a> and <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank" rel="noopener" class="usa-link usa-link--external">Privacy Impact Assessment</a> for more details on how your data is collected, used, and secured.
 
 ### What will you do with the information that I provided during the study?
 
