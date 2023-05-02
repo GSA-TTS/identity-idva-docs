@@ -38,13 +38,18 @@ layout: default
 <ul class="checklist margin-top-1">
 <li>a mobile phone with a camera feature;</li>
 <li>a phone plan associated with your name (it cannot be a virtual phone number like Google Voice, VOIP, etc.);</li>
-<li>a valid government-issued identity document; and</li>
+<li>a valid government-issued <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">identity document</a>; and</li>
 <li>your Social Security Number (SSN)</li>
 </ul>
 
+## How much time do I need to complete the study?
+
+Generally, the study should take 15 to 45 minutes.
+
+
 ## Who is eligible to participate in study?
 
-U.S. residents 18 years and older with a valid government-issued identity document are eligible to register for the study.
+U.S. residents 18 years and older with a <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">valid government-issued identity document</a> are eligible to register for the study.
 
 ## Does this study meet accessibility requirements within 508 compliance? 
 
