@@ -35,7 +35,7 @@ layout: default
 ## What do I need to participate in the study?
 
 <p class="margin-bottom-0">You will need:</p>
-<ul class="checklist margin-top-1">
+<ul class="alpha-list margin-top-1">
 <li>a mobile phone with a camera feature;</li>
 <li>a phone plan associated with your name (it cannot be a virtual phone number like Google Voice, VOIP, etc.);</li>
 <li>a valid government-issued <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">identity document</a>; and</li>
