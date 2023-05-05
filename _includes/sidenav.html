@@ -11,7 +11,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 		{% for link in page.subnav %}
 
 		<li class="usa-sidenav__item">
-		  <a href="{{ link.href }}">
+		  <a href="{% if link.href %}{{ link.href }}{% else %}#{{ link.text | slugify }}{% endif %}">
 			 {{ link.text }}
 		  </a>
 		</li>

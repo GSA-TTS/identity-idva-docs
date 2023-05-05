@@ -11,11 +11,8 @@ subnav:
   - text: Identity Proofing & The Study
     href: '#identity-proofing-and-the-study'
   - text: Participation Requirements
-    href: '#participation-requirements'
   - text: Data Privacy
-    href: '#data-privacy'
   - text: Compensation
-    href: '#compensation'
 ---
 
 

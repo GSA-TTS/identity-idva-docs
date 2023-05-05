@@ -7,7 +7,7 @@ layout: default
 
 ---
 
-  <div class="grid-row grid-gap-2 how-to-images animation-chain">
+  <div class="grid-row grid-gap-3 how-to-images animation-chain">
     <div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
 		{% asset 'step-1.png' loading="lazy" alt="Image of a person looking at a mobile phone" width="768" height="768" class="img-fluid" %}
 		<p>1. Register</p>
@@ -20,13 +20,17 @@ layout: default
 		{% asset 'step-3.png' loading="lazy" alt="Image of a person taking a selfie"  width="768" height="768" class="img-fluid" %}
 	  	<p>3. Take selfies</p>
 	</div>
+	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
+		{% asset 'step-4.png' loading="lazy" alt="Image of a person taking several pictures"  width="768" height="768" class="img-fluid" %}
+	  	<p>4. Repeat steps 2 and 3</p>
+	</div>
     <div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
 		{% asset 'step-5.png' loading="lazy" alt="Image of a person on their mobile phone"  width="768" height="768" class="img-fluid" %}
-	  	<p>4. Provide personal information and confirm your device</p>
+	  	<p>5. Provide personal information and confirm your device</p>
 	</div>
     <div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
 		{% asset 'step-6.png' loading="lazy" alt="Image of a person with a gift card on their mobile phone screen"  width="768" height="768" class="img-fluid" %}
-	  	<p>5. Receive compensation</p>
+	  	<p>6. Receive compensation</p>
 	  </div>
   </div>
 
@@ -34,13 +38,11 @@ layout: default
 
 ## What do I need to participate in the study?
 
-<p class="margin-bottom-0">You will need:</p>
-<ul class="checklist margin-top-1">
-<li>a mobile phone with a camera feature;</li>
-<li>a phone plan associated with your name (it cannot be a virtual phone number like Google Voice, VOIP, etc.);</li>
-<li>a valid government-issued <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">identity document</a>; and</li>
-<li>your Social Security Number (SSN)</li>
-</ul>
+You will need:
+- a mobile phone with a camera feature;
+- a phone plan associated with your name (it cannot be a virtual phone number like Google Voice, VOIP, etc.);
+- a valid government-issued <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">identity document</a>; and
+- your Social Security Number (SSN)
 
 ## How much time do I need to complete the study?
 

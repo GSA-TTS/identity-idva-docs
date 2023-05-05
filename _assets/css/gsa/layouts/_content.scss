@@ -24,6 +24,32 @@
 	padding-left: 1.5rem;
 }
 
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+hr {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	border-color: color(gray-3);
+}
+
+.max-400 {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
+
+.anchor-headline {
+	padding-top: 20px;
+	margin-top: -20px;
+}
+
+
+//CONTENT
+
 ul.checklist {
 	list-style: none;
 	padding: 0;
@@ -45,12 +71,6 @@ ul.checklist {
 	}
 }
 
-.img-fluid {
-	max-width: 100%;
-	height: auto;
-}
-
-
 ul.top-bullets {
 	list-style: none;
 	
@@ -70,31 +90,6 @@ ul.top-bullets {
 	}
 }
 
-p, li {
-	a, a.usa-link {
-		color: color($theme-color-primary-dark);
-		@include transition(color $medspeed $ease);
-		&:hover {
-			color: #000;
-		}
-		
-		&:visited {
-			color: color($theme-color-primary-dark);
-		}
-		
-	}
-}
-
-.how-to-images {
-	text-align: center;
-	p {
-		margin-top: 0;
-		color: color($theme-color-primary-dark);
-		font-size: 17px;
-		line-height: 20px;
-	}
-}
-
 ol.upper-alpha-list {
 	list-style: upper-alpha;
 	padding-left: 20px;
@@ -110,23 +105,47 @@ ol.numeric-list {
 	list-style:decimal;
 }
 
-hr {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	border-color: color(gray-3);
+p, li {
+	a, a.usa-link {
+		color: color($theme-color-primary-dark);
+		@include transition(color $medspeed $ease);
+		&:hover {
+			color: #000;
+		}
+		
+		&:visited {
+			color: color($theme-color-primary-dark);
+		}
+		
+	}
 }
 
-.max-400 {
-	width: 100%;
-	max-width: 400px;
-	height: auto;
-}
 
-.anchor-headline {
-	padding-top: 20px;
-	margin-top: -20px;
-}
+//TABLE
+.usa-layout-docs__main {
+	table {
+		border:1px solid  color(ink);
+		border-collapse: collapse;
+		
+		thead {
+			color: #FFF;
+			background-color: color($theme-color-primary-dark);
+		}
+		
+		th {
+			border:1px solid  #FFF;
+		}
+		
+		th, td {
+			padding: 10px 15px;
 
+		}
+		
+		td {
+			border:1px solid  color(ink);
+		}
+	}
+}
 
 ///SIDEBAR
 .usa-layout-docs-sidenav {
@@ -150,4 +169,16 @@ hr {
 	  top: .75rem;
 	}
 }
+
+// HOW TO PARTICIPATE
+.how-to-images {
+	text-align: center;
+	p {
+		margin-top: 0;
+		color: color($theme-color-primary-dark);
+		font-size: 17px;
+		line-height: 20px;
+	}
+}
+
 
