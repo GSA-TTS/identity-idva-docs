@@ -6,7 +6,7 @@ manage your navigation system
 
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
-    {% include logo.html %}
+    {% include logo.html %}	  
     <button class="usa-menu-btn">Menu</button>
   </div>
   <nav
@@ -26,8 +26,8 @@ manage your navigation system
         replace: "/", "" | lstrip %}
         <li class="usa-nav__primary-item">
           <a
-            class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-            href="{{ nav_item.url | prepend: site.baseurl}}"
+            class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %} {% if nav_item.class != '' %}{{ nav_item.class }}{% endif %}"
+            href="{{ nav_item.url | prepend: site.baseurl}}" {% if nav_item.blank %}target="_blank"{% endif %}
             ><span>{{ nav_item.name | escape }}</span></a
           >
         </li>
@@ -52,6 +52,29 @@ manage your navigation system
         </li>
         {% endunless %} {% endfor %}
       </ul>
+		
+		<div class="usa-nav__secondary">
+        <section aria-label="Search component">
+          <form class="usa-search usa-search--small" role="search">
+            <label class="usa-sr-only" for="search-field">Search</label>
+            <input
+              class="usa-input"
+              id="search-field"
+              type="search"
+              name="search"
+            />
+            <button class="usa-button" type="submit">
+              <img
+                src="{% asset search--white.svg @path %}"
+                class="usa-search__submit-icon"
+                alt="Search"
+              />
+            </button>
+          </form>
+        </section>
+      </div>
+		
+		
     </div>
   </nav>
 </header>
