@@ -9,28 +9,40 @@ layout: default
 
   <div class="grid-row grid-gap-3 how-to-images animation-chain">
     <div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		{% asset 'step-1.png' loading="lazy" alt="Image of a person looking at a mobile phone" width="768" height="768" class="img-fluid" %}
-		<p>1. Register</p>
+		<figure>
+			{% asset 'step-1.png' loading="lazy" alt="Image of a person looking at a mobile phone" width="768" height="768" class="img-fluid" %}
+			<figcaption>1. <a href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank">Register</a></figcaption>
+		</figure>
 	</div>
    <div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
+   		<figure>
    		{% asset 'step-2.png' loading="lazy" alt="Image of a person taking a picture of their ID"  width="768" height="768" class="img-fluid" %}
-	  	<p>2. Take a picture of your ID</p>
+	  	<figcaption>2. Take a picture of your ID</figcaption>
+		</figure>
 	 </div>
     <div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
+		<figure>
 		{% asset 'step-3.png' loading="lazy" alt="Image of a person taking a selfie"  width="768" height="768" class="img-fluid" %}
-	  	<p>3. Take selfies</p>
+	  	<figcaption>3. Take selfies</figcaption>
+		</figure>
 	</div>
 	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
+		<figure>
 		{% asset 'step-4.png' loading="lazy" alt="Image of a person taking several pictures"  width="768" height="768" class="img-fluid" %}
-	  	<p>4. Repeat steps 2 and 3</p>
+	  	<figcaption>4. Repeat steps 2 and 3</figcaption>
+		</figure>
 	</div>
     <div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
+		<figure>
 		{% asset 'step-5.png' loading="lazy" alt="Image of a person on their mobile phone"  width="768" height="768" class="img-fluid" %}
-	  	<p>5. Provide personal information and confirm your device</p>
+	  	<figcaption>5. Provide personal information and confirm your device</figcaption>
+		</figure>
 	</div>
     <div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
+		<figure>
 		{% asset 'step-6.png' loading="lazy" alt="Image of a person with a gift card on their mobile phone screen"  width="768" height="768" class="img-fluid" %}
-	  	<p>6. Receive compensation</p>
+	  	<figcaption>6. Receive compensation</figcaption>
+		</figure>
 	  </div>
   </div>
 
