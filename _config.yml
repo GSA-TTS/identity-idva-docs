@@ -84,6 +84,10 @@ primary_navigation:
     url: /faqs/
   - name: Contact Us
     url: /contact-us/
+  - name: Register Now
+    url: https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG
+    blank: true
+    class: 'nav-button'
 #  - name: Document submenu
 #    children:
 #      - name: Navigation link

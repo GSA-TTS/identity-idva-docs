@@ -6,8 +6,10 @@
 	  <div class="grid-row grid-gap-6">
 		{% for step in steps %}
 			<div class="gsa-step mobile-lg:grid-col-6 tablet:grid-col-4 margin-bottom-5 fade-in">
-				{% asset '{{ step.image }}' !integrity loading="lazy" alt="{{ step.alt }}" width="{{ assets["step.image"].dimensions.width }}" height="{{ assets["step.image"].dimensions.height }}" class="img-fluid" %}
-				<p class="gsa-step__content font-sans-lg">{{ step.content | markdownify }}</p>		
+				<figure>
+					{% asset '{{ step.image }}' !integrity loading="lazy" alt="{{ step.alt }}" width="{{ assets["step.image"].dimensions.width }}" height="{{ assets["step.image"].dimensions.height }}" class="img-fluid" %}
+					<figcaption class="gsa-step__content font-sans-lg">{{ step.content | markdownify }}</figcaption>
+				</figure>
 			</div>
 		{% endfor %}
 	  </div>

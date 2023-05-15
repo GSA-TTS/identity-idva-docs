@@ -7,9 +7,13 @@
 	position: relative;
 	text-align: center;
 	
+	figure {
+		width: 100%;
+		margin: 0;
+	}
 	
-	
-	p {
+	figcaption {
+		
 		a {
 			color: #FFF;
 			text-decoration: underline;
