@@ -105,7 +105,7 @@ GSA recognizes that the “Equity Study on Remote Identity Proofing'' may not be
     - Education
     - Skin Tone (self-reported, optional)
 	
-Refer to the How to Participate tab for more details
+Refer to the <a href="{{site.baseurl}}/how-to-participate/" class="usa-link">How to Participate</a> tab for more details
 
 ### How are you protecting my information? 
 
