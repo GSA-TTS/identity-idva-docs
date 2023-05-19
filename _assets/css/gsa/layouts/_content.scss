@@ -43,8 +43,8 @@ hr {
 }
 
 .anchor-headline {
-	padding-top: 20px;
-	margin-top: -20px;
+	padding-top: 80px;
+	margin-top: -80px;
 }
 
 
@@ -103,6 +103,17 @@ ol.lower-alpha-list {
 
 ol.numeric-list {
 	list-style:decimal;
+}
+
+ol.list-spacing {
+	> li {
+		margin-bottom: 15px;
+	}
+}
+ul.solid-bullet-list {
+	li {
+		list-style: disc;
+	}
 }
 
 p, li {
@@ -166,7 +177,7 @@ p, li {
 
 	.usa-sticky-sidenav {
 	  position: sticky;
-	  top: .75rem;
+	  top: 80px;
 	}
 }
 

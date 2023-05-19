@@ -78,9 +78,7 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: How to Participate
-    url: /how-to-participate/
-  - name: FAQs
+  - name: Frequently Asked Questions
     url: /faqs/
   - name: Contact Us
     url: /contact-us/
