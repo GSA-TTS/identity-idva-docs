@@ -39,15 +39,16 @@
 	}
 
 	.usa-accordion__content {
-		padding: 1.5rem 1.5rem;
+		padding: 1.5rem 2.5rem;
 		background-color: color(blue-warm-10);
 
 		p {
-			max-width: 52rem;
+			//max-width: 52rem;
 			font-size: 1.1rem;
-			text-align: center;
-			margin-left: auto;
-			margin-right: auto;
+			//text-align: center;
+			//margin-left: auto;
+			//margin-right: auto;
+			max-width: none;
 		}
 		
 		ul {
@@ -61,9 +62,9 @@
 		}
 		
 		ul {
-			max-width: 52rem;
-			margin-left: auto;
-			margin-right: auto;
+			//max-width: 52rem;
+			//margin-left: auto;
+			//margin-right: auto;
 			
 			li {
 				text-align: left;
