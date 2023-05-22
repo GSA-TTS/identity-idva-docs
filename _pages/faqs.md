@@ -97,7 +97,7 @@ Your phone number is used to look up your phone account information and verify t
 	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
 		<figure>
 			{% asset 'step-1.png' loading="lazy" alt="Image of a person looking at a mobile phone" width="768" height="768" class="img-fluid" %}
-			<figcaption>1. <a href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank">Register</a></figcaption>
+			<figcaption>1. <a href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank">Register</a> to see if you qualify</figcaption>
 		</figure>
 	</div>
 	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
