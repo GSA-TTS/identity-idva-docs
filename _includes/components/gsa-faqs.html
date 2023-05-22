@@ -13,7 +13,11 @@
 			</button>
 		  </h3>
 		  <div id="faq-{{ forloop.index }}" class="usa-accordion__content usa-prose">
-			{{ faq.answer | markdownify  }}
+			  {% if faq.answer contains "ROOTURL" %}
+				{{ faq.answer | replace: "ROOTURL", site.baseurl }}
+			  {% else %}
+			    {{ faq.answer | markdownify }}
+			  {% endif %}			
 		  </div>
 		{% endfor %}
 	  </div>

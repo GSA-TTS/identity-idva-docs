@@ -65,7 +65,7 @@ You will need:
 ### What if I don’t have a government issued identification document (ID)?
 The systems and methods for remote identity proofing require an ID so without one you will not be able to participate. 
 
-###  What is a valid ID?
+<h3 id="what-is-a-valid-id" class="anchor-headline">What is a valid ID?</h3> 
 
 A valid ID is an unexpired government-issued identification card with a photo. 
 
