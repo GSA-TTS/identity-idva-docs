@@ -267,10 +267,9 @@ See example:
 Participants who complete all study steps will receive a $25 gift card.
 
 ### I just completed the study. How do I claim my compensation?
-You the following emails after completing the study: 
-<ol class="lower-alpha-list">
-	<li>A confirmation email from <a href="mailto:identityequitystudy@research.gsa.gov" class="usa-link">identityequitystudy@research.gsa.gov</a>. </li>
-	<li>An email from <a href="mailto:rewards@reward.tremendous.com" class="usa-link">rewards@reward.tremendous.com</a> with instructions on how to claim your $25 gift card.</li>
-</ol>
+You will receive the following emails after completing the study: 
+
+- A confirmation email from <a href="mailto:identityequitystudy@research.gsa.gov" class="usa-link">identityequitystudy@research.gsa.gov</a>.
+- An email from <a href="mailto:rewards@reward.tremendous.com" class="usa-link">rewards@reward.tremendous.com</a> with instructions on how to claim your $25 gift card.
 
 Please check your junk or spam folders. If you do not receive these messages or have any trouble with the compensation please contact Rekrewt (<a href="mailto:gsa-support@rekrewt.com" class="usa-link">gsa-support@rekrewt.com</a>), GSA’s recruitment partner with any questions about compensation.
