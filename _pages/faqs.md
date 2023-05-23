@@ -31,11 +31,11 @@ GSA plans to release a report with the results from the study in a peer-reviewed
 
 Identity proofing is the process of verifying that an individual is who they say they are. 
 
-Government agencies, financial institutions, and other organizations often require some type of “proof” before granting you access to their services. This is typically done by asking you for documentation such as a driver’s license, a passport, or your social security number.
+Government agencies, financial institutions, and other organizations often require some type of “proof” before granting you access to their services. This is typically done by asking you for documentation such as a driver’s license, a passport, or your Social Security Number.
 
 Traditionally, organizations would take a hard copy of these items while in your presence and a person would physically attest that your documents actually belong to you. These processes help organizations catch people who may be pretending to be you.
 
-Remote identity proofing uses modern technology to streamline this process. In this study, identity-proofing software will try to determine if two images of you belong to the same person. One image will be captured from a government-issued identification that has a picture of you on it, the other from a picture you take of yourself (a “selfie”). GSA will also verify the information you provide (i.e. social security number, address, phone number, etc.) and compare it to other documents to ensure that it also matches.
+Remote identity proofing uses modern technology to streamline this process. In this study, identity-proofing software will try to determine if two images of you belong to the same person. One image will be captured from a government-issued identification that has a picture of you on it, the other from a picture you take of yourself (a “selfie”). GSA will also verify the information you provide (i.e. Social Security Number, address, phone number, etc.) and compare it to data sources to ensure that it also matches.
 
 ***
 
@@ -49,9 +49,9 @@ U.S. residents 18 years and older with a <a href="{{site.baseurl}}/faqs/#what-is
 
 You may be ineligible to participate if:
 
-- you are under 18 years of age
-- you do not agree to the terms and conditions of the study.
-- you chose “prefer not to answer” in the required demographic questions
+- you are under 18 years of age;
+- you do not agree to the terms and conditions of the study;
+- you chose “prefer not to answer” in the required demographic questions; or
 - the study has already reached the necessary number of participants from specific demographics.
 
 ### What do I need to participate in the study?
@@ -60,7 +60,7 @@ You will need:
 - a mobile phone with a camera feature;
 - a phone plan associated with your name (it cannot be a virtual phone number like Google Voice, VOIP, etc.);
 - a valid government-issued <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">identity document</a>; and
-- your Social Security Number (SSN)
+- your Social Security Number (SSN).
 
 ### What if I don’t have a government issued identification document (ID)?
 The systems and methods for remote identity proofing require an ID so without one you will not be able to participate. 
@@ -87,7 +87,7 @@ Your SSN is used to verify your name, date of birth, and address against differe
 Your phone number is used to look up your phone account information and verify that the name and address provided by the telephone carrier matches the information you provided.
 
 
-<strong>Note:</strong> You need to provide a U.S. based phone number. You may use either a land-line or a mobile number. You cannot use a Voice Over Internet Protocol (VOIP) phone number (ie. Google Voice).
+<strong>Note:</strong> You need to provide a U.S. based phone number. You may use either a land-line or a mobile number. You cannot use a Voice Over Internet Protocol (VOIP) phone number (i.e. Google Voice).
 
 ***
 
@@ -156,8 +156,8 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 	</li>
 	<li>During this study, you will walk through these steps for identity proofing:
 		<ul class="solid-bullet-list">
-			<li><strong>Document Authentication:</strong> You will capture images of your government issued identification document (ID) and a selfie. Because we will be testing FIVE different authentication systems, you will be asked to take a picture of your ID, and take a selfie, FIVE TIMES (once for each system).<br />The pictures of your ID will check for fraud-prevention markings like holograms, as well as the expiration date and barcode. The selfies help ensure that you are the same person that is pictured on your ID.</li>
-			<li><strong>Personally Identifiable Information (PII) Validation:</strong> - You will provide your phone number and SSN and confirm your first and last name, date of birth, and address. These items will be used to validate your personal information against consumer records like credit history and your phone account record.</li>
+			<li><strong>Document Authentication:</strong> You will capture images of your government-issued identification document (ID) and a selfie. Because we will be testing FIVE different authentication systems, you will be asked to take a picture of your ID, and take a selfie, FIVE TIMES (once for each system).<br />The pictures of your ID will check for fraud-prevention markings like holograms, as well as the expiration date and barcode. The selfies help ensure that you are the same person that is pictured on your ID.</li>
+			<li><strong>Personally Identifiable Information (PII) Validation:</strong> You will provide your phone number and SSN and confirm your first and last name, date of birth, and address. These items will be used to validate your personal information against consumer records like credit history and your phone account record.</li>
 			<li><strong>Device Risk Check:</strong> The website scans your mobile device’s features and capabilities.</li>
 			<li><strong>Security Code Check:</strong> You will receive and confirm a security code on your device (by phone call or text message).</li>
 		</ul>
@@ -174,18 +174,18 @@ GSA is testing different systems that compare your selfie to your government ID 
 ### Why aren’t my pictures working?
 
 <strong>Pictures of your government-issued ID:</strong> During this study, you will be asked for at least five pictures of the front and back of your government-issued identification. Some of the ID verification tools will take the pictures automatically, and for others, we will ask you to take the picture yourself. The following tips will help you take better pictures: 
-- Use a solid, dark background
-- Show the edges of the ID in the photo
-- Take a clear photo without shadows, glares, reflections or blur
-- Check that barcodes are not damaged or dirty
-- Take the photo in a well lit area with indirect light
-- Turn off the flash on the camera
+- Use a solid, dark background;
+- Show the edges of the ID in the photo;
+- Take a clear photo without shadows, glares, reflections or blur;
+- Check that barcodes are not damaged or dirty;
+- Take the photo in a well lit area with indirect light;
+- Turn off the flash on the camera.
 
 <strong>Selfies:</strong> You will also be asked for at least five selfies. Again, some of these will be taken automatically, and for others, we’ll ask you to take the picture yourself. The following tips will help you take better pictures:
-- Use a solid background. For example, avoid standing in front of a television if it’s turned on, because of the moving images in the background. However, if you turn the TV off, the solid dark background will likely work well
-- Look straight at the camera 
-- Take the photo in a well-lit area with indirect light
-- Turn off the flash on the camera
+- Use a solid background. For example, avoid standing in front of a television if it’s turned on, because of the moving images in the background. However, if you turn the TV off, the solid dark background will likely work well;
+- Look straight at the camera;
+- Take the photo in a well-lit area with indirect light;
+- Turn off the flash on the camera.
 
 
 ### Why are you asking for my skin tone?
@@ -195,7 +195,7 @@ Research on facial verification systems has shown that results can vary signific
 
 See the following for more information:
 
-<ul class="top-bullets"><li><a class="usa-link usa-link--external" href="https://dam-prod2.media.mit.edu/x/2018/02/05/buolamwini-ms-17_WtMjoGY.pdf" target="_blank" rel="noopener">Gender Shades&#58; Intersectional Phenotypic and Demographic Evaluation of Face Datasets and Gender Classifiers (Buolamwini, 2017) [PDF, 116 Pages]</a></li> <li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf" target="_blank" rel="noopener" class="usa-link usa-link--external">Face Recognition Vendor Test - Part 3&#58; Demographic Effects (NIST, 2019) [PDF, 82 Pages]</a></li> <li><a href="https://arxiv.org/abs/2106.11240" target="_blank" rel="noopener" class="usa-link usa-link--external">Reliability and Validity of Image-Based and Self-Reported Skin Phenotype Metrics (Howard et al 2021)</a></li> <li><a href="https://ieeexplore.ieee.org/abstract/document/9534882" target="_blank" rel="noopener" class="usa-link usa-link--external">A Comprehensive Study on Face Recognition Biases Beyond Demographics (Terhörst et al., 2022)</a></li></ul>
+<ul class="top-bullets"><li><a href="https://dam-prod2.media.mit.edu/x/2018/02/05/buolamwini-ms-17_WtMjoGY.pdf" class="usa-link usa-link--external" target="_blank" rel="noopener">Gender Shades&#58; Intersectional Phenotypic and Demographic Evaluation of Face Datasets and Gender Classifiers (Buolamwini, 2017) [PDF, 116 Pages]</a></li> <li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf" target="_blank" rel="noopener" class="usa-link usa-link--external">Face Recognition Vendor Test - Part 3&#58; Demographic Effects (NIST, 2019) [PDF, 82 Pages]</a></li> <li><a href="https://arxiv.org/abs/2106.11240" target="_blank" rel="noopener" class="usa-link usa-link--external">Reliability and Validity of Image-Based and Self-Reported Skin Phenotype Metrics (Howard et al 2021)</a></li> <li><a href="https://ieeexplore.ieee.org/abstract/document/9534882" target="_blank" rel="noopener" class="usa-link usa-link--external">A Comprehensive Study on Face Recognition Biases Beyond Demographics (Terhörst et al., 2022)</a></li></ul>
 
 
 ### Can I participate in the study if I use a screen reader or other assistive technologies?
@@ -245,7 +245,7 @@ Please read the study’s <a href="{{site.baseurl}}/privacy-act-statement/" clas
 
 The results of your test will be used to assess the impact of demographic factors on the identity-proofing software’s ability to successfully pass or fail an individual. These results will be aggregated, analyzed, and published in an academic journal. All information in the public report will be de-identified: your name, address, and other personal information will not be shared. 
 
-GSA will store your data according to the retention schedule for Customer Research and Reporting Records and any other applicable federal records schedules; this requires that certain records related to research studies be destroyed 6 years after the end of the fiscal year in which the information was collected.
+GSA will store your data according to the retention schedule for <a href="https://www.archives.gov/files/records-mgmt/rcs/schedules/independent-agencies/rg-0269/daa-0269-2016-0013_sf115.pdf" class="usa-link usa-link--external" target="_blank" rel="noopener">Customer Research and Reporting Records [PDF, 8 Pages]</a> and any other applicable federal records schedules; this requires that certain records related to research studies be destroyed six (6) years after the end of the fiscal year in which the information was collected.
 
 ### What happens to my information if I start the study but do not complete it?
 
@@ -267,9 +267,9 @@ See example:
 Participants who complete all study steps will receive a $25 gift card.
 
 ### I just completed the study. How do I claim my compensation?
-You will receive the following emails after completing the study: 
+You will receive two emails after completing the study: 
 
-- A confirmation email from <a href="mailto:identityequitystudy@research.gsa.gov" class="usa-link">identityequitystudy@research.gsa.gov</a>.
-- An email from <a href="mailto:rewards@reward.tremendous.com" class="usa-link">rewards@reward.tremendous.com</a> with instructions on how to claim your $25 gift card.
+1. A confirmation email from <a href="mailto:identityequitystudy@research.gsa.gov" class="usa-link">identityequitystudy@research.gsa.gov</a>.
+2. An email from <a href="mailto:rewards@reward.tremendous.com" class="usa-link">rewards@reward.tremendous.com</a> with instructions on how to claim your $25 gift card.
 
 Please check your junk or spam folders. If you do not receive these messages or have any trouble with the compensation please contact Rekrewt (<a href="mailto:gsa-support@rekrewt.com" class="usa-link">gsa-support@rekrewt.com</a>), GSA’s recruitment partner with any questions about compensation.

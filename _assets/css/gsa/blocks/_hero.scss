@@ -19,6 +19,9 @@
 		font-size: 1.2rem;
 	}	
 
+	/*.grid-container {
+		max-width: 64em;
+	}*/
 	
 	@media (min-width: 48em) {
 		h1 {
@@ -29,21 +32,22 @@
 	
 	@media (min-width: 64em) {
 		h1 {
-			font-size: 4rem;
+			font-size: 3.3rem;
 		}
 		
-		p {
+		/*p {
 			font-size: 1.4rem;
-		}
+		}*/
 	}
 	
 	@media (min-width: 80em) {
 		h1 {
-			font-size: 4.5rem;
+			font-size: 3.5rem;
 		}
 		
 		p {
-			font-size: 1.6rem;
+			font-size: 1.4rem;
+			line-height: 2rem;
 		}
 	}
 }

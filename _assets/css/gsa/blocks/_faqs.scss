@@ -43,33 +43,21 @@
 		background-color: color(blue-warm-10);
 
 		p {
-			//max-width: 52rem;
 			font-size: 1.1rem;
-			//text-align: center;
-			//margin-left: auto;
-			//margin-right: auto;
 			max-width: none;
 		}
 		
-		ul {
+		ul, ol {
 			
 			
 			li {
 				font-size: 1.1rem;
-				text-align: center;
+				text-align: left;
 				max-width: none;
 			}
 		}
 		
-		ul {
-			//max-width: 52rem;
-			//margin-left: auto;
-			//margin-right: auto;
-			
-			li {
-				text-align: left;
-			}
-		}
+		
 	}
 }
 
