@@ -43,7 +43,7 @@
 	}*/
 	&.hero-bg {
 		//background-color:#000;
-		background-color: color(blue-70v);
+		//background-color: color(blue-70v);
 		
 		.hero-content-wrap {
 			position: relative;
@@ -62,7 +62,7 @@
 			bottom: 0;
 			@include coverBG();
 			z-index: 0;
-			@include opacity(0.16);
+			@include opacity(0.15);
 		}
 		
 		@media (min-width: 80em) {
