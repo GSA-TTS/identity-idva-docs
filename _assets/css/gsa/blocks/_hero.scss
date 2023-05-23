@@ -62,7 +62,7 @@
 			bottom: 0;
 			@include coverBG();
 			z-index: 0;
-			@include opacity(0.15);
+			@include opacity(0.14);
 		}
 		
 		@media (min-width: 80em) {
