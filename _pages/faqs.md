@@ -134,7 +134,7 @@ Your phone number is used to look up your phone account information and verify t
 
 ### How much time do I need to complete the study?
 
-Generally, the study should take 15 to 45 minutes.
+Generally, the study should take <strong>15 to 45 minutes</strong>.
 
 ### How does the study work?
 
@@ -263,16 +263,14 @@ See example:
 
 <h2 id="compensation" class="anchor-headline">Compensation</h2>
 
-Will I be compensated for participating in the study? 
+### Will I be compensated for participating in the study? 
 Participants who complete all study steps will receive a $25 gift card.
 
-I just completed the study. How do I claim my compensation?
+### I just completed the study. How do I claim my compensation?
 You the following emails after completing the study: 
 <ol class="lower-alpha-list">
-	<li>A confirmation email from <a href="mailto:identityequitystudy@research.gsa.gov">identityequitystudy@research.gsa.gov</a>. </li>
-	<li>An email from <a href="mailto:rewards@reward.tremendous.com">rewards@reward.tremendous.com</a> with instructions on how to claim your $25 gift card.</li>
+	<li>A confirmation email from <a href="mailto:identityequitystudy@research.gsa.gov" class="usa-link">identityequitystudy@research.gsa.gov</a>. </li>
+	<li>An email from <a href="mailto:rewards@reward.tremendous.com" class="usa-link">rewards@reward.tremendous.com</a> with instructions on how to claim your $25 gift card.</li>
 </ol>
 
- 
-
-Please check your junk or spam folders. If you do not receive these messages or have any trouble with the compensation please contact Rekrewt (gsa-support@rekrewt.com), GSA’s recruitment partner with any questions about compensation.
+Please check your junk or spam folders. If you do not receive these messages or have any trouble with the compensation please contact Rekrewt (<a href="mailto:gsa-support@rekrewt.com" class="usa-link">gsa-support@rekrewt.com</a>), GSA’s recruitment partner with any questions about compensation.
