@@ -1,6 +1,6 @@
 ---
 title: Privacy Act Statement
-description: This is a meta description
+description: Read how GSA will be using, storing, and managing your personal information safe for the Equity Study on Remote Identity Proofing.
 permalink: /privacy-act-statement/
 
 layout: page

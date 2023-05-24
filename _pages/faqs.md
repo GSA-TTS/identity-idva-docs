@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-description: This is a meta description
+description: Questions about GSA’s Equity Study on Remote Identity Proofing? Read here.
 permalink: /faqs/
 
 layout: page
@@ -86,7 +86,6 @@ Your SSN is used to verify your name, date of birth, and address against differe
 ### Why do I need to provide my phone number?
 Your phone number is used to look up your phone account information and verify that the name and address provided by the telephone carrier matches the information you provided.
 
-
 <strong>Note:</strong> You need to provide a U.S. based phone number. You may use either a land-line or a mobile number. You cannot use a Voice Over Internet Protocol (VOIP) phone number (i.e. Google Voice).
 
 ***
@@ -156,7 +155,7 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 	</li>
 	<li>During this study, you will walk through these steps for identity proofing:
 		<ul class="solid-bullet-list">
-			<li><strong>Document Authentication:</strong> You will capture images of your government-issued identification document (ID) and a selfie. Because we will be testing FIVE different authentication systems, you will be asked to take a picture of your ID, and take a selfie, FIVE TIMES (once for each system).<br />The pictures of your ID will check for fraud-prevention markings like holograms, as well as the expiration date and barcode. The selfies help ensure that you are the same person that is pictured on your ID.</li>
+			<li><strong>Document Authentication:</strong> You will capture images of your government-issued identification document (ID) and a selfie. Because you are testing FIVE different authentication systems, you will be asked to take a picture of your ID, and take a selfie, FIVE TIMES (once for each system). The pictures of your ID will check for fraud-prevention markings like holograms, as well as the expiration date and barcode. The selfies help ensure that you are the same person that is pictured on your ID.</li>
 			<li><strong>Personally Identifiable Information (PII) Validation:</strong> You will provide your phone number and SSN and confirm your first and last name, date of birth, and address. These items will be used to validate your personal information against consumer records like credit history and your phone account record.</li>
 			<li><strong>Device Risk Check:</strong> The website scans your mobile device’s features and capabilities.</li>
 			<li><strong>Security Code Check:</strong> You will receive and confirm a security code on your device (by phone call or text message).</li>
@@ -166,14 +165,13 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 	<li>You will receive an email with details regarding compensation.</li>
 </ol>
 
-
 ### Why do I have to submit my information, e.g., selfie, picture of my identity document  multiple times?
 
 GSA is testing different systems that compare your selfie to your government ID picture. These systems also try to prove that you are a real person. To do this, the systems analyze the process of taking the picture to ensure that you’re not a robot. Each system needs you to actually take the photos, instead of just reusing existing photos.
 
 ### Why aren’t my pictures working?
 
-<strong>Pictures of your government-issued ID:</strong> During this study, you will be asked for at least five pictures of the front and back of your government-issued identification. Some of the ID verification tools will take the pictures automatically, and for others, we will ask you to take the picture yourself. The following tips will help you take better pictures: 
+<strong>Pictures of your government-issued ID:</strong> During this study, you will be asked for at least five pictures of the front and back of your government-issued identification. Some of the ID verification tools will take the pictures automatically, and for others, you will have to take the picture yourself. The following tips will help you take better pictures: 
 - Use a solid, dark background;
 - Show the edges of the ID in the photo;
 - Take a clear photo without shadows, glares, reflections or blur;
@@ -181,22 +179,20 @@ GSA is testing different systems that compare your selfie to your government ID 
 - Take the photo in a well lit area with indirect light;
 - Turn off the flash on the camera.
 
-<strong>Selfies:</strong> You will also be asked for at least five selfies. Again, some of these will be taken automatically, and for others, we’ll ask you to take the picture yourself. The following tips will help you take better pictures:
+
+<strong>Selfies:</strong> You will also be asked for at least five selfies. Again, some of these will be taken automatically, and for others, you will have to take the picture yourself. The following tips will help you take better pictures:
 - Use a solid background. For example, avoid standing in front of a television if it’s turned on, because of the moving images in the background. However, if you turn the TV off, the solid dark background will likely work well;
-- Look straight at the camera;
+- Look straight at the camera; 
 - Take the photo in a well-lit area with indirect light;
 - Turn off the flash on the camera.
 
-
 ### Why are you asking for my skin tone?
-
 
 Research on facial verification systems has shown that results can vary significantly depending on a person’s skin tone. Although you are not required to provide your skin tone to complete the study, this information will help GSA better understand the challenges to equitable performance of facial verification algorithms.
 
 See the following for more information:
 
 <ul class="top-bullets"><li><a href="https://dam-prod2.media.mit.edu/x/2018/02/05/buolamwini-ms-17_WtMjoGY.pdf" class="usa-link usa-link--external" target="_blank" rel="noopener">Gender Shades&#58; Intersectional Phenotypic and Demographic Evaluation of Face Datasets and Gender Classifiers (Buolamwini, 2017) [PDF, 116 Pages]</a></li> <li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf" target="_blank" rel="noopener" class="usa-link usa-link--external">Face Recognition Vendor Test - Part 3&#58; Demographic Effects (NIST, 2019) [PDF, 82 Pages]</a></li> <li><a href="https://arxiv.org/abs/2106.11240" target="_blank" rel="noopener" class="usa-link usa-link--external">Reliability and Validity of Image-Based and Self-Reported Skin Phenotype Metrics (Howard et al 2021)</a></li> <li><a href="https://ieeexplore.ieee.org/abstract/document/9534882" target="_blank" rel="noopener" class="usa-link usa-link--external">A Comprehensive Study on Face Recognition Biases Beyond Demographics (Terhörst et al., 2022)</a></li></ul>
-
 
 ### Can I participate in the study if I use a screen reader or other assistive technologies?
 
