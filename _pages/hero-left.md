@@ -1,9 +1,9 @@
 ---
-permalink: /
-layout: wide
-title: The GSA Equity Study on Remote Identity Proofing
-
+title: Hero Left
 description: U.S. General Services Administration is currently conducting a research study to explore the issue the equitability of remote identity proofing.
+permalink: /hero-left/
+
+layout: wide
 
 cta-link: https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG
 cta-text: Register Now
@@ -11,7 +11,7 @@ cta-text: Register Now
 gsa-hero:
   headline: We know that technology doesn’t work equally for everyone. Help us make it better. 
   content: By participating in GSA’s study on identity verification technology, you can help identify potential barriers and challenges that impact individuals from diverse backgrounds.
-  class: center-hero
+  class: left-hero
    
 gsa-cta-btn:
   color: btn-blue-bg btn-white-text btn-hover-dark-bg
@@ -26,7 +26,7 @@ icons:
     icon: icon-about.svg
     alt: Illustration of a person holding a mobile phone
     headline: About the study
-    content: 'The current methods of identity verification are often inequitable, leaving certain groups of people unable to access the services they need. The GSA  study on Remote Identity Proofing aims to understand how different methods to verify your identity can improve this issue. Participation includes taking pictures of your ID with your smartphone, taking selfies, and providing other personal information. See [Frequently Asked Questions](faqs/) for details.'
+    content: 'The current methods of identity verification are often inequitable, leaving certain groups of people unable to access the services they need. The GSA  study on Remote Identity Proofing aims to understand how different methods to verify your identity can improve this issue. Participation includes taking pictures of your ID with your smartphone, taking selfies, and providing other personal information. See [Frequently Asked Questions](/faqs/) for details.'
   - image: compensation.jpg
     icon: icon-compensation.svg
     alt: Illustration of a dollar sign
@@ -84,7 +84,7 @@ faqs:
   - question: How do I claim my compensation?
     answer: <p>You will receive two emails after completing the study&#58; </p><ol><li>A confirmation email from <strong>identityequitystudy@research.gsa.gov</strong>. </li> <li>An email from <strong>rewards@reward.tremendous.com</strong> with instructions on how to claim your $25 gift card. </li></ol> <p>Please check your junk or spam folders. If you do not receive these messages or have any trouble with the compensation please contact Rekrewt (<a href="mailto:gsa-support@rekrewt.com">gsa-support@rekrewt.com</a>), GSA’s recruitment partner with any questions about compensation.</p>
   - question: I’d like to learn more
-    answer: 'See the “[Frequently Asked Questions (FAQs)](faqs/)” section or “[Contact Us](contact-us/)” for more information about the study, participation requirements, data privacy, and compensation.'
+    answer: 'See the “[Frequently Asked Questions (FAQs)](/faqs/)” section or “[Contact Us](/contact-us/)” for more information about the study, participation requirements, data privacy, and compensation.'
 
 
 ---
