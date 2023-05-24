@@ -1,6 +1,6 @@
 ---
 title: Contact Us
-description: This is a meta description
+description: Questions about who to contact regarding GSA’s Equity Study on Remote Identity Proofing? Read here.
 permalink: /contact-us/
 
 layout: default

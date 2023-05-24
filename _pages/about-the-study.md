@@ -1,6 +1,6 @@
 ---
 title: About The Study
-description: This is a meta description
+description: Read why GSA is conducting the study to assess the need for equitable access.
 permalink: /about-the-study/
 
 layout: default

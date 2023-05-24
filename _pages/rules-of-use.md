@@ -1,6 +1,6 @@
 ---
 title: Rules of Use
-description: This is a meta description
+description: Read what is expected of participants engaging in the GSA Equity Study on Remote Identity Proofing.
 permalink: /rules-of-use/
 
 layout: page
