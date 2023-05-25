@@ -1,5 +1,56 @@
 // faqs.scss
 
+body.faqs-accordion {
+	hr {
+		border:1px solid #FFF !important;
+	}
+	
+	h3 {
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+}
+body.faqs-subnav-subheaders {
+	
+	h3 {
+		padding-top: 80px;
+		margin-top: -80px;
+	}
+
+	.usa-sidenav {
+		border-bottom: none;
+		border-left: 1px solid #dfe1e2;
+
+		a {
+		color: color($theme-color-primary-dark) !important;
+		font-weight: 600;
+		}
+
+		li {
+			border: none;
+
+			&.sub-link a {
+				font-size: 0.88rem;
+				font-weight: 400;
+			}
+		}
+	}
+	
+	@media (min-width: 64em) {
+		.usa-sticky-sidenav {
+			overflow-y: scroll;
+			max-height: 100vh;
+			padding-bottom: 100px;
+		}
+		.usa-layout-docs__main.with-sidebar {
+			order: 0;
+		}
+		.usa-layout-docs-sidenav {
+			order: 1;
+		}
+	}
+}
+
 
 .gsa-faqs {
 	h2 {
@@ -40,7 +91,7 @@
 
 	.usa-accordion__content {
 		padding: 1.5rem 2.5rem;
-		background-color: color(blue-warm-10);
+		background-color: color(blue-warm-5);
 
 		p {
 			font-size: 1.1rem;
@@ -59,5 +110,20 @@
 		
 		
 	}
+	
+	.usa-accordion__heading {
+		&:not(:first-child) {
+			margin-top: 12px;
+		}
+		
+		&.anchor-headline {
+			margin-top: -68px;
+		}
+		
+		
+	}
 }
+
+
+
 

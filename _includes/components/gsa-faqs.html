@@ -1,31 +1,39 @@
 {% assign faqs = include.faqs %}
-{% if faqs %}
+{% if faqs %}	
+{% if page.faqs-title %}
 <section class="gsa-faqs padding-bottom-5 padding-top-5 tablet:padding-bottom-10 tablet:padding-top-8">
-  <div class="grid-container">
+  <div class="grid-container">	  
 	  <h2 class="text-center  font-sans-xl tablet:font-sans-2xl desktop:font-sans-3xl margin-bottom-3 margin-top-0">{{ page.faqs-title }}</h2>
 	  <p class="text-center font-sans-md tablet:font-sans-lg  margin-bottom-5 tablet:margin-bottom-8">{{ page.faqs-content }}</p>
-	  
+{% else %}
+<section class="gsa-faqs">	  
+{% endif %}
 	  <div class="usa-accordion usa-accordion--multiselectable " data-allow-multiple >
 		{% for faq in faqs %}
-		  <h3 class="usa-accordion__heading font-sans-md tablet:font-sans-lg fade-in">
-			<button type="button" class="usa-accordion__button text-center"  aria-expanded="false"  aria-controls="faq-{{ forloop.index }}">
+		  
+		  <h3 class="usa-accordion__heading font-sans-md tablet:font-sans-lg fade-in {% if faq.anchor %}anchor-headline{% endif %}" {% if faq.anchor %}id="{{ faq.question | slugify }}"{% endif %}>
+			<button type="button" class="usa-accordion__button text-center"  aria-expanded="false"  aria-controls="faq-{{ faq.question | slugify }}">
 			  {{ faq.question }}
 			</button>
 		  </h3>
-		  <div id="faq-{{ forloop.index }}" class="usa-accordion__content usa-prose">
+		  <div id="faq-{{ faq.question | slugify }}" class="usa-accordion__content usa-prose">
 			  {% if faq.answer contains "ROOTURL" %}
 				{{ faq.answer | replace: "ROOTURL", site.baseurl }}
 			  {% else %}
 			    {{ faq.answer | markdownify }}
-			  {% endif %}			
+			  {% endif %}
+			  {% if faq.image %} 
+			  		{% asset '{{ faq.image }}' class="{{ faq.image-class }}" alt="{{ faq.image-alt }}" width="{{ assets["faq.image"].dimensions.width }}" height="{{ assets["faq.image"].dimensions.height }}" loading="lazy" %}
+			  {% endif %}
 		  </div>
 		{% endfor %}
 	  </div>
-	  
+	
+{% if page.faqs-title %} 
 	<a class="gsa-cta-btn usa-button usa-button--big margin-top-5 tablet:margin-top-8 btn-hover-dark-bg" href="{{ page.cta-link }}" target="_blank">
 		{{ page.cta-text }}
-	</a>
-	  
+	</a>	  
   </div>
+{% endif %}
 </section>
 {% endif %}

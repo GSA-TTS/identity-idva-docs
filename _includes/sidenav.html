@@ -10,8 +10,8 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 	  <ul class="usa-sidenav">
 		{% for link in page.subnav %}
 
-		<li class="usa-sidenav__item">
-		  <a href="{% if link.href %}{{ link.href }}{% else %}#{{ link.text | slugify }}{% endif %}">
+		<li class="usa-sidenav__item {% if link.class %}{{ link.class }}{% endif %}">
+		  <a href="{% if link.text contains "&" %}#{{ link.text | replace: "&", "and" | slugify }}{% else %}#{{ link.text | slugify }}{% endif %}">
 			 {{ link.text }}
 		  </a>
 		</li>
