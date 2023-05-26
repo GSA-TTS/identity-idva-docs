@@ -12,7 +12,7 @@
 		{% for faq in faqs %}
 		  
 		  <h3 class="usa-accordion__heading font-sans-md tablet:font-sans-lg fade-in {% if faq.anchor %}anchor-headline{% endif %}" {% if faq.anchor %}id="{{ faq.question | slugify }}"{% endif %}>
-			<button type="button" class="usa-accordion__button text-center"  aria-expanded="false"  aria-controls="faq-{{ faq.question | slugify }}">
+			<button type="button" class="usa-accordion__button"  aria-expanded="false"  aria-controls="faq-{{ faq.question | slugify }}">
 			  {{ faq.question }}
 			</button>
 		  </h3>
