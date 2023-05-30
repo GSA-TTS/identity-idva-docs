@@ -5,6 +5,8 @@ permalink: /privacy-act-statement/
 
 layout: page
 
+pageclass: privacy-act-statement
+
 sidenav: true
 sidenavtitle: Privacy Act Statement
 subnav:

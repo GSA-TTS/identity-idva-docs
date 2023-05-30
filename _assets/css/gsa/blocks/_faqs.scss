@@ -7,7 +7,7 @@ body.faqs-accordion {
 		margin-bottom: 2rem;
 	}
 	
-	h3 {
+	.usa-layout-docs__main h3 {
 		padding-top: 0px;
 		margin-top: 0px;
 	}
@@ -16,9 +16,10 @@ body.faqs-accordion {
 		text-align: left;
 	}
 }
+
 body.faqs-subnav-subheaders {
 	
-	h3 {
+	.usa-layout-docs__main h3 {
 		padding-top: 80px;
 		margin-top: -80px;
 	}
