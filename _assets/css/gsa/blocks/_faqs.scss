@@ -3,6 +3,8 @@
 body.faqs-accordion {
 	hr {
 		border:1px solid #FFF !important;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 	
 	h3 {
@@ -127,6 +129,64 @@ body.faqs-subnav-subheaders {
 		
 		
 	}
+}
+
+.gsa-accordion-sidenav {
+	.usa-accordion__button {
+		background-color: #FFF;
+		//border: 1px solid  color(ink);
+		border: none;
+		padding: 1rem 3.5rem 1rem 1rem;
+		@include transition(all $medspeed $ease);
+		text-align: left;
+
+		//background-image: url("/assets/img/icon-add.svg") !important;
+		color:color($theme-color-primary-dark);
+		
+		background-repeat: no-repeat;
+
+
+		&:hover {
+			background-color:color(blue-warm-10);
+		}
+
+		&[aria-expanded="false"] {
+			background-image: asset_url("icon-add.svg");
+		}
+		
+		&[aria-expanded="true"] {
+			background-color:color($theme-color-primary-dark);
+			color: #FFF;
+			background-image: asset_url("icon-subtract-white.svg");
+			//background-image: url("/assets/img/icon-subtract-white.svg") !important;
+		}
+
+	
+	}
+	
+	.usa-accordion__content {
+		padding: 0;
+		background-color: color(blue-warm-5);
+		list-style: none;
+
+
+		li {
+			font-size: 0.9rem;
+			text-align: left;
+			max-width: none;
+			
+			a {
+				padding: 1rem;
+				
+				&:hover {
+					background-color:color(blue-warm-10);
+				}
+				
+			}
+		}
+
+	}
+	
 }
 
 

@@ -3,66 +3,13 @@ title: Frequently Asked Questions
 description: Questions about GSA’s Equity Study on Remote Identity Proofing? Read here.
 permalink: /faqs-sub-headings/
 
-layout: page
+layout: page-accordion-sidebar
 
 pageclass: faqs-page faqs-subnav-subheaders
 
 sidenav: true
 sidenavtitle: FAQs
-subnav:
-  - text: Identity Proofing & The Study
-  - text: Why is GSA doing this study?
-    class: sub-link
-  - text: What is remote identity proofing?
-    class: sub-link
-  - text: Participation Requirements
-  - text: Who is eligible to participate in study?
-    class: sub-link
-  - text: Why wasn’t I selected to participate?
-    class: sub-link
-  - text: What do I need to participate in the study?
-    class: sub-link
-  - text: What if I don’t have a government issued identification document (ID)?
-    class: sub-link
-  - text: What if my current address is different from the address on my ID?
-    class: sub-link
-  - text: Why do I need to provide my Social Security Number (SSN)?
-    class: sub-link
-  - text: Why do I need to provide my phone number?
-    class: sub-link
-  - text: Study Details and Troubleshooting
-  - text: How much time do I need to complete the study?
-    class: sub-link
-  - text: How does the study work?
-    class: sub-link
-  - text: Why do I have to submit my information, e.g., selfie, picture of my identity document  multiple times?
-    class: sub-link
-  - text: Why aren’t my pictures working?
-    class: sub-link
-  - text: Why are you asking for my skin tone?
-    class: sub-link
-  - text: Can I participate in the study if I use a screen reader or other assistive technologies?
-    class: sub-link
-  - text: I encountered an error while doing the study. What should I do?
-    class: sub-link
-  - text: Data Privacy
-  - text:  What information are you collecting from me? 
-    class: sub-link
-  - text: How are you protecting my information? 
-    class: sub-link
-  - text: What will you do with the information that I provided during the study?
-    class: sub-link
-  - text: What happens to my information if I start the study but do not complete it?
-    class: sub-link
-  - text: Am I required to include a redacted image in the publication? What is a redacted image?
-    class: sub-link
-  - text: Compensation
-  - text: Will I be compensated for participating in the study?
-    class: sub-link
-  - text: I just completed the study. How do I claim my compensation?
-    class: sub-link
-  
-  
+
 ---
 
 
@@ -217,7 +164,7 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 	<li>You will receive an email with details regarding compensation.</li>
 </ol>
 
-### Why do I have to submit my information, e.g., selfie, picture of my identity document  multiple times?
+### Why do I have to submit my information, e.g., selfie, picture of my identity document multiple times?
 
 GSA is testing different systems that compare your selfie to your government ID picture. These systems also try to prove that you are a real person. To do this, the systems analyze the process of taking the picture to ensure that you’re not a robot. Each system needs you to actually take the photos, instead of just reusing existing photos.
 

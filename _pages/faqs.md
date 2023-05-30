@@ -9,7 +9,6 @@ sidenav: true
 sidenavtitle: FAQs
 subnav:
   - text: Identity Proofing & The Study
-  - text: Why is GSA doing this study?
   - text: Participation Requirements
   - text: Study Details and Troubleshooting
   - text: Data Privacy
