@@ -5,6 +5,8 @@ permalink: /rules-of-use/
 
 layout: page
 
+pageclass: sidebar-anchor-headers
+
 sidenav: true
 sidenavtitle: Rules of Use
 subnav:

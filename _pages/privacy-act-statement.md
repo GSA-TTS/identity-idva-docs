@@ -5,7 +5,7 @@ permalink: /privacy-act-statement/
 
 layout: page
 
-pageclass: privacy-act-statement
+pageclass: sidebar-anchor-headers
 
 sidenav: true
 sidenavtitle: Privacy Act Statement
