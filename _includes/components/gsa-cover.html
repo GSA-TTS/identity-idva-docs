@@ -1,7 +1,7 @@
 {% if cover %}
 <section class="gsa-cover-wrap">
 	{% if cover.image %}
-	{% asset '{{ cover.image }}' class="gsa-cover parallax img-fluid" alt="{{ cover.alt }}" width="{{ assets["cover.image"].dimensions.width }}" height="{{ assets["cover.image"].dimensions.height }}" loading="lazy"  %}
+	<div class="gsa-cover parallax" {% if cover.image %} style="background-image: url( {% asset '{{ cover.image }}' @path %} );"{% endif %}></div>
 	{% endif %}
 </section>
 {% endif %}

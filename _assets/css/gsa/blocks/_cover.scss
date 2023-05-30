@@ -26,9 +26,14 @@
 	//object-fit: cover;
 	margin-top: 0px;
 	//height: auto;
-	/*background-size: cover;
+	
+	
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;*/
+	background-position: center center;
+	width: 100vw;
+	height: 65vw;
+	position: relative;
 	
 	.mobile-device & {
 		margin-top: 0px !important;

@@ -72,8 +72,8 @@ faqs4:
   - question: Am I required to include a redacted image in the publication? What is a redacted image?
     answer: <p>You are not required to provide your redacted image for the publication. It is optional. A redacted image is an image with sensitive information blacked out.</p><p>See example:</p>
     image: redacted-image-id.jpg
-    img-alt: Image of a driver's license with blacked out sections
-    img-class: img-fluid max-400
+    image-alt: A driver's license with sensitive information blacked out
+    image-class: img-fluid max-400
 
 faqs5:
   - question: Will I be compensated for participating in the study? 
