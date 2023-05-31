@@ -12,6 +12,7 @@ gsa-hero:
   content: By participating in GSA’s study on identity verification technology, you can help identify potential barriers and challenges that impact individuals from diverse backgrounds.
   class: left-hero hero-bg
   bg: cover.jpg
+  demo1: study-details.jpg
 
 gsa-cta-btn:
   color: btn-blue-bg btn-white-text btn-hover-dark-bg
@@ -23,46 +24,30 @@ icons:
     icon-alt: Fingerprint icon
     headline: Study details
     content: "Interested in helping to ensure identity verification technology works for everyone? We invite you to participate in our research study. By participating in our study on identity verification technology, you can help GSA uncover potential barriers and challenges that impact individuals from diverse backgrounds."
+    demo1: about-the-study.jpg
   - image: about-the-study.jpg
     image-alt: 
     icon: icon-about.svg
     icon-alt: Mobile phone icon
     headline: About the study
     content: 'The current methods of identity verification are often inequitable, leaving certain groups of people unable to access the services they need. The GSA  study on Remote Identity Proofing aims to understand how different methods to verify your identity can improve this issue. Participation includes taking pictures of your ID with your smartphone, taking selfies, and providing other personal information. See [Frequently Asked Questions](faqs/) for details.'
+    demo1: compensation.jpg
   - image: compensation.jpg
     image-alt: 
     icon: icon-compensation.svg
     icon-alt: dollar sign icon
     headline: Compensation
     content: "Once your participation is complete, Rekrewt, GSA’s recruitment partner, will send you $25 in compensation to thank you for your time. You can choose an eGift Card from hundreds of retailers, or opt for a prepaid Visa eGift Card. All compensation will be sent to the email address you provide. Please expect 1-2 business days for payments to be processed."
+    demo1: study-details.jpg
 
 
 
 cover:
   image: cover.jpg
   alternate: cover.jpg
+  demo1: study-details.jpg
 
 steps-title: Participation is simple!
-
-steps:
-  - image: step-1.png
-    alt: Person registering for the study using a mobile device.
-    content: 1\. <a href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank">Register</a> to see if you qualify
-  - image: step-2.png
-    alt: Person using their smartphone take a picture of their government issued identification.
-    content: 2\. Take a picture of your ID
-  - image: step-3.png
-    alt: Person using their smartphone to take a selfie.
-    content: 3\. Take a selfie
-  - image: step-4.png
-    alt: People taking multiple selfies and pictures of their government ID
-    content: 4\. Repeat steps 2 and 3 five times
-  - image: step-5.png
-    alt: Person inputting information on their smartphone.
-    content: 5\. Provide additional personal information and confirm your device
-  - image: step-6.png
-    alt: Person receiving a notification of their compensation gift card on their phone.
-    content: 6\. Choose compensation and get&nbsp;paid
 
 faqs-title: Learn More
 faqs-content: Click any of the questions below for more details.
@@ -98,7 +83,7 @@ faqs:
 {% assign gsa-cta-btn = page.gsa-cta-btn %}
 {% include components/gsa-cta-btn.html %}
 
-{% include gsa-steps.html steps=page.steps %}
+{% include gsa-steps.html %}
 
 {% assign cover = page.cover %}
 {% include components/gsa-cover.html %}

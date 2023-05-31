@@ -188,27 +188,4 @@ p, li {
 	}
 }
 
-// HOW TO PARTICIPATE
-.how-to-images {
-	text-align: center;
-	figure {
-		width: 100%;
-		margin: 0;
-	}
-	figcaption {
-		margin-top: 0;
-		color: color($theme-color-primary-dark);
-		font-size: 17px;
-		line-height: 20px;
-		
-		a {
-			color: color($theme-color-primary-dark);
-			
-			&:hover {
-				color: color(ink);
-			}
-		}
-	}
-}
-
 

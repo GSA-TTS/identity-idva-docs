@@ -1,13 +1,11 @@
-{% assign steps = include.steps %}
-{% if steps %}
 <section class="gsa-steps padding-bottom-7 padding-top-7 mobile-lg:padding-bottom-8 mobile-lg:padding-top-8 tablet:padding-bottom-15 tablet:padding-top-15">
   <div class="grid-container animation-chain">
 	  <h2 class="text-center font-sans-xl tablet:font-sans-2xl desktop:font-sans-3xl margin-bottom-6 margin-top-0">{{ page.steps-title }}</h2>
 	  <div class="grid-row grid-gap-6">
-		{% for step in steps %}
+		{% for step in site.data.steps %}
 			<div class="gsa-step mobile-lg:grid-col-6 tablet:grid-col-4 margin-bottom-5 fade-in">
 				<figure>
-					{% asset '{{ step.image }}' !integrity loading="lazy" alt="{{ step.alt }}" width="{{ assets["step.image"].dimensions.width }}" height="{{ assets["step.image"].dimensions.height }}" class="img-fluid" %}
+					{% asset '{{ step.image }}' loading="lazy" alt="{{ step.alt }}" width="{{ assets["step.image"].dimensions.width }}" height="{{ assets["step.image"].dimensions.height }}" class="img-fluid" %}
 					<figcaption class="gsa-step__content font-sans-lg">{{ step.content | markdownify }}</figcaption>
 				</figure>
 			</div>
@@ -20,4 +18,3 @@
 	  
   </div>
 </section>
-{% endif %}

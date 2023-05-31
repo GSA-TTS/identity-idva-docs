@@ -100,44 +100,7 @@ faqs5:
 
 <h2 id="study-details-and-troubleshooting" class="anchor-headline">Study Details and Troubleshooting</h2>
 
-<div class="grid-row grid-gap-3 how-to-images animation-chain margin-bottom-5">
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-1.png' loading="lazy" alt="Person registering for the study using a mobile device." width="768" height="768" class="img-fluid" %}
-			<figcaption>1. <a href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank">Register</a> to see if you qualify</figcaption>
-		</figure>
-	</div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-		{% asset 'step-2.png' loading="lazy" alt="Person using their smartphone take a picture of their government issued identification."  width="768" height="768" class="img-fluid" %}
-		<figcaption>2. Take a picture of your ID</figcaption>
-		</figure>
-	 </div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-3.png' loading="lazy" alt="Person using their smartphone to take a selfie."  width="768" height="768" class="img-fluid" %}
-			<figcaption>3. Take selfies</figcaption>
-		</figure>
-	</div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-4.png' loading="lazy" alt="People taking multiple selfies and pictures of their government ID"  width="768" height="768" class="img-fluid" %}
-			<figcaption>4. Repeat steps 2 and 3</figcaption>
-		</figure>
-	</div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-5.png' loading="lazy" alt="Person inputting information on their smartphone."  width="768" height="768" class="img-fluid" %}
-			<figcaption>5. Provide personal information and confirm your device</figcaption>
-		</figure>
-	</div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-6.png' loading="lazy" alt="Person receiving a notification of their compensation gift card on their phone."  width="768" height="768" class="img-fluid" %}
-			<figcaption>6. Receive compensation</figcaption>
-		</figure>
-	  </div>
-</div>
+{% include gsa-steps-inline.html %}
 
 {% include gsa-faqs.html faqs=page.faqs3 %}
 
