@@ -4,7 +4,7 @@
   <div class="grid-container">
     {% for icon in icons %}
 		<div class="icon-photo {% cycle "right-content", "left-content" %} fade-in">
-		  <div class="icon-photo__bg fade-in delay-400" {% if icon.image %} style="background-image: url( {% asset '{{ icon.image }}' @path %} );"{% endif %}></div>
+		  <div class="icon-photo__bg fade-in delay-400 lazy" data-bg="{% asset '{{ icon.image }}' @path %}" data-demo1="{% asset '{{ icon.demo1 }}' @path %}"></div>
 			
 		  <div class="icon-photo__callout {% cycle "move-left delay", "move-right delay" %}">
 			<div class="icon-photo__icon">
