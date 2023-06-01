@@ -17,7 +17,7 @@ body.faqs-accordion {
 	}
 }
 
-body.faqs-subnav-subheaders {
+body.faqs-sidenav-accordion {
 	
 	.usa-layout-docs__main h3 {
 		padding-top: 80px;
@@ -26,7 +26,7 @@ body.faqs-subnav-subheaders {
 
 	.usa-sidenav {
 		border-bottom: none;
-		border-left: 1px solid #dfe1e2;
+		border-right: 1px solid #dfe1e2;
 
 		a {
 		color: color($theme-color-primary-dark) !important;
@@ -43,18 +43,30 @@ body.faqs-subnav-subheaders {
 		}
 	}
 	
+	&.sidenav-right {
+		.usa-sidenav {
+			border-left: 1px solid #dfe1e2;
+			border-right:none;
+		}
+		
+		@media (min-width: 64em) {
+			.usa-layout-docs__main.with-sidebar {
+				order: 0;
+			}
+			.usa-layout-docs-sidenav {
+				order: 1;
+			}
+			
+		}
+	}
+	
 	@media (min-width: 64em) {
 		.usa-sticky-sidenav {
 			overflow-y: scroll;
 			max-height: 100vh;
 			padding-bottom: 100px;
 		}
-		.usa-layout-docs__main.with-sidebar {
-			order: 0;
-		}
-		.usa-layout-docs-sidenav {
-			order: 1;
-		}
+
 	}
 }
 

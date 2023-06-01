@@ -1,11 +1,11 @@
 ---
 title: Frequently Asked Questions
 description: Questions about GSA’s Equity Study on Remote Identity Proofing? Read here.
-permalink: /faqs-sub-headings/
+permalink: /faqs-sidenav-accordion-right/
 
-layout: page-accordion-sidebar
+layout: page-sidenav-accordion
 
-pageclass: faqs-page faqs-subnav-subheaders
+pageclass: faqs-page faqs-sidenav-accordion sidenav-right
 
 sidenav: true
 sidenavtitle: FAQs
