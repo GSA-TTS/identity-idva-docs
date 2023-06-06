@@ -3,18 +3,13 @@ title: Frequently Asked Questions
 description: Questions about GSA’s Equity Study on Remote Identity Proofing? Read here.
 permalink: /faqs/
 
-layout: page
+layout: page-sidenav-accordion
+
+pageclass: faqs-page faqs-sidenav-accordion
 
 sidenav: true
 sidenavtitle: FAQs
-subnav:
-  - text: Identity Proofing & The Study
-  - text: Participation Requirements
-  - text: Study Details and Troubleshooting
-  - text: Data Privacy
-  - text: Compensation
-  
-  
+
 ---
 
 
@@ -93,8 +88,8 @@ Your phone number is used to look up your phone account information and verify t
 
 <h2 id="study-details-and-troubleshooting" class="anchor-headline">Study Details and Troubleshooting</h2>
 
-{% include gsa-steps-inline.html %}
-
+{% include gsa-steps-inline.html %}	
+	
 ### How much time do I need to complete the study?
 
 Generally, the study should take <strong>15 to 45 minutes</strong>.
@@ -129,7 +124,7 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 	<li>You will receive an email with details regarding compensation.</li>
 </ol>
 
-### Why do I have to submit my information, e.g., selfie, picture of my identity document  multiple times?
+### Why do I have to submit my information, e.g., selfie, picture of my identity document multiple times?
 
 GSA is testing different systems that compare your selfie to your government ID picture. These systems also try to prove that you are a real person. To do this, the systems analyze the process of taking the picture to ensure that you’re not a robot. Each system needs you to actually take the photos, instead of just reusing existing photos.
 

@@ -20,8 +20,8 @@ body.faqs-accordion {
 body.faqs-sidenav-accordion {
 	
 	.usa-layout-docs__main h3 {
-		padding-top: 80px;
-		margin-top: -80px;
+		padding-top: 77px;
+		margin-top: -77px;
 	}
 
 	.usa-sidenav {
@@ -30,14 +30,14 @@ body.faqs-sidenav-accordion {
 
 		a {
 		color: color($theme-color-primary-dark) !important;
-		font-weight: 600;
+		font-weight: 400;
 		}
 
 		li {
 			border: none;
 
 			&.sub-link a {
-				font-size: 0.88rem;
+				font-size: 0.95rem;
 				font-weight: 400;
 			}
 		}
