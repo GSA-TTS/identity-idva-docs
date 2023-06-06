@@ -19,17 +19,17 @@
 ##########################################################################################
 
 title: The GSA Equity Study on Remote Identity Proofing
-email: contact@example.gov
+email: identityequitystudy@research.gsa.gov
 description: >- # this means to ignore newlines until "baseurl:"
   U.S. General Services Administration is currently conducting a research study to explore the issue the equitability of remote identity proofing.
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://example.gov" # the base hostname & protocol for your site, e.g. https://example.com.
+url: "https://federalist-63a1d04f-0c28-4e1c-a859-a4b021833cbc.sites.pages.cloud.gov"
   # Required to support the jekyll-sitemap plugin below.
   # Uncomment the url line when ready to push to production. If using different branches for multiple
   # custom domains, edit this url parameter in the relevant branch to match the relevant custom domain.
 
 # Twitter handle. Only the handle, not the URL.
-twitter: 18F
+twitter: GSA
 
 #################################################################
 #
@@ -65,14 +65,14 @@ twitter: 18F
 #
 #################################################################
 dap:
-  # agency: your-agency
+  agency: GSA
 
   # Optional
-  # subagency: your-subagency
+  subagency: TTS
 
 # Configuration for Google Analytics
 ga:
-  # ua: your-ua
+  ua: {{site.config.ga-ua}}
 
 # Site Navigation
 primary_navigation:
@@ -106,23 +106,23 @@ primary_navigation:
 # 1. Create an account with Search.gov https://search.usa.gov/signup
 # 2. Add a new site.
 # 3. Add your site/affiliate name here.
-#searchgov:
+searchgov:
 
   # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
-#  endpoint: https://search.usa.gov
+  endpoint: https://search.usa.gov
 
   # Replace this with your search.gov account.
- # affiliate: federalist-uswds-example
+  affiliate: gsa-identityequitystudy
 
   # Replace this with your access key.
-#  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+  access_key: {{site.config.search-gov}}
 
   # This renders the results within the page instead of sending to user to search.gov.
-#  inline: true
+  inline: true
 
   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   # If you do not want to present search suggestions, set this value to false.
-#  suggestions: true
+  suggestions: true
 
 ##########################################################################################
 # The values below here are more advanced and should only be

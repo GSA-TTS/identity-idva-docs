@@ -52,25 +52,10 @@ manage your navigation system
       </ul>
 		
 		<div class="usa-nav__secondary">
-        <section aria-label="Search component">
-          <form class="usa-search usa-search--small" role="search">
-            <label class="usa-sr-only" for="search-field">Search</label>
-            <input
-              class="usa-input"
-              id="search-field"
-              type="search"
-              name="search"
-            />
-            <button class="usa-button" type="submit">
-              <img
-                src="{% asset search--white.svg @path %}"
-                class="usa-search__submit-icon"
-                alt="Search"
-              />
-            </button>
-          </form>
-        </section>
-      </div>
+			<section aria-label="Search component">
+				{% include searchgov/form.html searchgov=site.searchgov %}
+			</section>
+		</div>
 		
 		
     </div>
