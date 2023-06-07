@@ -43,8 +43,15 @@ hr {
 }
 
 .anchor-headline {
-	padding-top: 80px;
-	margin-top: -80px;
+	padding-top: 77px;
+	margin-top: -77px;
+}
+
+body.sidebar-anchor-headers {
+	.usa-layout-docs__main h2 {
+		padding-top: 77px;
+		margin-top: -77px;
+	}
 }
 
 
@@ -178,29 +185,6 @@ p, li {
 	.usa-sticky-sidenav {
 	  position: sticky;
 	  top: 80px;
-	}
-}
-
-// HOW TO PARTICIPATE
-.how-to-images {
-	text-align: center;
-	figure {
-		width: 100%;
-		margin: 0;
-	}
-	figcaption {
-		margin-top: 0;
-		color: color($theme-color-primary-dark);
-		font-size: 17px;
-		line-height: 20px;
-		
-		a {
-			color: color($theme-color-primary-dark);
-			
-			&:hover {
-				color: color(ink);
-			}
-		}
 	}
 }
 

@@ -3,17 +3,13 @@ title: Frequently Asked Questions
 description: Questions about GSA’s Equity Study on Remote Identity Proofing? Read here.
 permalink: /faqs/
 
-layout: page
+layout: page-sidenav-accordion
+
+pageclass: faqs-page faqs-sidenav-accordion
 
 sidenav: true
 sidenavtitle: FAQs
-subnav:
-  - text: Identity Proofing & The Study
-    href: '#identity-proofing-and-the-study'
-  - text: Participation Requirements
-  - text: Study Details and Troubleshooting
-  - text: Data Privacy
-  - text: Compensation
+
 ---
 
 
@@ -92,45 +88,8 @@ Your phone number is used to look up your phone account information and verify t
 
 <h2 id="study-details-and-troubleshooting" class="anchor-headline">Study Details and Troubleshooting</h2>
 
-<div class="grid-row grid-gap-3 how-to-images animation-chain">
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-1.png' loading="lazy" alt="Image of a person looking at a mobile phone" width="768" height="768" class="img-fluid" %}
-			<figcaption>1. <a href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank">Register</a> to see if you qualify</figcaption>
-		</figure>
-	</div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-		{% asset 'step-2.png' loading="lazy" alt="Image of a person taking a picture of their ID"  width="768" height="768" class="img-fluid" %}
-		<figcaption>2. Take a picture of your ID</figcaption>
-		</figure>
-	 </div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-3.png' loading="lazy" alt="Image of a person taking a selfie"  width="768" height="768" class="img-fluid" %}
-			<figcaption>3. Take selfies</figcaption>
-		</figure>
-	</div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-4.png' loading="lazy" alt="Image of a person taking several pictures"  width="768" height="768" class="img-fluid" %}
-			<figcaption>4. Repeat steps 2 and 3</figcaption>
-		</figure>
-	</div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-5.png' loading="lazy" alt="Image of a person on their mobile phone"  width="768" height="768" class="img-fluid" %}
-			<figcaption>5. Provide personal information and confirm your device</figcaption>
-		</figure>
-	</div>
-	<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
-		<figure>
-			{% asset 'step-6.png' loading="lazy" alt="Image of a person with a gift card on their mobile phone screen"  width="768" height="768" class="img-fluid" %}
-			<figcaption>6. Receive compensation</figcaption>
-		</figure>
-	  </div>
-</div>
-
+{% include gsa-steps-inline.html %}	
+	
 ### How much time do I need to complete the study?
 
 Generally, the study should take <strong>15 to 45 minutes</strong>.
@@ -165,7 +124,7 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 	<li>You will receive an email with details regarding compensation.</li>
 </ol>
 
-### Why do I have to submit my information, e.g., selfie, picture of my identity document  multiple times?
+### Why do I have to submit my information, e.g., selfie, picture of my identity document multiple times?
 
 GSA is testing different systems that compare your selfie to your government ID picture. These systems also try to prove that you are a real person. To do this, the systems analyze the process of taking the picture to ensure that you’re not a robot. Each system needs you to actually take the photos, instead of just reusing existing photos.
 
@@ -253,7 +212,7 @@ You are not required to provide your redacted image for the publication. It is o
 
 See example: 
 
-{% asset redacted-image-id.jpg !integrity loading="lazy" alt="Image of a driver's license with blacked out sections" width="500" height="317" class="img-fluid max-400" %}
+{% asset redacted-image-id.jpg loading="lazy" alt="A driver's license with sensitive information blacked out" width="500" height="317" class="img-fluid max-400" %}
 
 ***
 

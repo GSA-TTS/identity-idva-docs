@@ -30,3 +30,31 @@
 	background-position: center center;*/
 	margin-bottom: 20px;
 }
+
+
+// INLINE STEPS
+.gsa-steps-inline {
+	text-align: center;
+	figure {
+		width: 100%;
+		margin: 0;
+	}
+	figcaption {
+		margin-top: 0;
+		color: color($theme-color-primary-dark);
+		font-size: 17px;
+		line-height: 20px;
+		
+		p {
+			margin: 0;
+		}
+		
+		a {
+			color: color($theme-color-primary-dark);
+			
+			&:hover {
+				color: color(ink);
+			}
+		}
+	}
+}
