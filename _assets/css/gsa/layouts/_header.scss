@@ -42,8 +42,13 @@
 	height: auto;
 	padding: 20px 15px;
 	
+	
+	
+	
 	@media (min-width: 64em) {
 		padding: 10px 15px;
+		
+		position: relative;
 	}
 }
 .usa-logo__text {
@@ -68,8 +73,16 @@
 	}
 }
 
+.usa-header {
+	//height: 90px;
+	background-color: #FFF;
+	
+	position: sticky;
+	top: 0px;
+}
 
 .usa-header.usa-header--extended {
+	
 	
 	@media (min-width: 64em) {
 		
