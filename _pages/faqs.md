@@ -212,7 +212,7 @@ You are not required to provide your redacted image for the publication. It is o
 
 See example: 
 
-{% asset redacted-image-id.jpg loading="lazy" alt="A driver's license with sensitive information blacked out" width="500" height="317" class="img-fluid max-400" %}
+</image src="{{site.baseurl}}/assets/img/redacted-image-id.jpg" loading="lazy" alt="A driver's license with sensitive information blacked out" width="500" height="317" class="img-fluid max-400"></image>
 
 ***
 

@@ -4,17 +4,17 @@
   <div class="grid-container">
     {% for icon in icons %}
 		<div class="icon-photo {% cycle "right-content", "left-content" %} fade-in">
-		  <div class="icon-photo__bg fade-in delay-400 lazy" data-bg="{% asset '{{ icon.image }}' @path %}" data-demo1="{% asset '{{ icon.demo1 }}' @path %}"></div>
+		  <div class="icon-photo__bg fade-in delay-400 lazy" data-bg="{{ icon.image }}" data-demo1="{{ icon.demo1 }}"></div>
 			
 		  <div class="icon-photo__callout {% cycle "move-left delay", "move-right delay" %}">
 			<div class="icon-photo__icon">
-				{% asset '{{ icon.icon }}' alt="{{ icon.icon-alt }}" loading="lazy" width="500" height="500" class="img-fluid icon-photos-icon" %}
+				<image src='{{ icon.icon }}' alt="{{ icon.icon-alt }}" loading="lazy" width="500" height="500" class="img-fluid icon-photos-icon"></image>
 			</div>
 
 			<h2 class="icon-photo__heading font-sans-xl tablet:font-sans-2xl desktop:font-sans-3xl margin-bottom-2 margin-top-3">{{ icon.headline }}</h2>
 
 			<div class="icon-photo__contentwrap">
-				<div class="icon-photo__arrow" style="background-image: url( {% asset icon-arrow.svg @path %} );"></div>
+				<div class="icon-photo__arrow" style="background-image: {{site.baseurl}}/assets/icon-arrow.svg;"></div>
 				<div class="icon-photo__content">
 					{{ icon.content | markdownify }}
 				</div>

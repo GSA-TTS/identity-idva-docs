@@ -5,7 +5,7 @@
 		{% for step in site.data.steps %}
 			<div class="gsa-step mobile-lg:grid-col-6 tablet:grid-col-4 margin-bottom-5 fade-in">
 				<figure>
-					{% asset '{{ step.image }}' loading="lazy" alt="{{ step.alt }}" width="{{ assets["step.image"].dimensions.width }}" height="{{ assets["step.image"].dimensions.height }}" class="img-fluid" %}
+					<image src='{{ step.image }}' loading="lazy" alt="{{ step.alt }}" width="{{ assets["step.image"].dimensions.width }}" height="{{ assets["step.image"].dimensions.height }}" class="img-fluid"></image>
 					<figcaption class="gsa-step__content font-sans-lg">{{ step.content | markdownify }}</figcaption>
 				</figure>
 			</div>
