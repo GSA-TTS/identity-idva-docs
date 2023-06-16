@@ -98,6 +98,9 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 	let queryStringMatch = window.location.search.match(/\?([^&$]+)/);
 	if(queryStringMatch) {
 		queryString = window.location.search.match(/\?([^&$]+)/)[1];
+		
+		//removes query string
+		//window.history.replaceState(null, '', window.location.pathname);
 	}
 	
 	function setImages($img,$cookies=true) {
