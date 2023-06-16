@@ -9,7 +9,7 @@ module AssetHelper
         @processed = true
     end
 end
-
+  
 Jekyll::Hooks.register :site, :after_reset do |site, payload|
     AssetHelper.process(site, payload)
 end

@@ -37,7 +37,7 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     # create new autoprefixer instance
     site.autoprefixer = Autoprefixer::Autoprefixer.new(site)
 end
-
+  
 Jekyll::Hooks.register :site, :post_render do |site|
     site.each_site_file do |item|
         if site.regenerator.regenerate?(item)
