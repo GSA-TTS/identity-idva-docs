@@ -20,8 +20,8 @@ body.faqs-accordion {
 body.faqs-sidenav-accordion {
 	
 	.usa-layout-docs__main h3 {
-		padding-top: 77px;
-		margin-top: -77px;
+		padding-top: 105px;
+		margin-top: -105px;
 	}
 
 	.usa-sidenav {
@@ -69,6 +69,10 @@ body.faqs-sidenav-accordion {
 	
 	
 	@media (min-width: 64em) {
+		.usa-layout-docs__main h3 {
+			padding-top: 77px;
+			margin-top: -77px;
+		}
 		
 		.usa-sidenav {
 			border-bottom: none;
