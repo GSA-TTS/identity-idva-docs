@@ -6,7 +6,7 @@ gem "autoprefixer-rails"
 gem "webrick" # not included in jekyll directly until 4.3.0 https://github.com/jekyll/jekyll/pull/8524
 
 group :jekyll_plugins do
-#  gem "jekyll-feed", "~> 0.15"
+  gem "jekyll-feed", "~> 0.15"
   gem 'jekyll-redirect-from'
   gem 'jekyll-paginate-v2', "3.0.0"
   gem 'jekyll-sitemap'
