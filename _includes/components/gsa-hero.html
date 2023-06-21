@@ -12,7 +12,7 @@
 	  </div>
 	</div>
 	{% if gsa-hero.bg %}
-	<div class="hero-bg lazy" data-bg="{% asset '{{ gsa-hero.bg }}' @path %}" data-demo1="{% asset '{{ gsa-hero.demo1 }}' @path %}"></div>
+	<div class="hero-bg lazy" data-bg="{{site.baseurl}}/assets/img/{{ gsa-hero.bg }}" data-demo1="{{site.baseurl}}/assets/img/{{ gsa-hero.demo1 }}"></div>
 	{% endif %}
 </section>
 {% endif %}
