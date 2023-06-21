@@ -110,13 +110,13 @@ body.faqs-sidenav-accordion {
 		}
 
 		&[aria-expanded="false"] {
-			background-image: url( "../img/icon-add.svg" );
+			background-image: url( "#{$baseurl}/assets/img/icon-add.svg" );
 		}
 		
 		&[aria-expanded="true"] {
 			background-color:color($theme-color-primary-dark);
 			color: #FFF;
-			background-image: url("../img/icon-subtract-white.svg");
+			background-image: url("#{$baseurl}/assets/img/icon-subtract-white.svg");
 		}
 
 		h3 {
@@ -175,13 +175,13 @@ body.faqs-sidenav-accordion {
 		}
 
 		&[aria-expanded="false"] {
-			background-image: url("../img/icon-add.svg");
+			background-image: url("#{$baseurl}/assets/img/icon-add.svg");
 		}
 		
 		&[aria-expanded="true"] {
 			background-color:color($theme-color-primary-dark);
 			color: #FFF;
-			background-image: url("../img/icon-subtract-white.svg");
+			background-image: url("#{$baseurl}/assets/img/icon-subtract-white.svg");
 		}
 
 	
