@@ -102,9 +102,6 @@ body.faqs-sidenav-accordion {
 		@include transition(all $medspeed $ease);
 		text-align: center;
 
-		//background-image: url("/assets/img/icon-add.svg") !important;
-		
-		
 		background-repeat: no-repeat;
 
 
@@ -120,7 +117,6 @@ body.faqs-sidenav-accordion {
 			background-color:color($theme-color-primary-dark);
 			color: #FFF;
 			background-image: url("../img/icon-subtract-white.svg");
-			//background-image: url("/assets/img/icon-subtract-white.svg") !important;
 		}
 
 		h3 {
@@ -166,15 +162,11 @@ body.faqs-sidenav-accordion {
 .gsa-accordion-sidenav {
 	.usa-accordion__button {
 		background-color: #FFF;
-		//border: 1px solid  color(ink);
 		border: none;
 		padding: 1rem 3.5rem 1rem 1rem;
 		@include transition(all $medspeed $ease);
 		text-align: left;
-
-		//background-image: url("/assets/img/icon-add.svg") !important;
-		color:color($theme-color-primary-dark);
-		
+		color:color($theme-color-primary-dark);		
 		background-repeat: no-repeat;
 
 
@@ -190,7 +182,6 @@ body.faqs-sidenav-accordion {
 			background-color:color($theme-color-primary-dark);
 			color: #FFF;
 			background-image: url("../img/icon-subtract-white.svg");
-			//background-image: url("/assets/img/icon-subtract-white.svg") !important;
 		}
 
 	

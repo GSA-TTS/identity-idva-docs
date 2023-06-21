@@ -5,11 +5,7 @@
 	overflow-y: hidden;
 	height: 55vw;
 	object-fit: cover;
-	/*@media (min-width: 64em) {
-		height: 700px;
-		
-	}*/
-	
+
 	@media (min-width: 40em) {
 		height: 50vw;
 	}
@@ -21,13 +17,8 @@
 }
 
 .gsa-cover {
-	//display: block;
 	width: 100%;
-	//object-fit: cover;
-	margin-top: 0px;
-	//height: auto;
-	
-	
+	margin-top: 0px;	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;

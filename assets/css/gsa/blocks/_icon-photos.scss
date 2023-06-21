@@ -49,23 +49,7 @@
 		display: block;
 		min-height: 50vw;
 	}
-	/*.icon-photo__bgwrap {
-		position: relative;
-	
-		//background-size: cover;
-		//background-repeat: no-repeat;
-		width: 100%;
-		display: block;
-		min-height: 50vw;
-		overflow: hidden;
-	}
-	
-	.icon-photo__bg {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}*/
-	
+
 	.icon-photo__contentwrap {
 		position: relative;
 		display: flex;
@@ -90,7 +74,6 @@
 	.icon-photo__arrow {
 		width: 100%;
 		max-width: 50px;
-		//background-image: url("assets/img/icon-arrow.svg");
 		background-repeat: no-repeat;
 		background-position: left top;
 		background-size: 40px auto;
@@ -118,7 +101,7 @@
 			z-index: 1;
 		}
 		
-		//.icon-photo__bgwrap {
+
 		.icon-photo__bg {
 			position: absolute;
 			z-index: 0;
@@ -141,7 +124,6 @@
 		&.right-content {
 			justify-content:  flex-end;
 
-			//.icon-photo__bgwrap {
 			.icon-photo__bg {
 				left: 0;
 				right: 45%;

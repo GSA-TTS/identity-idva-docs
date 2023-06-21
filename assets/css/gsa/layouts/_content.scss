@@ -184,21 +184,9 @@ p, li {
 }
 
 ///SIDEBAR
-/*.usa-layout-docs-sidenav {
-  @include u-order(1);
-}
-.usa-layout-docs__main.with-sidebar {
-	@include u-order(0);
-}*/
+
 
 @media (min-width: 64em) {
-	/*.usa-layout-docs-sidenav {
-	  @include u-order(0);
-	}
-	.usa-layout-docs__main.with-sidebar {
-		@include u-order(1);
-	}*/
-
 
 	.usa-sticky-sidenav {
 	  position: sticky;

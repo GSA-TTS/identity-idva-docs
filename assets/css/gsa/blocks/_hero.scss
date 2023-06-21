@@ -11,9 +11,7 @@
 	}
 	
 	h1 {
-		//font-size: 3rem;
 		font-size: 2.1rem;
-		//line-height: 2.5rem;
 		margin-bottom: 1rem;
 	}
 	
@@ -38,12 +36,8 @@
 		}
 	}
 
-	/*.grid-container {
-		max-width: 64em;
-	}*/
 	&.hero-bg {
-		//background-color:#000;
-		//background-color: color(blue-70v);
+
 		
 		.hero-content-wrap {
 			position: relative;
@@ -96,10 +90,6 @@
 		h1 {
 			font-size: 3.6rem;
 		}
-		
-		/*p {
-			font-size: 1.4rem;
-			line-height: 2rem;
-		}*/
+
 	}
 }
