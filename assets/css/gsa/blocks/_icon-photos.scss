@@ -73,14 +73,14 @@
 		
 		p {
 			margin-top: 0;
-			color: color($theme-color-primary-dark);
+			color: color(ink);
 			line-height: 1.5em;
 			
 			a {
-				color: color($theme-color-primary-dark);
+				color: color(ink);
 				
 				&:hover {
-					color: color(ink);
+					color: color($theme-color-primary-dark);
 				}
 			}
 		}
