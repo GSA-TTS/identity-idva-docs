@@ -194,6 +194,9 @@ autoprefixer:
     - "IE 11"
     - "not dead"
 
+plugins:
+  - jekyll-sitemap
+
 sass:
   source_dir: _sass
   load_paths:
