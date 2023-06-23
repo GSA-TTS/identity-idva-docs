@@ -23,7 +23,7 @@ email: identityequitystudy@research.gsa.gov
 description: >- # this means to ignore newlines until "baseurl:"
   U.S. General Services Administration is currently conducting a research study to explore the issue the equitability of remote identity proofing.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://federalist-63a1d04f-0c28-4e1c-a859-a4b021833cbc.sites.pages.cloud.gov"
+#url: "https://federalist-63a1d04f-0c28-4e1c-a859-a4b021833cbc.sites.pages.cloud.gov"
   # Required to support the jekyll-sitemap plugin below.
   # Uncomment the url line when ready to push to production. If using different branches for multiple
   # custom domains, edit this url parameter in the relevant branch to match the relevant custom domain.
