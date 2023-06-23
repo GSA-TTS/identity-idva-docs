@@ -1,0 +1,92 @@
+// footer.scss
+
+.usa-footer__primary-section > .grid-container, .usa-footer__nav {
+	max-width: 80rem;
+}
+
+.usa-footer__logo-img {
+	max-width: 3rem;
+	width: 100%;
+	height: auto;
+}
+
+.usa-footer__primary-section {
+	background-color:color(blue-warm-10);
+	padding-bottom: 0.3rem;
+	
+	a {
+		color: color($theme-color-primary-dark);
+		
+		&:visited {
+			color: color($theme-color-primary-dark);
+		}
+		
+		&:hover {
+			color: #000;
+		}
+	}
+	
+	.usa-link--external:after {
+		background-color: color($theme-color-primary-dark);
+	}
+}
+
+.usa-footer__primary-content {
+	border: none !important;	
+}
+
+.usa-footer--big .usa-footer__nav {
+	margin: 0;
+	border: none;
+}
+
+.usa-footer__secondary-section {
+	background-color:color(ink);
+	color: #FFF;
+	padding-top: 2rem;
+		
+	a {
+		color: #FFF;
+		
+		&:visited {
+			color: #FFF;
+		}
+		
+		&:hover {
+			color: color(blue-warm-10);
+		}
+	}
+	
+	
+	.usa-identifier__section {
+		max-width: 80rem;
+		margin: 0 auto;
+		
+		a {
+			color: #FFF;
+		
+			&:visited {
+				color: #FFF;
+			}
+
+			&:hover {
+				color: color(blue-warm-10);
+			}
+		}
+	}
+	
+	.usa-identifier__container {
+		max-width: 80rem;
+	}
+	
+}
+
+.usa-footer--big .usa-list--unstyled {
+	@media (min-width: 30em) {
+		padding-left: 0;
+		padding-right: 0;
+		//padding-bottom: 2rem;
+		padding-top: .75rem;
+	}
+
+}

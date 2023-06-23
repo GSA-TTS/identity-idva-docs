@@ -23,7 +23,7 @@
 			    {{ faq.answer | markdownify }}
 			  {% endif %}
 			  {% if faq.image %} 
-			  		{% asset '{{ faq.image }}' class="{{ faq.image-class }}" alt="{{ faq.image-alt }}" width="{{ assets["faq.image"].dimensions.width }}" height="{{ assets["faq.image"].dimensions.height }}" loading="lazy" %}
+			  	<img src="{{site.baseurl}}/assets/img/{{ faq.image }}" class="{{ faq.image-class }}" alt="{{ faq.image-alt }}" loading="lazy" width="{{ faq.image-width }}" height="{{ faq.image-height }}" />
 			  {% endif %}
 		  </div>
 		{% endfor %}

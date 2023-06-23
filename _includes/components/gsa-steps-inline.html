@@ -2,7 +2,7 @@
 	{% for step in site.data.steps-inline %}
 		<div class="grid-col-6 mobile-lg:grid-col-4 tablet:grid-col fade-in">
 			<figure>
-				{% asset '{{ step.image }}' loading="lazy" alt="{{ step.alt }}" width="{{ assets["step.image"].dimensions.width }}" height="{{ assets["step.image"].dimensions.height }}" class="img-fluid" %}
+				<img src="{{site.baseurl}}/assets/img/{{ step.image }}" loading="lazy" alt="{{ step.alt }}" width="768" height="768" class="img-fluid" />
 				<figcaption class="gsa-step__content font-sans-lg">{{ step.content | markdownify }}</figcaption>
 			</figure>
 		</div>	

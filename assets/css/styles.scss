@@ -1,0 +1,112 @@
+---
+---
+// https://jekyllrb.com/docs/assets/
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+*/
+
+
+$theme-show-notifications: false;
+$theme-font-type-sans: "public-sans";
+$theme-font-weight-heavy: 900;
+$theme-banner-background-color: "ink";
+$theme-banner-link-color: "red-10";
+$theme-banner-max-width: none;
+$theme-identifier-max-width: none;
+$theme-color-primary:"blue-60v";
+$theme-button-border-radius:0;
+$baseurl: "{{ site.baseurl }}";
+
+
+// -------------------------------------
+// Import individual theme settings
+@import "theme/uswds-theme-general";
+@import "theme/uswds-theme-typography";
+@import "theme/uswds-theme-spacing";
+@import "theme/uswds-theme-color";
+@import "theme/uswds-theme-utilities";
+@import "theme/uswds-theme-components";
+
+// Set correct paths for use with asset pipeline
+$theme-font-path: "../uswds/fonts";
+$theme-image-path: "../uswds/img";
+
+// -------------------------------------
+// Import individual USWDS packages...
+@import "scss/packages/required";
+@import "scss/packages/global";
+
+@import "scss/packages/uswds-components";
+@import "scss/packages/uswds-utilities";
+
+/*
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+
+// default mode hide banner
+.usa-banner__content[hidden] {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .tablet\:width-1\/3 {
+    width: 33%;
+  }
+  .tablet\:float-left {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .paginate-link {
+    display: initial;
+  }
+  .paginate-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .paginate-link {
+    display: none;
+  }
+  .paginate-button {
+    display: block;
+  }
+}
+
+
+@import 'assets/css/gsa/base/var';
+@import 'assets/css/gsa/base/mixins';
+
+@import 'assets/css/gsa/layouts/body';
+@import 'assets/css/gsa/layouts/header';
+@import 'assets/css/gsa/layouts/footer';
+@import 'assets/css/gsa/layouts/content';
+
+@import 'assets/css/gsa/blocks/cta-btn';
+@import 'assets/css/gsa/blocks/hero';
+@import 'assets/css/gsa/blocks/faqs';
+@import 'assets/css/gsa/blocks/icon-photos';
+@import 'assets/css/gsa/blocks/steps';
+@import 'assets/css/gsa/blocks/cover';
+
+@import 'assets/css/gsa/base/animation';
+
