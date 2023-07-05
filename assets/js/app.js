@@ -90,7 +90,7 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 	}
 	
 	//IMAGE VARIATIONS
-	const imgArray = ["demo1", "demo2"];
+	const imgArray = ["a2", "a3", "a4", "a5", "a6", "a7"];
 	
 	let queryString = '';
 	let queryStringMatch = window.location.search.match(/\?([^&$]+)/);
@@ -98,7 +98,7 @@ a.destroy=function(){for(var f=0;f<a.elems.length;f++)a.elems[f].style.cssText=d
 		queryString = window.location.search.match(/\?([^&$]+)/)[1];
 		
 		//removes query string
-		//window.history.replaceState(null, '', window.location.pathname);
+		window.history.replaceState(null, '', window.location.pathname);
 	}
 	
 	function setImages($img,$cookies=true) {
