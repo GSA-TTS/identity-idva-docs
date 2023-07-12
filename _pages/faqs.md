@@ -53,7 +53,7 @@ You may be ineligible to participate if:
 ### What do I need to participate in the study?
 
 You will need:
-- email address
+- an email address
 - a mobile phone with a camera feature;
 - a phone plan associated with your name (it cannot be a virtual phone number like Google Voice, VOIP, etc.);
 - a valid government-issued <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">identity document</a>; and
