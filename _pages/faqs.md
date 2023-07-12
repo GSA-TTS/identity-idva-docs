@@ -53,6 +53,7 @@ You may be ineligible to participate if:
 ### What do I need to participate in the study?
 
 You will need:
+- email address
 - a mobile phone with a camera feature;
 - a phone plan associated with your name (it cannot be a virtual phone number like Google Voice, VOIP, etc.);
 - a valid government-issued <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">identity document</a>; and
@@ -166,6 +167,7 @@ If you see an error screen at any point you can restart the study by:
 
 Both of these methods will take you back to the start of the identity proofing tests so you will have to resubmit your pictures and information. 
 
+If you are “stuck” in a loading page or a blank screen, we recommend switching to a different device or internet connection and then restarting the study by following the steps above.
 
 ***
 
