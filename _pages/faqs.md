@@ -156,7 +156,7 @@ See the following for more information:
 
 ### Since the study checks consumer history records, will participating in the study affect my credit score?
 
-No.The vendors providing identity verification services use their own models and do not request your records from the credit bureaus. Therefore, participating in the study will not impact/affect a participant’s credit score.
+No. The vendors providing identity verification services use their own models and do not request your records from the credit bureaus. Therefore, participating in the study will not impact/affect a participant’s credit score.
 
 ### Can I participate in the study if I use a screen reader or other assistive technologies?
 
