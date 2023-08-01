@@ -46,9 +46,11 @@ U.S. residents 18 years and older with a <a href="{{site.baseurl}}/faqs/#what-is
 You may be ineligible to participate if:
 
 - you are under 18 years of age;
+- you have previously attempted to participate in the study;
 - you do not agree to the terms and conditions of the study;
-- you chose “prefer not to answer” in the required demographic questions; or
-- the study has already reached the necessary number of participants from specific demographics.
+- you chose “prefer not to answer” in the required demographic questions;
+- the study has already reached the necessary number of participants from specific demographics; or
+- you do not consent to the biometric data collection.
 
 ### What do I need to participate in the study?
 
