@@ -166,15 +166,11 @@ GSA recognizes that the “Equity Study on Remote Identity Proofing'' may not be
 
 ### I encountered an error while doing the study. What should I do?
 
-If you see an error screen at any point you can restart the study by:
+If you see an error screen at any point you can restart the study by clicking the link in the registration email from <a class="usa-link" href="mailto:identityequitystudy@research.gsa.gov">identityequitystudy@research.gsa.gov</a>.
 
-- refreshing your browser 
-- clicking the link in the registration email from <a class="usa-link" href="mailto:identityequitystudy@research.gsa.gov">identityequitystudy@research.gsa.gov</a>.
+Clicking the link will take you back to the start of the identity proofing tests so you will have to resubmit your pictures and information. 
 
-Both of these methods will take you back to the start of the identity proofing tests so you will have to resubmit your pictures and information. 
-
-If you are “stuck” in a loading page or a blank screen, we recommend switching to a different device or internet connection and then restarting the study by following the steps above.
-
+Similarly, if you are “stuck” in a loading page or a blank screen, we recommend switching to a different device or internet connection and then restarting the study by clicking the link in the registration email.
 ***
 
 <h2 id="data-privacy" class="anchor-headline">Data Privacy</h2>
