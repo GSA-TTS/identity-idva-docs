@@ -10,7 +10,12 @@ title: Search Results
 
   var urlParams = new URLSearchParams(window.location.search);
   var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
-  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{ site.env.SEARCH_ACCESS_KEY }}", query: urlParams.get('query') }
+  if (site.demo === true) {
+    params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{ site.env.DEMO_SEARCH_ACCESS_KEY }}", query: urlParams.get('query') }  
+  } else {
+    params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{ site.env.SEARCH_ACCESS_KEY }}", query: urlParams.get('query') }
+  }
+  
 
 
   Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
