@@ -69,9 +69,9 @@ Identity proofing helps establish a person is who they claim to be and thus requ
 
 GSA will facilitate the collection and transfer of this personally identifiable information (PII) to the following vendors, and you may review their privacy policies at the following hyperlinks: 
 
-- PII Vendor 1 - Privacy Policy link
-- PII Vendor 2 - Privacy Policy link
-- PII Vendor 3 - Privacy Policy link
+- <a href="https://risk.lexisnexis.com/corporate/privacy-policy" target="_blank" rel="noopener" class="usa-link usa-link--external">Privacy Policy | LexisNexis Risk Solutions Group</a>
+- <a href="https://www.ididata.com/idis-privacy-statement/" target="_blank" rel="noopener" class="usa-link usa-link--external">Privacy Policy | Interactive Data (ididata.com)</a>
+- <a href="https://www.socure.com/privacy" target="_blank" rel="noopener" class="usa-link usa-link--external">Socure Products and Services Privacy Statement - Socure</a>
 
 
 For a detailed description of the information collected, its uses and protection, review the Equity Study’s <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank" rel="noopener" class=" usa-link usa-link--external">Privacy Impact Assessment</a>.
@@ -86,11 +86,11 @@ In this study, GSA will also collect certain biometric information from you with
 Vendors will collect this information and send it to GSA after assessing it as part of the identity-verification process. The vendors verify the identity document and match your photo from the document with your live selfie. The software will then validate your PII.
 
 For more information on each provider’s privacy policies, see the vendor’s specific Privacy Policies.
-- Biometric (DocAuth) Vendor 1 - Privacy Policy link
-- Biometric (DocAuth) Vendor 2 - Privacy Policy link
-- Biometric (DocAuth) Vendor 3 - Privacy Policy link
-- Biometric (DocAuth) Vendor 4 - Privacy Policy link
-- Biometric (DocAuth) Vendor 5 - Privacy Policy link
+- <a href="https://incode.com/gsa/" target="_blank" rel="noopener" class="usa-link usa-link--external">GSA | Incode</a>
+- <a href="https://www.jumio.com/legal-information/privacy-notices/online-services-notice/" target="_blank" rel="noopener" class="usa-link usa-link--external">Jumio's Privacy Notice - Jumio: End-to-End ID, Identity Verification and AML Solutions</a>
+- <a href="https://risk.lexisnexis.com/corporate/privacy-policy" target="_blank" rel="noopener" class="usa-link usa-link--external">Privacy Policy | LexisNexis Risk Solutions Group</a>
+- <a href="https://www.socure.com/privacy" target="_blank" rel="noopener" class="usa-link usa-link--external">Socure Products and Services Privacy Statement - Socure</a>
+- <a href="https://www.transunion.com/privacy/transunion" target="_blank" rel="noopener" class="usa-link usa-link--external">TransUnion LLC Privacy Notice | TransUnion</a>
 
 <strong>NOTE:</strong> The privacy policies above apply to the vendors' general commercial services, your data will be only retained and used in accordance with this GSA Privacy Act Statement.
 
@@ -134,7 +134,7 @@ View all GSA privacy impact assessments at <a href="https://www.gsa.gov/PIA" tar
 If you have any questions regarding GSA’s Privacy Act Statement or the use of your information, please visit <a href="http://www.gsa.gov/privacygsa" target="_blank" rel="noopener" class="usa-link usa-link--external">www.gsa.gov/privacygsa</a> or contact <a href="mailto:GSA.privacyact@gsa.gov">GSA.privacyact@gsa.gov</a>.
 
 
-OMB No: 3090-###<br />
-Expires MM/DD/YYYY
+OMB No: 3090-0328<br />
+Expires 05/31/2026
 
-<strong>Paperwork Reduction Act Statement</strong> - This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (OMB) control number. The OMB control number for this collection is 3090-####. We estimate that it will take up to 45 minutes to read the instructions, gather the facts, and answer the questions. Send only comments relating to our time estimate, including suggestions for reducing this burden, or any other aspects of this collection of information to: General Services Administration, Regulatory Secretariat Division (MVCB), ATTN: Lois Mandell/IC 3090-0297, 1800 F Street, NW, Washington, DC 20405.
+<strong>Paperwork Reduction Act Statement</strong> - This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (OMB) control number. The OMB control number for this collection is 3090-0328. We estimate that it will take up to 45 minutes to read the instructions, gather the facts, and answer the questions. Send only comments relating to our time estimate, including suggestions for reducing this burden, or any other aspects of this collection of information to: General Services Administration, Regulatory Secretariat Division (MVCB), ATTN: Lois Mandell/IC 3090-0297, 1800 F Street, NW, Washington, DC 20405.
