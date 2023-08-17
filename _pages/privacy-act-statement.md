@@ -90,7 +90,7 @@ For more information on each provider’s privacy policies, see the vendor’s s
 - <a href="https://www.jumio.com/legal-information/privacy-notices/online-services-notice/" target="_blank" rel="noopener" class="usa-link usa-link--external">Jumio's Privacy Notice - Jumio: End-to-End ID, Identity Verification and AML Solutions</a>
 - <a href="https://risk.lexisnexis.com/corporate/privacy-policy" target="_blank" rel="noopener" class="usa-link usa-link--external">Privacy Policy | LexisNexis Risk Solutions Group</a>
 - <a href="https://www.socure.com/privacy" target="_blank" rel="noopener" class="usa-link usa-link--external">Socure Products and Services Privacy Statement - Socure</a>
-- <a href="https://www.transunion.com/privacy/transunion" target="_blank" rel="noopener" class="usa-link usa-link--external">TransUnion LLC Privacy Notice | TransUnion</a>
+- <a href="https://www.transunion.com/privacy/transunion" target="_blank" rel="noopener" class="usa-link usa-link--external" data-proofer-ignore>TransUnion LLC Privacy Notice | TransUnion</a>
 
 <strong>NOTE:</strong> The privacy policies above apply to the vendors' general commercial services, your data will be only retained and used in accordance with this GSA Privacy Act Statement.
 
