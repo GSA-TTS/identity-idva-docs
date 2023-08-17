@@ -223,7 +223,7 @@ See example:
 <h2 id="compensation" class="anchor-headline">Compensation</h2>
 
 ### Will I be compensated for participating in the study? 
-Participants who complete all study steps will receive a $25 gift card.
+Once your participation is complete, Rekrewt, GSA’s recruitment partner, will send you $25 in compensation to thank you for your time. You can choose an eGift Card from close to a hundred retailers. All compensation will be sent to the email address you provide. Please expect 1-2 business days for payments to be processed.
 
 ### I just completed the study. How do I claim my compensation?
 You will receive two emails after completing the study: 
