@@ -8,13 +8,15 @@ to modify some of the meta-data for the site, this is the place to do it.
     ================================================== -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Disable all commercial crawlers for demo page -->
+  <!-- Disable all commercial crawlers for demo and preview pages -->
+  {% unless site.env.BRANCH == "main" %}
   <meta name="googlebot" content="noindex,nofollow" /> 
   <meta name="bingbot" content="noindex,nofollow" />
   <meta name="YandexBot" content="noindex,nofollow" />
   <meta name="DuckDuckBot" content="noindex,nofollow" />
   <meta name="Baiduspider" content="noindex,nofollow" />
-  
+  {% endunless %}
+
   <!-- Mobile Specific Metas
     ================================================== -->
   <meta name="HandheldFriendly" content="True" />
