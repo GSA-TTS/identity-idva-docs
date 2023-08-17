@@ -8,7 +8,7 @@ to modify some of the meta-data for the site, this is the place to do it.
     ================================================== -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Disable all commercial crawlers for demo and preview pages -->
+  <!-- Disable all commercial crawlers for demo and preview pages, lines below should be blank in production page -->
   {% unless site.env.BRANCH == "main" %}
   <meta name="googlebot" content="noindex,nofollow" /> 
   <meta name="bingbot" content="noindex,nofollow" />
@@ -16,6 +16,7 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta name="DuckDuckBot" content="noindex,nofollow" />
   <meta name="Baiduspider" content="noindex,nofollow" />
   {% endunless %}
+  <!-- END noindex,nofollow block for non-production branches -->
 
   <!-- Mobile Specific Metas
     ================================================== -->
