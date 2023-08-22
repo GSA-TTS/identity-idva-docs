@@ -10,6 +10,17 @@ The home page uses wide.html layout, since it extends full width of page
 {% include meta.html %}
 
 <body{% if page.pageclass %} class="{{page.pageclass}}"{% endif %}>
+<section class="usa-site-alert usa-site-alert--info" aria-label="Site alert,">
+  <div class="usa-alert">
+    <div class="usa-alert__body">
+      <h3 class="usa-alert__heading">Temporary outage.</h3>
+      <p class="usa-alert__text">
+        The study's survey system is temporarily out of service. Please come back later. We apologize for the inconvenience.
+      </p>
+    </div>
+  </div>
+</section>
+
   {% include header.html %}
 
   {% include menu.html primary_navigation=site.primary_navigation secondary_navigation=site.secondary_navigation %}
