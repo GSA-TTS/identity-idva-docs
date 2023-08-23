@@ -4,6 +4,24 @@ to modify some of the meta-data for the site, this is the place to do it.
 {% endcomment %}
 
 <head>
+  <!-- Google Analytics -->
+  {% if site.gtag %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gtag }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    /**
+      * `forceSSL` was used for analytics.js (the older Google Analytics script).
+      * It isn't documented for gtag.js, but the term occurs in the gtag.js code;
+      * figure it doesn't hurt to leave it in. -@afeld, 5/29/19
+      */
+    gtag('config', '{{ site.gtag }}', { 'anonymize_ip': true, 'forceSSL': true });
+  </script>
+  {% endif %}
+  <!-- END Google Analytics Script -->
+
   <!-- Basic Page Needs
     ================================================== -->
   <meta charset="utf-8" />
@@ -92,4 +110,17 @@ to modify some of the meta-data for the site, this is the place to do it.
 	{% include critical-css.html %}	
 </style>
  <link type="text/css" href="{{site.baseurl}}/assets/css/styles.css" rel="stylesheet" />
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+{% if site.dap.agency %}
+<!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+<script
+  async 
+  type="text/javascript"  
+  id="_fed_an_ua_tag"
+  src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency={{site.dap.agency}}{% if site.dap.subagency %}&subagency={{site.dap.subagency}}{% endif %}">
+</script>
+{% endif %}
+<!-- END DAP Script -->
+
 </head>
