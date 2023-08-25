@@ -91,7 +91,9 @@ Your phone number is used to look up your phone account information and verify t
 
 <h2 id="study-details-and-troubleshooting" class="anchor-headline">Study Details and Troubleshooting</h2>
 
-{% include gsa-steps-inline.html %}	
+<div class="grid-row grid-gap-3 gsa-faq-steps-figure animation-chain margin-bottom-5">
+    {% include gsa-steps-inline.html %}
+</div>
 	
 ### How much time do I need to complete the study?
 
@@ -150,11 +152,27 @@ GSA is testing different systems that compare your selfie to your government ID 
 
 ### Why are you asking for my skin tone?
 
-Research on facial verification systems has shown that results can vary significantly depending on a person’s skin tone. Although you are not required to provide your skin tone to complete the study, this information will help GSA better understand the challenges to equitable performance of facial verification algorithms.
+Research on facial verification systems has shown that results can vary significantly depending on a person’s skin tone. To examine this variation, GSA is using the Monk Skin Tone (MST) scale. The MST scale attempts to capture the wide range of human skin tones in a format that is easy to use. 
+
+<div class="gsa-faq-figure">
+	<figure>
+		<img src="{{site.baseurl}}/assets/img/monk-skintone-scale-orbs.png" loading="lazy" alt="Ten circles representing different skin tones" class="img-fluid" />
+		<figcaption class="gsa-step__content font-sans"><p>The 10 shades in the Monk Skin Tone Scale (MST) ordered left to right from lightest, MST-1, to darkest, MST-10. Monk, Ellis. “Monk Skin Tone Scale,” 2019. <a href="https://skintone.google" class="usa-link usa-link--external" target="_blank" rel="noopener">https://skintone.google</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" class="usa-link usa-link--external" target="_blank" rel="noopener">CC BY 4.0</a>.</p></figcaption>
+	</figure>
+</div>
+
+We recognize that the MST scale is imperfect and cannot capture the infinite variety of human skin tones. Study participants who opt to provide this information should pick the skin tone that most-closely matches their own. Providing your skin tone information will help GSA better understand the challenges to equitable performance of facial verification algorithms. 
+
 
 See the following for more information:
 
-<ul class="top-bullets"><li><a href="https://dam-prod2.media.mit.edu/x/2018/02/05/buolamwini-ms-17_WtMjoGY.pdf" class="usa-link usa-link--external" target="_blank" rel="noopener">Gender Shades&#58; Intersectional Phenotypic and Demographic Evaluation of Face Datasets and Gender Classifiers (Buolamwini, 2017) [PDF, 116 Pages]</a></li> <li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf" target="_blank" rel="noopener" class="usa-link usa-link--external">Face Recognition Vendor Test - Part 3&#58; Demographic Effects (NIST, 2019) [PDF, 82 Pages]</a></li> <li><a href="https://arxiv.org/abs/2106.11240" target="_blank" rel="noopener" class="usa-link usa-link--external">Reliability and Validity of Image-Based and Self-Reported Skin Phenotype Metrics (Howard et al 2021)</a></li> <li><a href="https://ieeexplore.ieee.org/abstract/document/9534882" target="_blank" rel="noopener" class="usa-link usa-link--external">A Comprehensive Study on Face Recognition Biases Beyond Demographics (Terhörst et al., 2022)</a></li></ul>
+<ul class="top-bullets">
+<li><a href="https://doi.org/10.31235/osf.io/pdf4c" class="usa-link usa-link--external" target="_blank" rel="noopener"> The Monk Skin Tone Scale (Monk, 2023)</a></li>
+<li><a href="https://dam-prod2.media.mit.edu/x/2018/02/05/buolamwini-ms-17_WtMjoGY.pdf" class="usa-link usa-link--external" target="_blank" rel="noopener">Gender Shades&#58; Intersectional Phenotypic and Demographic Evaluation of Face Datasets and Gender Classifiers (Buolamwini, 2017) [PDF, 116 Pages]</a></li> 
+<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf" target="_blank" rel="noopener" class="usa-link usa-link--external">Face Recognition Vendor Test - Part 3&#58; Demographic Effects (NIST, 2019) [PDF, 82 Pages]</a></li> 
+<li><a href="https://arxiv.org/abs/2106.11240" target="_blank" rel="noopener" class="usa-link usa-link--external">Reliability and Validity of Image-Based and Self-Reported Skin Phenotype Metrics (Howard et al 2021)</a></li> 
+<li><a href="https://ieeexplore.ieee.org/abstract/document/9534882" target="_blank" rel="noopener" class="usa-link usa-link--external">A Comprehensive Study on Face Recognition Biases Beyond Demographics (Terhörst et al., 2022)</a></li>
+</ul>
 
 ### Since the study checks consumer history records, will participating in the study affect my credit score?
 
