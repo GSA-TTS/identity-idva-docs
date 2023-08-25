@@ -91,7 +91,9 @@ Your phone number is used to look up your phone account information and verify t
 
 <h2 id="study-details-and-troubleshooting" class="anchor-headline">Study Details and Troubleshooting</h2>
 
-{% include gsa-steps-inline.html %}	
+<div class="grid-row grid-gap-3 gsa-faq-steps-figure animation-chain margin-bottom-5">
+    {% include gsa-steps-inline.html %}
+</div>
 	
 ### How much time do I need to complete the study?
 
@@ -152,7 +154,7 @@ GSA is testing different systems that compare your selfie to your government ID 
 
 Research on facial verification systems has shown that results can vary significantly depending on a person’s skin tone. To examine this variation, GSA is using the Monk Skin Tone (MST) scale. The MST scale attempts to capture the wide range of human skin tones in a format that is easy to use. 
 
-<div class="gsa-steps-inline margin-bottom-5">
+<div class="gsa-faq-figure">
 	<figure>
 		<img src="{{site.baseurl}}/assets/img/monk-skintone-scale-orbs.png" loading="lazy" alt="Ten circles representing different skin tones" class="img-fluid" />
 		<figcaption class="gsa-step__content font-sans"><p>The 10 shades in the Monk Skin Tone Scale (MST) ordered left to right from lightest, MST-1, to darkest, MST-10. Monk, Ellis. “Monk Skin Tone Scale,” 2019. <a href="https://skintone.google" class="usa-link usa-link--external" target="_blank" rel="noopener">https://skintone.google</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" class="usa-link usa-link--external" target="_blank" rel="noopener">CC BY 4.0</a>.</p></figcaption>

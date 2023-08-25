@@ -212,6 +212,45 @@ body.faqs-sidenav-accordion {
 	
 }
 
+// INLINE STUDY STEPS
+@mixin gsa-figure {
+	text-align: center;
+	figure {
+		width: 100%;
+		margin: 0;
+	}
+	figcaption {
+		margin-top: 0;
+		color: color($theme-color-primary-dark);
+		font-size: 17px;
+		line-height: 20px;
+		
+		p {
+			margin: 0;
+		}
+		
+		a {
+			color: color($theme-color-primary-dark);
+			
+			&:hover {
+				color: color(ink);
+			}
+		}
+	}
+}
+
+.gsa-faq-steps-figure {
+	@include gsa-figure();
+}
+
+.gsa-faq-figure {
+	@include gsa-figure();
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
 
 
 
