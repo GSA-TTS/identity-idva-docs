@@ -39,7 +39,7 @@ Remote identity proofing uses modern technology to streamline this process. In t
 
 ### Who is eligible to participate in study?
 
-U.S. residents 18 years and older with a <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">valid government-issued identity document</a> are eligible to register for the study.
+U.S. residents 18 years and older with a <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">valid government-issued identity document</a> are eligible to <a id="cta-faq-text-eligible" class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener">register for the study</a>.
 
 ### Why wasn’t I selected to participate?
 
@@ -102,7 +102,7 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 ### How does the study work?
 
 <ol class="list-spacing">
-	<li>First, <a class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener">register for the study</a> . As part of registration, you will be expected to:
+	<li>First, <a id="cta-faq-text-how" class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener">register for the study</a>. As part of registration, you will be expected to:
 		<ul class="solid-bullet-list">
 			<li>Review the Rules of Use &amp; Privacy Act Statement, and accept the terms and conditions.</li>
 			<li>Provide your first and last name and email address.</li>

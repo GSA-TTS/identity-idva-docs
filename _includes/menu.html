@@ -25,7 +25,7 @@ manage your navigation system
         split: '/' | first | lstrip %} {% assign linkdir = nav_item.url |
         replace: "/", "" | lstrip %}
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %} {% if nav_item.class != '' %}{{ nav_item.class }}{% endif %}"
+          <a {% if nav_item.id != '' %}id="{{ nav_item.id }}"{% endif %} class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %} {% if nav_item.class != '' %}{{ nav_item.class }}{% endif %}"
             href="{% if nav_item.blank %}{{ nav_item.url }}{% else %}{{ nav_item.url | prepend: site.baseurl}}{% endif %}" {% if nav_item.blank %}target="_blank"{% endif %}
             ><span>{{ nav_item.name | escape }}</span></a>
         </li>
