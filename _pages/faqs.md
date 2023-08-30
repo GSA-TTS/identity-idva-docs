@@ -5,7 +5,7 @@ permalink: /faqs/
 
 layout: page
 
-pageclass: faqs-page faqs-sidenav-accordion
+# pageclass: faqs-page faqs-sidenav-accordion
 
 sidenav: true
 sidenavtitle: FAQs
