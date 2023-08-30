@@ -67,7 +67,6 @@ The systems and methods for remote identity proofing require an ID so without on
 <h3 id="which-government-IDs-are-eligible" class="anchor-headline">Which government IDs are eligible?</h3> 
 
 For this study, eligible government IDs are state or territory-issued identification cards with a profile photo. 
-
 At this time, only the following IDs are accepted: 
 - Driver’s licenses from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
 - Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
