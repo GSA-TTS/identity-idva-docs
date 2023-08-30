@@ -11,6 +11,8 @@
     - title : 'What do I need to participate in the study?'
     - title : 'What if I don’t have a government issued identification document (ID)?'
       url   : '#what-if-i-dont-have-a-government-issued-identification-document-id'
+    - title : 'Which Government IDs are eligible?'
+      url   : '#which-government-IDs-are-eligible'
     - title : 'What if my current address is different from the address on my ID?'
     - title : 'Why do I need to provide my Social Security Number (SSN)?'
     - title : 'Why do I need to provide my phone number?'
@@ -24,6 +26,7 @@
     - title : 'Why aren’t my pictures working?'
       url   : '#why-arent-my-pictures-working'
     - title : 'Why are you asking for my skin tone?'
+    - title : 'Since the study checks consumer history records, will participating in the study affect my credit score?'
     - title : 'Can I participate in the study if I use a screen reader or other assistive technologies?'
     - title : 'I encountered an error while doing the study. What should I do?'
 
