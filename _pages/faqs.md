@@ -39,7 +39,7 @@ Remote identity proofing uses modern technology to streamline this process. In t
 
 ### Who is eligible to participate in study?
 
-U.S. residents 18 years and older with a <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">valid government-issued identity document</a> are eligible to <a id="cta-faq-text-eligible" class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener">register for the study</a>.
+U.S. residents 18 years and older with an <a href="{{site.baseurl}}/faqs/#which-government-IDs-are-eligible" class="usa-link">eligible government-issued identity document</a> are eligible to <a id="cta-faq-text-eligible" class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener">register for the study</a>.
 
 ### Why wasn’t I selected to participate?
 
@@ -58,16 +58,15 @@ You will need:
 - an email address
 - a mobile phone with a camera feature;
 - a phone plan associated with your name (it cannot be a virtual phone number like Google Voice, VOIP, etc.);
-- a valid government-issued <a href="{{site.baseurl}}/faqs/#what-is-a-valid-id" class="usa-link">identity document</a>; and
+- an eligible government-issued <a href="{{site.baseurl}}/faqs/#which-government-IDs-are-eligible" class="usa-link">identity document</a>; and
 - your Social Security Number (SSN).
 
 ### What if I don’t have a government issued identification document (ID)?
 The systems and methods for remote identity proofing require an ID so without one you will not be able to participate. 
 
-<h3 id="what-is-a-valid-id" class="anchor-headline">What is a valid ID?</h3> 
+<h3 id="which-government-IDs-are-eligible" class="anchor-headline">Which government IDs are eligible?</h3> 
 
-A valid ID is an unexpired government-issued identification card with a photo. 
-
+For this study, eligible government IDs are state or territory-issued identification cards with a profile photo. 
 At this time, only the following IDs are accepted: 
 - Driver’s licenses from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
 - Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
@@ -112,7 +111,7 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 	<li>When you click on the link provided in the email, you will be directed to complete a demographic survey to determine whether you are eligible to participate. If so, you may proceed with the proofing process. If you are not eligible to participate, you will be notified and the information you provided up till then will be deleted.</li>
 	<li>If you are eligible for the study, you will need to provide the following information:
 		<ul class="solid-bullet-list">
-			<li>A valid government-issued identification (e.g., driver’s license, state ID)</li>
+			<li><a href="{{site.baseurl}}/faqs/#which-government-IDs-are-eligible" class="usa-link">An eligible government-issued identification (e.g., driver’s license, state ID)</a></li>
 			<li>Your Social Security Number (SSN)</li>
 			<li>Your phone number</li>
 		</ul>	
@@ -144,7 +143,7 @@ GSA is testing different systems that compare your selfie to your government ID 
 - Turn off the flash on the camera.
 
 
-<strong>Selfies:</strong> You will also be asked for at least five selfies. Again, some of these will be taken automatically, and for others, you will have to take the picture yourself. The following tips will help you take better pictures:
+<strong>Selfies:</strong> You will also be asked for at least five selfies. Some of these will be taken automatically, and for others, you will have to take the picture yourself. The following tips will help you take better pictures:
 - Use a solid background. For example, avoid standing in front of a television if it’s turned on, because of the moving images in the background. However, if you turn the TV off, the solid dark background will likely work well;
 - Look straight at the camera; 
 - Take the photo in a well-lit area with indirect light;
