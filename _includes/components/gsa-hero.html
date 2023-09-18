@@ -7,7 +7,7 @@
 			{{ gsa-hero.content | markdownify }}
 		</div>
 		<div class="fade-in">
-			<a id="cta-home-hero" class="usa-button usa-button--big gsa-cta-btn btn-white-bg btn-blue-text btn-hover-dark-bg margin-top-5" href="{{ hero.button.href | default: page.cta-link }}" target="_blank" onclick="getQuery()">{{ gsa-hero.button.text | default: page.cta-text }}</a>
+			<a id="cta-home-hero" class="usa-button usa-button--big gsa-cta-btn btn-white-bg btn-blue-text btn-hover-dark-bg margin-top-5" href="{{ hero.button.href | default: page.cta-link }}" target="_blank" onclick="getQuery(event)">{{ gsa-hero.button.text | default: page.cta-text }}</a>
 		</div>
 	  </div>
 	</div>

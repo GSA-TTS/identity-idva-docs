@@ -39,7 +39,7 @@ Remote identity proofing uses modern technology to streamline this process. In t
 
 ### Who is eligible to participate in study?
 
-U.S. residents 18 years and older with an <a href="{{site.baseurl}}/faqs/#which-government-IDs-are-eligible" class="usa-link">eligible government-issued identity document</a> are eligible to <a id="cta-faq-text-eligible" class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener" onclick="getQuery()">register for the study</a>.
+U.S. residents 18 years and older with an <a href="{{site.baseurl}}/faqs/#which-government-IDs-are-eligible" class="usa-link">eligible government-issued identity document</a> are eligible to <a id="cta-faq-text-eligible" class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener" onclick="getQuery(event)">register for the study</a>.
 
 ### Why wasn’t I selected to participate?
 
@@ -101,7 +101,7 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 ### How does the study work?
 
 <ol class="list-spacing">
-	<li>First, <a id="cta-faq-text-how" class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener" onclick="getQuery()">register for the study</a>. As part of registration, you will be expected to:
+	<li>First, <a id="cta-faq-text-how" class="usa-link usa-link--external" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" rel="noopener" onclick="getQuery(event)">register for the study</a>. As part of registration, you will be expected to:
 		<ul class="solid-bullet-list">
 			<li>Review the Rules of Use &amp; Privacy Act Statement, and accept the terms and conditions.</li>
 			<li>Provide your first and last name and email address.</li>

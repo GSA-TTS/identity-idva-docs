@@ -1,6 +1,6 @@
 - image: step-1.png
   alt: Person registering for the study using a mobile device.
-  content: 1\. <a id="cta-steps-inline" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" onclick="getQuery()">Register</a> to see if you qualify
+  content: 1\. <a id="cta-steps-inline" href="https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG" target="_blank" onclick="getQuery(event)">Register</a> to see if you qualify
 - image: step-2.png
   alt: Person using their smartphone take a picture of their government issued identification.
   content: 2\. Take a picture of your ID
