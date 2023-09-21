@@ -47,13 +47,15 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta property="og:title" content="{{page.title}}" />
   <meta name="description" content="{{page.description}}" />
   <meta property="og:description" content="{{page.description}}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.env.BASEURL }}/assets/img/open-graph-preview-1.jpg"/>
+  
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{page.title}}" />
   <meta name="twitter:description" content="{{page.description}}" />
 
-  <meta property="og:type" content="article" />
+  <meta property="og:type" content="website" />
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
