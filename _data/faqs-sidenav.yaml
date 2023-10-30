@@ -1,3 +1,4 @@
+# Specify URL if titles contain special characters like apostrophes or if sidebar title and heading are slightly different (ie. abbreviations)
 - sections: 'Identity Proofing & The Study'
   sub_sections:
     - title: 'Why is GSA doing this study?'
@@ -9,20 +10,19 @@
     - title : 'Why wasn’t I selected to participate?'
       url   : '#why-wasnt-i-selected-to-participate'
     - title : 'What do I need to participate in the study?'
-    - title : 'What if I don’t have a government issued identification document (ID)?'
+    - title : 'What if I don’t have a government-issued ID?'
       url   : '#what-if-i-dont-have-a-government-issued-identification-document-id'
-    - title : 'Which government IDs are eligible?'
-      url   : '#which-government-IDs-are-eligible'
+    - title : 'Which IDs are eligible?'
     - title : 'What if my current address is different from the address on my ID?'
     - title : 'Why do I need to provide my Social Security Number (SSN)?'
+      url   : '#why-do-i-need-to-provide-my-social-security-number-ssn'
     - title : 'Why do I need to provide my phone number?'
 
 - sections: 'Study Details and Troubleshooting'
   sub_sections:
     - title : 'How much time do I need to complete the study?'
     - title : 'How does the study work?'
-    - title : 'Why do I have to submit my information, e.g., selfie, picture of my identity document multiple times?'
-      url   : '#why-do-i-have-to-submit-my-information-eg-selfie-picture-of-my-identity-document-multiple-times'
+    - title : 'Why do I have to submit my information multiple times?'
     - title : 'Why aren’t my pictures working?'
       url   : '#why-arent-my-pictures-working'
     - title : 'Why are you asking for my skin tone?'
@@ -36,11 +36,15 @@
    - title  : 'How are you protecting my information?'
    - title  : 'What will you do with the information that I provided during the study?'
    - title  : 'What happens to my information if I start the study but do not complete it?'
-   - title  : 'Am I required to include a redacted image in the publication? What is a redacted image?'
+   - title  : 'What is a redacted image? Am I required to include it in the publication?'
 
 
 - sections: 'Compensation'
   sub_sections:
    - title  : 'Will I be compensated for participating in the study?'
    - title  : 'I just completed the study. How do I claim my compensation?'
+   - title  : 'What kind of compensation is available?'
+   - title  : 'When will I receive compensation?'
+   - title  : 'It’s been 2 days and I haven’t received compensation, what should I do?'
+     url    : '#its-been-2-days-and-i-havent-received-compensation-what-should-i-do'
 
