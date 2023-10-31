@@ -72,7 +72,7 @@ At this time, only the following IDs are accepted:
 - Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
 
 <strong>Notes:</strong>
-- Paper or temporary IDs are not accepted.
+- Paper or temporary IDs are not accepted .
 - A worn or damaged picture may prevent the identity verification process from working.
 
 ### What if my current address is different from the address on my ID?
