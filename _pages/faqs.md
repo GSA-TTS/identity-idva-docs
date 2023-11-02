@@ -49,7 +49,7 @@ You may be **not be eligible** to participate if you:
 - chose “prefer not to answer” in the required demographic questions; 
 - are under 18 years of age;
 - do not consent to the biometric data collection;
-- don't have an [eligble ID](#which-ids-are-eligible);
+- don not have an [eligble ID](#which-ids-are-eligible);
 - have already participated in the study; or
 - are attempting to take the study for someone else.
 
@@ -66,7 +66,7 @@ You will need:
 
 ### What if I don’t have a government issued identification document (ID)?
 
-The systems and methods for remote identity proofing require an ID so without one you will not be able to participate. 
+The systems and methods for remote identity proofing require an ID; without one you will not be able to participate. 
 
 ### Which IDs are eligible?
 
@@ -74,7 +74,7 @@ U.S. state and territory-issued identification cards with a profile photo are el
 - Driver’s licenses from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
 - Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
 
-Please use **the same ID** for all pictures. Note that a worn or damaged picture may prevent the identity verification process from working.
+**Please use the same ID for all pictures.** Note that a worn or damaged picture may prevent the identity verification process from working.
 
 The following IDs are **not accepted**: 
 - passports, military IDs, green cards, or other federal government identity cards;
@@ -121,22 +121,26 @@ Generally, the study should take <strong>15 to 45 minutes</strong>.
 	<li>Once registered, you will complete a demographic survey to determine if you are eligible to participate: 
 	  - if you are eligible, you will be redirected to the next step or asked to scan a QR code to continue on your mobile device; 
 	  - If you are not eligible, you will be notified and any identifying you've provided will be deleted.</li>
-	<li>On you rmobile device, you will progress through through FOUR stages of identity verification:
+	<li>On your mobile device, you will progress through through FOUR stages of identity verification:
 		<ul class="solid-bullet-list">
-			<li><strong>Document Authentication:</strong> You will capture pictures of your [<a href="{{site.baseurl}}/faqs/#which-ids-are-eligible" class="usa-link">]eligible ID</a> and selfies. You will test FIVE different authentication systems and for each one you will:
-			- take a picture of the **front** of your ID, 
-			- take a picture of the **back** of your ID, and
-			- and take a selfie. 
-			This process repeats FIVE TIMES, once for each system. Please use **the same ID** for all pictures. The systems will analyze the pictures of your ID for fraud-prevention markings like holograms, and validate the expiration date and barcode. The selfies help ensure that you are the same person that is pictured on your ID. If there is glare, blur, or other problems with any of the pictures, each system may ask you to repeat the process.
+			<li><strong>Document Authentication:</strong> You will capture pictures of your <a href="{{site.baseurl}}/faqs/#which-ids-are-eligible" class="usa-link">eligible ID</a> and selfies. You will test FIVE different authentication systems and for each one you will:
+			<ul>
+				<li> take a picture of the **front** of your ID, </li>
+				<li> take a picture of the **back** of your ID, and </li>
+				<li> and take a selfie. </li>
+			</ul>
+			This process repeats FIVE TIMES, once for each system. <strong>Please use the same ID for all pictures.</strong> The systems will analyze the pictures of your ID for fraud-prevention markings like holograms, and validate the expiration date and barcode. The selfies help ensure that you are the same person that is pictured on your ID. If there is glare, blur, or other problems with any of the pictures, each system may ask you to repeat the process.
 			</li>
 			<li>
 			<strong>Personally Identifiable Information (PII) Validation:</strong> You will provide and confirm:
-			- your phone number,
-			- SSN
-			- first name, 
-			- last name, 
-			- date of birth, 
-			- and physical residence address. 
+			<ul>
+				<li> your phone number, </li>
+				<li> SSN </li>
+				<li> first name, </li>
+				<li> last name, </li>
+				<li> date of birth, </li>
+				<li> and physical residence address. </li>
+			</ul>
 			These items will be used to validate your personal information against consumer records like credit history and your phone account record.
 			</li>
 			<li><strong>Device Check:</strong> The website scans your mobile device’s features and capabilities.</li>
@@ -157,7 +161,9 @@ At a minimum, you will be asked to submit FIVE pictures each of the following:
 - back of your ID, and
 - selfie.
 
-If there is glare, blur, or other problems with any of the pictures, each system may ask you to attempt to repeat the process. See [How does the study work?](#how-does-the-study-work) for details.
+If there is glare, blur, or other problems with any of the pictures, each system may ask you to attempt to repeat the process. 
+
+See [How does the study work?](#how-does-the-study-work) for more details.
 
 ### Why aren’t my pictures working?
 
@@ -275,7 +281,7 @@ The study results will be compiled into a report and published as an article in 
 
 A redacted image blurs or hides identifying details of your face or document. For example your eyes, name, address, date of birth can be covered by black bar or rectangle as in the picture below. 
 
-We may use redacted images in our reporting and explanation of results to demonstrate examples of common identifying failures such as glare, blur, ID damage etc. 
+We may use redacted images in our reporting and explanation of results to demonstrate examples of common identifying failures such as glare, blur, ID damage, etc. 
 
 **You are not required to provide your redacted image for the publication. It is optional.**
 
