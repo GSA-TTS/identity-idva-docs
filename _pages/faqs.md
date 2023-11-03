@@ -43,15 +43,17 @@ U.S. residents 18 years and older with an [eligible identity document](#which-id
 
 ### Why wasn’t I selected to participate?
 
-You may be **not be eligible** to participate if you:
+You may be **not be eligible** to participate or receive compensation if you:
 
 - do not agree to the terms and conditions of the study;
 - chose “prefer not to answer” in the required demographic questions; 
 - are under 18 years of age;
 - do not consent to the biometric data collection;
-- don not have an [eligble ID](#which-ids-are-eligible);
+- do not have an [eligible ID](#which-ids-are-eligible);
 - have already participated in the study; or
-- are attempting to take the study for someone else.
+- your submission triggers fraud alerts including 
+  - tampered identification,
+  - pretending to be someone else, etc.
 
 Furthermore, if the study has already reached the necessary number of participants from specific demographics we may turn away new participants.
 
@@ -259,7 +261,7 @@ After transmission from the vendors, your data is stored using secure GSA system
 
 For more details on how your data is collected, used, and secured, refer to our:
 - <a href="{{site.baseurl}}/rules-of-use" class="usa-link">Rules of Use</a>
-- <a href="{{site.baseurl}}/privacy-act-statement" class="usa-link">Privacy Act Statment</a>, and
+- <a href="{{site.baseurl}}/privacy-act-statement" class="usa-link">Privacy Act Statement</a>, and
 - <a href="https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia" target="_blank" rel="noopener" class="usa-link usa-link--external">Privacy Impact Assessment</a>.
 
 
@@ -271,7 +273,7 @@ GSA will store your data according to the retention schedule for <a href="https:
 
 ### What happens to my information if I start the study but do not complete it?
 
-If you do not complete the study, your identifying information will be deleted and not included in the study findings. GSA may keep your nonidentifying information (ie. demographics, which page you dropped off, etc) to better understand usage and improve user experience.
+If you do not complete the study, your identifying information will be deleted and not included in the study findings. GSA may keep your non-identifying information (ie. demographics, which page you dropped off, etc) to better understand usage and improve user experience.
 
 #### What will you do with the study results? Who will be able to read the final report?
 
@@ -312,4 +314,4 @@ You will receive compensation 1 to 2 business days after completing the study.
 
 ### It's been 2 days and I haven't received compensation, what should I do? 
 
-If you haven't received compensation please check your eligibility. If you believe you are eligible for compensation please contact us at <a href="mailto:identityequitystudy@researh.gsa.gov">identityequitystudy@researh.gsa.gov.</a>
+If you haven't received compensation please [check your eligibility](#who-is-eligible-to-participate-in-study). If you believe you are eligible for compensation please contact us at <a href="mailto:identityequitystudy@researh.gsa.gov">identityequitystudy@researh.gsa.gov.</a>
