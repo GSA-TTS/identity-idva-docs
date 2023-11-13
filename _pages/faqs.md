@@ -306,7 +306,7 @@ Please check your junk or spam folders. If you do not receive these messages or 
 
 ### What kind of compensation is available?
 
-You will be able to choose a $25 gift card from multiple major U.S. retailers. Please note that we do **not** offer cash-equivalent payments or prepaid debit/credit-cards.
+You will be able to choose a $25 electronic gift card from multiple major U.S. retailers. Please note that we do **not** offer cash-equivalent payments or prepaid debit/credit-cards.
 
 ### When will I receive compensation? 
 
