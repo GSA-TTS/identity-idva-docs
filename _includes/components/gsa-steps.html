@@ -12,7 +12,7 @@
               width="768"
               height="768"
               class="img-fluid" />
-            <figcaption class="gsa-step__content font-sans-lg">{{ step.content | markdownify }}</figcaption>
+            <figcaption class="gsa-step__content font-sans-lg">{{ step.content | replace: 'SURVEY_LINK', site.survey_link | markdownify }}</figcaption>
           </figure>
         </div>
       {% endfor %}
