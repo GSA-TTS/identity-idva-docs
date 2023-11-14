@@ -1,38 +1,41 @@
 {% comment %}
-This is used for just about every page. It provides the border around the content.
-The home page uses wide.html layout, since it extends full width of page
+  This is used for just about every page. It provides the border around the content.
+  The home page uses wide.html layout, since it extends full width of page
 {% endcomment %}
 
 <!DOCTYPE html>
 
 <html lang="en">
 
-{% include meta.html %}
+  {% include meta.html %}
 
-<body{% if page.pageclass %} class="{{page.pageclass}}"{% endif %}>
+  <body
+    {% if page.pageclass %}
+    class="{{page.pageclass}}"
+    {% endif %}>
 
-  {% if site.enable-banner-alert == true%}
-  <section class="usa-site-alert usa-site-alert--info" aria-label="Site alert,">
-    <div class="usa-alert">
-      <div class="usa-alert__body">
-        <h3 class="usa-alert__heading">Temporary outage.</h3>
-        <p class="usa-alert__text">
-          The study's survey system is temporarily out of service. Please come back later. We apologize for the inconvenience.
-        </p>
-      </div>
-    </div>
-  </section>
-  {% endif %}
+    {% if site.enable-banner-alert == true %}
+      <section class="usa-site-alert usa-site-alert--info" aria-label="Site alert,">
+        <div class="usa-alert">
+          <div class="usa-alert__body">
+            <h3 class="usa-alert__heading">Temporary outage.</h3>
+            <p class="usa-alert__text">
+              The study's survey system is temporarily out of service. Please come back later. We apologize for the inconvenience.
+            </p>
+          </div>
+        </div>
+      </section>
+    {% endif %}
 
-  {% include header.html %}
+    {% include header.html %}
 
-  {% include menu.html primary_navigation=site.primary_navigation secondary_navigation=site.secondary_navigation %}
+    {% include menu.html primary_navigation=site.primary_navigation secondary_navigation=site.secondary_navigation %}
 
-  {{ content }}
+    {{ content }}
 
-  {% include footer.html %}
+    {% include footer.html %}
 
-  {% include scripts.html %}
-</body>
+    {% include scripts.html %}
+  </body>
 
 </html>

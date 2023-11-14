@@ -1,26 +1,32 @@
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 gsa-accordion-sidenav">
-			
-	<nav aria-label="Secondary navigation" class="usa-sticky-sidenav">
-		<h2 class="tablet:padding-left-2">{{ page.sidenavtitle }}</h2>
-		<div class="usa-accordion usa-accordion--multiselectable " data-allow-multiple >
-		  <ul class="usa-sidenav padding-bottom-2 desktop:padding-bottom-0">
-			  {% for entry in site.data.faqs-sidenav %}
 
-				<li class="usa-sidenav__item">
-					<button type="button" class="usa-accordion__button"  aria-expanded="false"  aria-controls="sidenav-{{ entry.sections | slugify }}">
-					  <span>{{ entry.sections }}</span>
-					</button>
-					
-				  {% for subsection in entry.sub_sections %}
-					{% if forloop.first %}<ul id="sidenav-{{ entry.sections | slugify }}" class="usa-accordion__content usa-prose">{% endif %}
-						<li class="usa-nav__submenu-item"><a href="{% if subsection.url %}{{ subsection.url }}{% else %}#{{ subsection.title | slugify }}{% endif %}">{{ subsection.title }}</a></li>
-					{% if forloop.last %}</ul>{% endif %}
-				  {% endfor %}
-				</li>
+  <nav aria-label="Secondary navigation" class="usa-sticky-sidenav">
+    <h2 class="tablet:padding-left-2">{{ page.sidenavtitle }}</h2>
+    <div class="usa-accordion usa-accordion--multiselectable " data-allow-multiple>
+      <ul class="usa-sidenav padding-bottom-2 desktop:padding-bottom-0">
+        {% for entry in site.data.faqs-sidenav %}
 
-			{% endfor %}
-		  </ul>
-		</div>
-	</nav>
+          <li class="usa-sidenav__item">
+            <button
+              type="button"
+              class="usa-accordion__button"
+              aria-expanded="false"
+              aria-controls="sidenav-{{ entry.sections | slugify }}">
+              <span>{{ entry.sections }}</span>
+            </button>
+
+            {% for subsection in entry.sub_sections %}
+              {% if forloop.first %}<ul id="sidenav-{{ entry.sections | slugify }}" class="usa-accordion__content usa-prose">{% endif %}
+              <li class="usa-nav__submenu-item">
+                <a href="{% if subsection.url %}{{ subsection.url }}{% else %}#{{ subsection.title | slugify }}{% endif %}">{{ subsection.title }}</a>
+              </li>
+              {% if forloop.last %}</ul>{% endif %}
+            {% endfor %}
+          </li>
+
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
 
 </aside>
