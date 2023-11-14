@@ -83,7 +83,6 @@ primary_navigation:
   - name: Contact Us
     url: /contact-us/
   - name: Register Now
-    url: https://feedback.gsa.gov/jfe/form/SV_1XEHtWHnWUp2LoG
     blank: true
     class: 'nav-button'
     id: cta-nav-btn
