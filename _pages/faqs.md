@@ -310,7 +310,7 @@ You will be able to choose a $25 electronic gift card from multiple major U.S. r
 
 ### When will I receive compensation? 
 
-You will receive compensation 1 to 2 business days after completing the study.
+You will receive compensation 1 to 2 business days after completing the study.  \*\*Please note that processing times may be extended during weekends and holidays.**
 
 ### It's been 2 days and I haven't received compensation, what should I do? 
 
