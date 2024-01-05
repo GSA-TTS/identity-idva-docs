@@ -1,20 +1,30 @@
 <section class="gsa-steps padding-bottom-7 padding-top-7 mobile-lg:padding-bottom-8 mobile-lg:padding-top-8 tablet:padding-bottom-15 tablet:padding-top-15">
   <div class="grid-container animation-chain">
-	  <h2 class="text-center font-sans-xl tablet:font-sans-2xl desktop:font-sans-3xl margin-bottom-6 margin-top-0">{{ page.steps-title }}</h2>
-	  <div class="grid-row grid-gap-6">
-		{% for step in site.data.steps %}
-			<div class="gsa-step mobile-lg:grid-col-6 tablet:grid-col-4 margin-bottom-5 fade-in">
-				<figure>
-					<img src="{{site.baseurl}}/assets/img/{{ step.image }}" loading="lazy" alt="{{ step.alt }}" width="768" height="768" class="img-fluid" />
-					<figcaption class="gsa-step__content font-sans-lg">{{ step.content | markdownify }}</figcaption>
-				</figure>
-			</div>
-		{% endfor %}
-	  </div>
-	  
-	<a id="cta-home-steps-btn" class="gsa-cta-btn usa-button usa-button--big btn-white-bg btn-blue-text btn-hover-dark-bg" href="{{ page.cta-link }}" target="_blank">
-		{{ page.cta-text }} 
-	</a>
-	  
+    <h2 class="text-center font-sans-xl tablet:font-sans-2xl desktop:font-sans-3xl margin-bottom-6 margin-top-0">{{ page.steps-title }}</h2>
+    <div class="grid-row grid-gap-6">
+      {% for step in site.data.steps %}
+        <div class="gsa-step mobile-lg:grid-col-6 tablet:grid-col-4 margin-bottom-5 fade-in">
+          <figure>
+            <img
+              src="{{site.baseurl}}/assets/img/{{ step.image }}"
+              loading="lazy"
+              alt="{{ step.alt }}"
+              width="768"
+              height="768"
+              class="img-fluid" />
+            <figcaption class="gsa-step__content font-sans-lg">{{ step.content | replace: 'SURVEY_LINK', site.survey_link | markdownify }}</figcaption>
+          </figure>
+        </div>
+      {% endfor %}
+    </div>
+
+    <a
+      id="cta-home-steps-btn"
+      class="gsa-cta-btn usa-button usa-button--big btn-white-bg btn-blue-text btn-hover-dark-bg"
+      href="{{ site.survey_link }}"
+      target="_blank">
+      {{ page.cta-text }}
+    </a>
+
   </div>
 </section>

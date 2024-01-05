@@ -1,64 +1,73 @@
 {% comment %}
-To modify the menu system, you are welcome to edit this HTML
-directly or you can look inside _config.yml where we provide an easy way to
-manage your navigation system
+  To modify the menu system, you are welcome to edit this HTML
+  directly or you can look inside _config.yml where we provide an easy way to
+  manage your navigation system
 {% endcomment %}
 
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
-    {% include logo.html %}	  
+    {% include logo.html %}
     <button class="usa-menu-btn">Menu</button>
   </div>
   <nav
     id="menu-navigation"
     aria-label="Menu navigation"
     role="navigation"
-    class="usa-nav"
-  >
+    class="usa-nav">
     <div class="usa-nav__inner">
       <button class="usa-nav__close">
-		<img src="{{site.baseurl}}/assets/uswds/img/close.svg" alt="close" />
+        <img src="{{site.baseurl}}/assets/uswds/img/close.svg" alt="close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for nav_item in include.primary_navigation %} {% unless
-        nav_item.children %} {% assign basedir = page.url | remove_first: '/' |
-        split: '/' | first | lstrip %} {% assign linkdir = nav_item.url |
-        replace: "/", "" | lstrip %}
-        <li class="usa-nav__primary-item">
-          <a {% if nav_item.id != '' %}id="{{ nav_item.id }}"{% endif %} class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %} {% if nav_item.class != '' %}{{ nav_item.class }}{% endif %}"
-            href="{% if nav_item.blank %}{{ nav_item.url }}{% else %}{{ nav_item.url | prepend: site.baseurl}}{% endif %}" {% if nav_item.blank %}target="_blank"{% endif %}
-            ><span>{{ nav_item.name | escape }}</span></a>
-        </li>
-        {% else %} {% assign nav_id = 'primary-nav-' | append: forloop.index %}
-        <li class="usa-nav__primary-item">
-          <button
-            class="usa-accordion__button usa-nav__link"
-            aria-expanded="false"
-            aria-controls="{{ nav_id }}"
-          >
-            <span>{{ nav_item.name | escape }}</span>
-          </button>
-          <ul id="{{ nav_id }}" class="usa-nav__submenu">
-            {% for subnav_item in nav_item.children %}
-            <li class="usa-nav__submenu-item">
-              <a href="{{ subnav_item.url | prepend: site.baseurl }}"
-                >{{ subnav_item.name | escape }}</a
-              >
+        {% for nav_item in include.primary_navigation %}
+          {% unless nav_item.children %}
+            {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %} {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
+            <li class="usa-nav__primary-item">
+              <a
+                {% if nav_item.id !="" %}
+                id="{{ nav_item.id }}"
+                {% endif %}
+                class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %} {% if nav_item.class != '' %}{{ nav_item.class }}{% endif %}"
+                {% if nav_item.id == 'cta-nav-btn' %}
+                href="{{ site.survey_link }}"
+                {% else %}
+                href="{% if nav_item.blank %}{{ nav_item.url }}{% else %}{{ nav_item.url | prepend: site.baseurl}}{% endif %}"
+                {% endif %}
+                {% if nav_item.blank %}
+                target="_blank"
+                {% endif %}>
+                <span>{{ nav_item.name | escape }}</span>
+              </a>
             </li>
-            {% endfor %}
-          </ul>
-        </li>
-        {% endunless %} {% endfor %}
+          {% else %}
+            {% assign nav_id = 'primary-nav-' | append: forloop.index %}
+            <li class="usa-nav__primary-item">
+              <button
+                class="usa-accordion__button usa-nav__link"
+                aria-expanded="false"
+                aria-controls="{{ nav_id }}">
+                <span>{{ nav_item.name | escape }}</span>
+              </button>
+              <ul id="{{ nav_id }}" class="usa-nav__submenu">
+                {% for subnav_item in nav_item.children %}
+                  <li class="usa-nav__submenu-item">
+                    <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endunless %}
+        {% endfor %}
       </ul>
-		
-		<div class="usa-nav__secondary">
-        	<section aria-label="Search component">
-				{% include searchgov/form.html searchgov=site.searchgov %}
-			</section>
-		</div>	
-		
+
+      <div class="usa-nav__secondary">
+        <section aria-label="Search component">
+          {% include searchgov/form.html searchgov=site.searchgov %}
+        </section>
+      </div>
+
     </div>
   </nav>
-	
-	<div class="usa-overlay"></div>
+
+  <div class="usa-overlay"></div>
 </header>
