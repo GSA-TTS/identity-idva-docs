@@ -16,3 +16,7 @@ updates:
     interval: monthly
     time: "09:00"
   open-pull-requests-limit: 10
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "weekly"
