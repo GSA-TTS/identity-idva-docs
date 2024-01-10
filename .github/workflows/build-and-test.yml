@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout source.
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup ruby env.
         run: |
@@ -29,7 +29,7 @@ jobs:
           bundler-cache: true
 
       - name: Install node.js.
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '14'
 
