@@ -72,19 +72,52 @@ The systems and methods for remote identity proofing require an ID; without one 
 
 ### Which IDs are eligible?
 
-U.S. state and territory-issued identification cards with a profile photo are eligible, including:
-- Driver’s licenses from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
-- Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
+<style type="text/css">
+    /* Style for the rounded dark blue box */
+    .editable-box {
+      background-color: #1a4480; /* Dark Blue */
+      border-radius: 35px; /* Rounded corners */
+      padding: 10px; /* Padding inside the box */
+      width: 1000px; /* Set your desired width */
+      margin-top: 20px; /* Adjust the margin from the top */
+      text-align: center; /* Center align content */
+    }
 
-**Please use the same ID for all pictures.** Note that a worn or damaged picture may prevent the identity verification process from working.
+    /* Style for the rounded light grey box */
+    .editable-box.grey {
+      background-color: #f3f3f3; /* Light Grey */
+      border-radius: 35px; /* Rounded corners */
+      padding: 10px; /* Padding inside the box */
+      width: 1000px; /* Set your desired width */
+      margin-top: 20px; /* Adjust the margin from the top */
+      text-align: center; /* Center align content */
+    }
+	    /* Media query for smaller screens */
+    @media screen and (max-width: 600px) {
+      .editable-box, .editable-box.red {
+        width: 80%; /* Adjust width for smaller screens */
+      }
+</style>
 
-The following IDs are **not accepted**: 
-- passports, military IDs, green cards, or other federal government identity cards;
-- identification cards issued by a city or municipality;
-- library cards, school or college IDs, workplace badges, etc.;
-- temporary IDs;
-- paper copies of your identification;
-- digital pictures of your ID displayed on a screen.
+<div class="editable-box">
+    <b>✅ The following IDs are eligible ✅</b><br><br>
+    <span style="color: #ffffff;">U.S. state and territory-issued identification cards with a profile photo are eligible, including:</span><br>
+    - Driver’s licenses from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)<br>
+    - Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.<br><br>
+    <b>Please use the same ID for all pictures.</b> Note that a worn or damaged picture may prevent the identity verification process from working.<br><br>
+    <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_cM91zAksWWMyOdU"><br><br>
+</div>
+
+<div class="editable-box grey">
+    <b>🚫 The following IDs are not eligible 🚫</b><br><br>
+    - Passports, Military IDs, Green cards, or other federal government identity cards<br>
+    - Identification cards issued by a city or municipality<br>
+    - Library cards, school or college IDs, workplace badges, etc.<br>
+    - Temporary IDs<br>
+    - Paper copies of your identification<br>
+    - Digital pictures of your ID displayed on a screen<br><br>
+    <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_ddjGgMJHuJ5smxM"><br><br>
+</div>
 
 
 ### What if my current address is different from the address on my ID?
