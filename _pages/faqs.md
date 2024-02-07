@@ -101,7 +101,7 @@ The systems and methods for remote identity proofing require an ID; without one 
 
 <div class="editable-box">
     <b>✅ The following IDs are eligible ✅</b><br><br>
-    <span style="color: #ffffff;">U.S. state and territory-issued identification cards with a profile photo are eligible, including:</span><br>
+    <span style="color: #fbfdff;">U.S. state and territory-issued identification cards with a profile photo are eligible, including:</span><br>
     - Driver’s licenses from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)<br>
     - Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.<br><br>
     <b>Please use the same ID for all pictures.</b> Note that a worn or damaged picture may prevent the identity verification process from working.<br><br>
