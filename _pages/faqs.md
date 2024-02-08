@@ -115,7 +115,7 @@ The systems and methods for remote identity proofing require an ID; without one 
         • Paper copies of your identification<br>
         • Digital pictures of your ID displayed on a screen<br><br>
     </div>
-    <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_ddjGgMJHuJ5smxM" style="width: 60%;"><br><br>
+    <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_ddjGgMJHuJ5smxM" style="width: 65%;"><br><br>
 </div>
 <br>
 
