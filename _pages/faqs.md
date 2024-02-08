@@ -100,25 +100,24 @@ The systems and methods for remote identity proofing require an ID; without one 
 </style>
 
 <div class="editable-box">
-    <b>✅ The following IDs are eligible ✅</b><br><br>
-    <span style="color: #fbfdff;">U.S. state and territory-issued identification cards with a profile photo are eligible, including:</span><br>
-    - Driver’s licenses from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)<br>
-    - Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.<br><br>
-    <b>Please use the same ID for all pictures.</b> Note that a worn or damaged picture may prevent the identity verification process from working.<br><br>
+    <b style="color: #fbfdff; font-size: 16px; font-weight: bold;">✅ The following IDs are eligible ✅</b><br><br>
+   <span style="color: #fbfdff; font-weight: bold;">Driver’s licenses and state-issued ID card</span> from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)<br><br>
     <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_cM91zAksWWMyOdU"><br><br>
 </div>
 
 <div class="editable-box grey">
-    <b>🚫 The following IDs are not eligible 🚫</b><br><br>
-    - Passports, Military IDs, Green cards, or other federal government identity cards<br>
-    - Identification cards issued by a city or municipality<br>
-    - Library cards, school or college IDs, workplace badges, etc.<br>
-    - Temporary IDs<br>
-    - Paper copies of your identification<br>
-    - Digital pictures of your ID displayed on a screen<br><br>
+    <b style="color: #000000; font-size: 16px; font-weight: bold;">🚫 The following IDs are not eligible 🚫</b><br><br>
+    <div style="text-align: left;">
+        • Passports, Military IDs, Green cards, or other federal government identity cards<br>
+        • Identification cards issued by a city or municipality<br>
+        • Library cards, school or college IDs, workplace badges, etc.<br>
+        • Temporary IDs<br>
+        • Paper copies of your identification<br>
+        • Digital pictures of your ID displayed on a screen<br><br>
+    </div>
     <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_ddjGgMJHuJ5smxM"><br><br>
 </div>
-
+<br>
 
 ### What if my current address is different from the address on my ID?
 Your address is verified against consumer records which typically include both current and previous addresses. If needed, you will be able to update your address during the study. 
