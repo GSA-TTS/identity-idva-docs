@@ -94,8 +94,8 @@ The systems and methods for remote identity proofing require an ID; without one 
     }
 	    /* Media query for smaller screens */
     @media screen and (max-width: 600px) {
-      .editable-box, .editable-box.red {
-        width: 80%; /* Adjust width for smaller screens */
+      .editable-box, .editable-box.grey {
+        width: 100%; /* Adjust width for smaller screens */
       }
 </style>
 
@@ -115,7 +115,7 @@ The systems and methods for remote identity proofing require an ID; without one 
         • Paper copies of your identification<br>
         • Digital pictures of your ID displayed on a screen<br><br>
     </div>
-    <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_ddjGgMJHuJ5smxM"><br><br>
+    <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_ddjGgMJHuJ5smxM" style="width: 75%;"><br><br>
 </div>
 
 ### What if my current address is different from the address on my ID?
