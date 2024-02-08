@@ -90,6 +90,7 @@ The systems and methods for remote identity proofing require an ID; without one 
       padding: 10px; /* Padding inside the box */
       width: 1000px; /* Set your desired width */
       margin-top: 20px; /* Adjust the margin from the top */
+      margin-bottom: 20px; /* Adjust the margin from the bottom */
       text-align: center; /* Center align content */
     }
 	    /* Media query for smaller screens */
@@ -117,7 +118,6 @@ The systems and methods for remote identity proofing require an ID; without one 
     </div>
     <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_ddjGgMJHuJ5smxM" style="width: 65%;"><br><br>
 </div>
-<br>
 
 ### What if my current address is different from the address on my ID?
 Your address is verified against consumer records which typically include both current and previous addresses. If needed, you will be able to update your address during the study. 
