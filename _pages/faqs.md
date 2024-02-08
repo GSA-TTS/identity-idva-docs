@@ -100,13 +100,13 @@ The systems and methods for remote identity proofing require an ID; without one 
 </style>
 
 <div class="editable-box">
-    <b style="color: #fbfdff; font-size: 16px; font-weight: bold;">✅ The following IDs are eligible ✅</b><br><br>
-   <span style="color: #fbfdff; font-weight: bold;">Driver’s licenses and state-issued ID card</span> from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)<br><br>
+    <b style="color: #fbfdff; font-size: 20px; font-weight: bold;">✅ The following IDs are eligible ✅</b><br><br>
+   <span style="color: #fbfdff; font-weight: bold;">Driver’s licenses and state-issued ID card</span> <span style="color: #fbfdff;">from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)</span><br><br>
     <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_cM91zAksWWMyOdU"><br><br>
 </div>
 
 <div class="editable-box grey">
-    <b style="color: #000000; font-size: 16px; font-weight: bold;">🚫 The following IDs are not eligible 🚫</b><br><br>
+    <b style="color: #000000; font-size: 20px; font-weight: bold;">🚫 The following IDs are not eligible 🚫</b><br><br>
     <div style="text-align: left;">
         • Passports, Military IDs, Green cards, or other federal government identity cards<br>
         • Identification cards issued by a city or municipality<br>
@@ -117,7 +117,6 @@ The systems and methods for remote identity proofing require an ID; without one 
     </div>
     <img src="https://feedback.gsa.gov/CP/Graphic.php?IM=IM_ddjGgMJHuJ5smxM"><br><br>
 </div>
-<br>
 
 ### What if my current address is different from the address on my ID?
 Your address is verified against consumer records which typically include both current and previous addresses. If needed, you will be able to update your address during the study. 
