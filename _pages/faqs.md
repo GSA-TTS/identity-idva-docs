@@ -103,7 +103,7 @@ The systems and methods for remote identity proofing require an ID; without one 
 <div class="editable-box">
     <b style="color: #fbfdff; font-size: 1.17em; font-weight: bold;">✅ The following IDs are eligible ✅</b><br><br>
    <span style="color: #fbfdff; font-weight: bold;">Driver’s licenses and state-issued ID card</span> <span style="color: #fbfdff;">from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)</span><br><br>
-    <img src="{{site.baseurl}}/assets/img/ValidID-Examples.png" loading="lazy" alt="" class="img-fluid" /><br><br>
+    <img src="{{site.baseurl}}/assets/img/ValidID-Examples.png" loading="lazy" alt="" class="img-fluid" />
 </div>
 
 <div class="editable-box grey">
@@ -116,7 +116,7 @@ The systems and methods for remote identity proofing require an ID; without one 
         • Paper copies of your identification<br>
         • Digital pictures of your ID displayed on a screen<br><br>
     </div>
-    <img src="{{site.baseurl}}/assets/img/InvalidID-Examples.png" loading="lazy" alt="" class="img-fluid"  style="width: 65%;"><br><br>
+    <img src="{{site.baseurl}}/assets/img/InvalidID-Examples.png" loading="lazy" alt="" class="img-fluid"  style="width: 65%;">
 </div>
 
 ### What if my current address is different from the address on my ID?
