@@ -72,20 +72,52 @@ The systems and methods for remote identity proofing require an ID; without one 
 
 ### Which IDs are eligible?
 
-U.S. state and territory-issued identification cards with a profile photo are eligible, including:
-- Driver’s licenses from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
-- Non-driver’s license state-issued ID card: This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
+<style type="text/css">
+    /* Style for the rounded dark blue box */
+    .editable-box {
+      background-color: #1a4480; /* Dark Blue */
+      border-radius: 35px; /* Rounded corners */
+      padding: 10px; /* Padding inside the box */
+      width: 1000px; /* Set your desired width */
+      margin-top: 20px; /* Adjust the margin from the top */
+      text-align: center; /* Center align content */
+    }
 
-**Please use the same ID for all pictures.** Note that a worn or damaged picture may prevent the identity verification process from working.
+    /* Style for the rounded light grey box */
+    .editable-box.grey {
+      background-color: #f3f3f3; /* Light Grey */
+      border-radius: 35px; /* Rounded corners */
+      padding: 10px; /* Padding inside the box */
+      width: 1000px; /* Set your desired width */
+      margin-top: 20px; /* Adjust the margin from the top */
+      margin-bottom: 20px; /* Adjust the margin from the bottom */
+      text-align: center; /* Center align content */
+    }
+	    /* Media query for smaller screens */
+    @media screen and (max-width: 600px) {
+      .editable-box, .editable-box.grey {
+        width: 100%; /* Adjust width for smaller screens */
+      }
+</style>
 
-The following IDs are **not accepted**: 
-- passports, military IDs, green cards, or other federal government identity cards;
-- identification cards issued by a city or municipality;
-- library cards, school or college IDs, workplace badges, etc.;
-- temporary IDs;
-- paper copies of your identification;
-- digital pictures of your ID displayed on a screen.
+<div class="editable-box">
+    <b style="color: #fbfdff; font-size: 1.17em; font-weight: bold;">✅ The following IDs are eligible ✅</b><br><br>
+   <span style="color: #fbfdff; font-weight: bold;">Driver’s licenses and state-issued ID card</span> <span style="color: #fbfdff;">from the 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico). </span> <span style="color: #fbfdff; font-weight: bold;">Please use the same ID for all pictures. </span> <span style="color: #fbfdff;">Note that a worn or damaged picture may prevent the identity verification process from working.</span><br><br>
+    <img src="{{site.baseurl}}/assets/img/ValidID-Examples.png" loading="lazy" alt="" class="img-fluid" style="width: 85%;" />
+</div>
 
+<div class="editable-box grey">
+    <b style="color: #000000; font-size: 1.17em; font-weight: bold;">🚫 The following IDs are not eligible 🚫</b><br><br>
+    <div style="text-align: left;">
+        • Passports, Military IDs, Green cards, or other federal government identity cards<br>
+        • Identification cards issued by a city or municipality<br>
+        • Library cards, school or college IDs, workplace badges, etc.<br>
+        • Temporary IDs<br>
+        • Paper copies of your identification<br>
+        • Digital pictures of your ID displayed on a screen<br><br>
+    </div>
+    <img src="{{site.baseurl}}/assets/img/InvalidID-Examples.png" loading="lazy" alt="" class="img-fluid"  style="width: 65%;">
+</div>
 
 ### What if my current address is different from the address on my ID?
 Your address is verified against consumer records which typically include both current and previous addresses. If needed, you will be able to update your address during the study. 
