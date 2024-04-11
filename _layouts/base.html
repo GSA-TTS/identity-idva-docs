@@ -14,17 +14,17 @@
     class="{{page.pageclass}}"
     {% endif %}>
     
-    {% unless site.enable-banner-alert == false %}
+    {% unless site.enable-banner-alert == false %}{% comment %} Default state, no banner displayed{% endcomment %}
       <section class="usa-site-alert usa-site-alert--info" aria-label="Site alert,">
         <div class="usa-alert">
           <div class="usa-alert__body">
-            {% if site.enable-banner-alert == true %}
+            {% if site.enable-banner-alert == true %} {% comment %} Used for maintenance operations {% endcomment %}
             <h3 class="usa-alert__heading">Temporary outage.</h3>            
             <p class="usa-alert__text">              
               The study's survey system is temporarily out of service. Please come back later. We apologize for the inconvenience. 
             </p>
               
-            {% elsif site.enable-banner-alert == "shutdown" %}
+            {% elsif site.enable-banner-alert == "shutdown" %}{% comment %} Used for shutting down the site and study {% endcomment %}
               
             <h3 class="usa-alert__heading">Thank you for your time and participation!</h3>
             <p class="usa-alert__text">              
