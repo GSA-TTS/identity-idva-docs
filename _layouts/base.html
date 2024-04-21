@@ -13,19 +13,32 @@
     {% if page.pageclass %}
     class="{{page.pageclass}}"
     {% endif %}>
-
-    {% if site.enable-banner-alert == true %}
+    
+    {% unless site.enable-banner-alert == false %}{% comment %} Default state, no banner displayed{% endcomment %}
       <section class="usa-site-alert usa-site-alert--info" aria-label="Site alert,">
         <div class="usa-alert">
           <div class="usa-alert__body">
-            <h3 class="usa-alert__heading">Temporary outage.</h3>
-            <p class="usa-alert__text">
-              The study's survey system is temporarily out of service. Please come back later. We apologize for the inconvenience.
+            {% if site.enable-banner-alert == true %} {% comment %} Used for maintenance operations {% endcomment %}
+            <h3 class="usa-alert__heading">Temporary outage.</h3>            
+            <p class="usa-alert__text">              
+              The study's survey system is temporarily out of service. Please come back later. We apologize for the inconvenience. 
             </p>
+              
+            {% elsif site.enable-banner-alert == "shutdown" %}{% comment %} Used for shutting down the site and study {% endcomment %}
+              
+            <h3 class="usa-alert__heading">Thank you for your time and participation!</h3>
+            <p class="usa-alert__text">              
+            
+              <b>We are no longer recruiting participants for the study.</b> If you have any questions about your participation contact us at <a href="mailto:identityequitystudy@research.gsa.gov">identityequitystudy@research.gsa.gov</a>. To learn more about the study's results please visit <a href="https://www.gsa.gov/governmentwide-initiatives/diversity-equity-inclusion-and-accessibility/equity-study-on-remote-identity-proofing">GSA's main website.</a> 
+              <br /><br />
+              To volunteer for other government research studies, please <a href="https://www.usa.gov/user-research">visit usa.gov</a>.            
+                 
+            </p>
+            {% endif %}
           </div>
         </div>
-      </section>
-    {% endif %}
+      </section>    
+    {% endunless %}
 
     {% include header.html %}
 
